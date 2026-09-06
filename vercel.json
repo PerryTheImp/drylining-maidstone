@@ -12,6 +12,16 @@
       "source": "/www/",
       "destination": "https://dryliningmaidstone.co.uk",
       "statusCode": 308
+    },
+    {
+      "source": "/drylining-faq/what-is-dot-and-dab-dry-lining/",
+      "destination": "/drylining-faq/what-is-dotanddab-dry-lining/",
+      "statusCode": 301
+    },
+    {
+      "source": "/drylining-faq/where-can-i-get-suspended-ceilings-in-maidstone/",
+      "destination": "/drylining-faq/where-can-i-get-suspended-ceilings-in-maidstone-and-the-wider-me-postcode-area/",
+      "statusCode": 301
     }
   ]
 }
