@@ -1,0 +1,208 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Drylining Contractors";
+const serviceSlug = "drylining-contractors";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is drylining (dry lining)?","acceptedAnswer":{"@type":"Answer","text":"Drylining (also known as dry lining) is the process of fixing plasterboard to interior walls and ceilings without using wet plaster. It is faster, cleaner, and provides a smooth finish ready for decorating or painting."}},
+    {"@type":"Question","name":"What is the difference between drylining and dry lining?","acceptedAnswer":{"@type":"Answer","text":"There is no difference — drylining and dry lining are the same process. 'Drylining' is the one-word term commonly used in the trade, while 'dry lining' (two words) is often used in search and by homeowners. Both refer to fixing plasterboard to walls and ceilings without wet plaster."}},
+    {"@type":"Question","name":"How long does drylining take?","acceptedAnswer":{"@type":"Answer","text":"A typical room takes 1-2 days depending on size and complexity. Whole-property drylining can take 1-2 weeks. We will give you a clear timeline during your quote."}},
+    {"@type":"Question","name":"Is drylining cheaper than traditional plastering?","acceptedAnswer":{"@type":"Answer","text":"Drylining is generally more cost-effective than wet plastering for large areas. It requires less drying time, less labour, and produces minimal mess."}},
+    {"@type":"Question","name":"Can drylining include insulation?","acceptedAnswer":{"@type":"Answer","text":"Yes. We install insulation-backed plasterboard to improve thermal performance and meet Part L building regulations."}},
+    {"@type":"Question","name":"Do you provide a guarantee?","acceptedAnswer":{"@type":"Answer","text":"Yes. All our drylining work comes with a 12-month workmanship guarantee. We also use manufacturer-guaranteed materials from British Gypsum and Knauf."}},
+    {"@type":"Question","name":"Is drylining suitable for bathrooms?","acceptedAnswer":{"@type":"Answer","text":"Yes, when moisture-resistant plasterboard is used. We also recommend appropriate tanking in high-moisture areas."}},
+    {"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We provide drylining services across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh."}}
+  ],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Drylining Contractors Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q213825",
+  about: { "@type": "Thing", name: "Drywall", sameAs: ["https://www.wikidata.org/entity/Q213825", "https://en.wikipedia.org/wiki/Drywall"] },
+  sameAs: "https://en.wikipedia.org/wiki/Drywall",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business",
+    knowsAbout: ["https://en.wikipedia.org/wiki/Drywall", "https://en.wikipedia.org/wiki/Plaster", "https://en.wikipedia.org/wiki/Partition_wall", "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom", "https://en.wikipedia.org/wiki/Construction_worker", "https://en.wikipedia.org/wiki/General_contractor", "https://en.wikipedia.org/wiki/Cold-formed_steel", "https://en.wikipedia.org/wiki/Dropped_ceiling"],
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: [
+      "https://en.wikipedia.org/wiki/Maidstone",
+      "https://www.wikidata.org/entity/Q213180"
+    ],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  },
+};
+---
+
+<Layout title="Drylining Contractors Maidstone | Expert Installation & Finishing" description="Professional drylining contractors in Maidstone. Residential & commercial drylining, plasterboard installation, taping & jointing. Free quotes. CSCS accredited." canonical="/services/drylining-contractors/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<!-- Hero -->
+<section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-plasterboard.jpg" alt="Drylining Contractors project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Drylining Contractors</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">CSCS-ACCREDITED TEAM</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Expert Drylining Contractors in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Professional drylining installation for homes and businesses across Maidstone. Smooth finishes, fast turnaround, and quality you can trust.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<!-- TL;DR -->
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Professional drylining and plasterboard installation for walls and ceilings across Maidstone and the North West. CSCS-registered operatives, free quotes, and 12-month workmanship guarantee.</p>
+</div>
+
+<!-- What We Offer -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">What Our Drylining Service Includes</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our drylining service is tailored to domestic and commercial clients across Maidstone and surrounding areas. We combine quality materials, skilled tradesmen, and efficient project management to deliver results that last.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Site survey and measurement</li>
+  <li>Plasterboard cutting and fitting</li>
+  <li>Timber and metal stud frame construction</li>
+  <li>Professional taping and jointing</li>
+  <li>Corner bead and trim installation</li>
+  <li>Insulation-backed drylining for thermal upgrades</li>
+  <li>Soundproofing solutions for noise reduction</li>
+  <li>Fire-rated plasterboard for safety compliance</li>
+  <li>Full cleanup and waste removal</li>
+</ul>
+
+<!-- Why Choose Us -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Why Choose Our Drylining Contractors?</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>CSCS-registered team:</strong> All our drylining operatives hold valid CSCS cards and are fully insured for domestic and commercial work.</li>
+  <li><strong>15+ years experience:</strong> We have completed drylining projects ranging from single rooms to multi-floor commercial fit-outs.</li>
+  <li><strong>Free, detailed quotes:</strong> No obligation site visits with clear breakdowns of labour, materials, and timeline.</li>
+  <li><strong>Building regulation compliance:</strong> We ensure all work meets Part L thermal efficiency and Part B fire safety standards.</li>
+  <li><strong>Fast turnaround:</strong> Drylining is significantly faster than wet plastering, reducing project downtime.</li>
+</ul>
+
+<!-- Materials -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials & Specifications</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We use industry-leading products from trusted manufacturers to ensure durability, compliance, and a premium finish.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum Gyproc plasterboard (standard, moisture-resistant, fire-rated, soundbloc)</li>
+  <li>Knauf plasterboard and jointing systems</li>
+  <li>Metal C-studs and U-tracks (50mm, 70mm, 92mm profiles)</li>
+  <li>Gyproc drywall adhesive for dot and dab applications</li>
+  <li>Joint compound, paper tape, and scrim tape</li>
+  <li>Insulation-backed plasterboard (Celotex, Kingspan, Rockwool)</li>
+  <li>Fire-rated intumescent sealants and cavity barriers</li>
+</ul>
+
+<!-- Applications -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Applications & Use Cases</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our drylining services are suitable for a wide range of building types and project sizes across Maidstone.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>New build residential properties and housing estates</li>
+  <li>Home renovations, extensions, and loft conversions</li>
+  <li>Commercial office fit-outs and refurbishments</li>
+  <li>Retail shop fitting and display wall construction</li>
+  <li>School and education building upgrades</li>
+  <li>Healthcare and care home interior works</li>
+  <li>Industrial unit partitioning and warehouse linings</li>
+</ul>
+
+<!-- How It Works -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">How It Works</h2>
+<ol style="list-style:decimal;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Free Quote:</strong> Call or fill in our form. We will assess your project and provide a detailed, no-obligation quote.</li>
+  <li><strong>Detailed Plan:</strong> We confirm materials, timeline, and specifications. No hidden extras - everything is agreed upfront.</li>
+  <li><strong>Professional Installation:</strong> Our CSCS-registered team works cleanly, efficiently, and to the highest standards.</li>
+  <li><strong>Quality Check & Handover:</strong> We inspect every detail, ensure compliance, and leave your space ready for the next stage.</li>
+</ol>
+
+<!-- Areas -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Drylining Services Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We provide drylining services in the following areas:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone town centre</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone central</a>
+  <a href="/areas/bearsted/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Bearsted</a>
+  <a href="/areas/headcorn/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Headcorn</a>
+  <a href="/areas/allington/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Allington</a>
+  <a href="/areas/harrietsham/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Harrietsham</a>
+  <a href="/areas/staplehurst/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Staplehurst</a>
+  <a href="/areas/boxley/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Boxley</a>
+  <a href="/areas/marden/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Marden</a>
+  <a href="/areas/yalding/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Yalding</a>
+  <a href="/areas/east-farleigh/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">East Farleigh</a>
+</div>
+<p style="font-size:1.0625rem;margin-bottom:1.5rem;"><a href="/areas/" style="font-weight:600;">View all areas we cover →</a></p>
+
+<!-- Related Services -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Related Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Clients who book drylining often also require:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/services/partition-walls/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Partition Walls</a>
+  <a href="/services/taping-and-jointing/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Taping & Jointing</a>
+  <a href="/services/plasterboard-installation/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Plasterboard Installation</a>
+  <a href="/services/suspended-ceilings/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Suspended Ceilings</a>
+</div>
+
+<!-- CTA -->
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Ready for a Free Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Call us or fill in our quick form. We will arrange a site visit and provide a detailed, no-obligation quote.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions about Drylining</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is drylining (dry lining)?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Drylining (also known as dry lining) is the process of fixing plasterboard to interior walls and ceilings without using wet plaster. It is faster, cleaner, and provides a smooth finish ready for decorating or painting.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is the difference between drylining and dry lining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">There is no difference — drylining and dry lining are the same process. 'Drylining' is the one-word term commonly used in the trade, while 'dry lining' (two words) is often used in search and by homeowners. Both refer to fixing plasterboard to walls and ceilings without wet plaster.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How long does drylining take?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A typical room takes 1-2 days depending on size and complexity. Whole-property drylining can take 1-2 weeks. We will give you a clear timeline during your quote.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Is drylining cheaper than traditional plastering?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Drylining is generally more cost-effective than wet plastering for large areas. It requires less drying time, less labour, and produces minimal mess.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can drylining include insulation?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We install insulation-backed plasterboard to improve thermal performance and meet Part L building regulations.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Do you provide a guarantee?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. All our drylining work comes with a 12-month workmanship guarantee. We also use manufacturer-guaranteed materials from British Gypsum and Knauf.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Is drylining suitable for bathrooms?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes, when moisture-resistant plasterboard is used. We also recommend appropriate tanking in high-moisture areas.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What areas do you cover?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We provide drylining services across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

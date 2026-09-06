@@ -1,0 +1,131 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Fire-Rated Drylining";
+const serviceSlug = "fire-rated-drylining";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is fire-rated drylining?","acceptedAnswer":{"@type":"Answer","text":"Fire-rated drylining uses specialist plasterboard (Type F, often 12.5mm-15mm) and compatible fixings/sealants to provide fire resistance of 30, 60, or 120 minutes. It is required by Approved Document B (fire safety) of the Building Regulations for separating walls, ceilings, service risers, plant rooms, and protected corridors."}},
+    {"@type":"Question","name":"Where is fire-rated drylining required in Maidstone?","acceptedAnswer":{"@type":"Answer","text":"Fire-rated drylining is required in commercial buildings, HMOs, multi-occupancy residential blocks, and any premises covered by the Regulatory Reform (Fire Safety) Order 2005. Common Maidstone applications include Maidstone riverside commercial studios, Maidstone town centre apartment compartmentation, Maidstone town centre HMO conversions, and Headcorn/Harrietsham retail parks."}},
+    {"@type":"Question","name":"Can you provide fire-stopping certification?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide full fire-stopping certification including photographic evidence of penetration seals, third-party accreditation where required (FIRAS or equivalent), and signed handover documentation for your Responsible Person or building control."}},
+    {"@type":"Question","name":"What's the cost of fire-rated drylining?","acceptedAnswer":{"@type":"Answer","text":"Fire-rated drylining typically costs £35-£65 per square metre depending on the fire resistance period (30/60/120 min), board thickness, and complexity of detailing. We provide a written itemised quote after a site survey."}}
+  ]
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Fire-Rated Drylining Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q213825",
+  about: { "@type": "Thing", name: "Fireproofing", sameAs: ["https://www.wikidata.org/entity/Q1061419", "https://en.wikipedia.org/wiki/Fireproofing"] },
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business"
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: ["https://en.wikipedia.org/wiki/Maidstone", "https://www.wikidata.org/entity/Q213180"],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  }
+};
+---
+
+<Layout title="Fire-Rated Drylining Maidstone | 30/60/120 Min Part B Systems" description="Fire-rated drylining systems for Maidstone commercial and HMO projects. 30, 60, 120-minute fire resistance. Approved Document B compliant. Free written quotes." canonical="/services/fire-rated-drylining/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<section style="position:relative;min-height:380px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-fire-rated.jpg" alt="Fire-Rated Drylining project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Fire-Rated Drylining</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">APPROVED DOCUMENT B COMPLIANT</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Fire-Rated Drylining in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">30, 60, and 120-minute fire resistance systems for commercial, HMO, and multi-occupancy buildings across the Maidstone. Approved Document B compliant, with full certification.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Specialist fire-resistant plasterboard systems for separating walls, ceilings, service risers, and protected corridors. 30, 60, and 120-minute ratings. Approved Document B compliant. Full fire-stopping certification included. Free written quote.</p>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Fire-Rated Systems We Install</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">At <strong>Drylining Maidstone</strong> we install fire-rated drylining systems using British Gypsum, Knauf, and Promat products, all third-party tested to BS 476 and EN 1364. Our teams are FIRAS-registered and we issue full handover documentation to your Responsible Person, building control, or insurance assessor.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>30-minute partitions (single-layer 12.5mm Type F board, timber or metal stud)</li>
+  <li>60-minute partitions (double-layer 15mm Type F board, staggered joints)</li>
+  <li>120-minute partitions and ceilings (triple-layer 15mm or specialist 25mm)</li>
+  <li>Service riser shaft encasements (typically 60-120 min depending on building)</li>
+  <li>Protected corridor and lobby linings</li>
+  <li>Plant room and boiler room enclosures</li>
+  <li>Fire-rated ceiling systems under timber or steel floors</li>
+  <li>Penetration seals around cables, pipes, and ducts (intumescent collars, fire-rated foam)</li>
+  <li>Cavity barriers at compartment lines and around openings</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Where Fire-Rated Drylining Is Required in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Maidstone's building stock — from the converted warehouses of Maidstone town centre to the post-war housing estates of Harrietsham, Marden, and Yalding, and the Victorian terraces of Maidstone central and Bearsted — has extensive requirements for fire separation under Approved Document B. Typical projects include:</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Maidstone riverside commercial studios and office fit-outs</li>
+  <li>Maidstone town centre apartment compartmentation upgrades (post-Grenfell)</li>
+  <li>HMO conversions in the ME14/ME15/ME16 corridor for student lets</li>
+  <li>Headcorn, Allington, and Harrietsham retail park back-of-house separations</li>
+  <li>Industrial unit offices in Maidstone borough Park, Marden, and Yalding</li>
+  <li>Hotel and serviced-accommodation fit-outs across the borough</li>
+  <li>Care home and supported-living schemes</li>
+  <li>School extensions and college refurbishments</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials and Specifications</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum FireLine, Knauf Fire Panel, Promat Supalux</li>
+  <li>Galvanised steel stud and track (British Gypsum Gypframe or equivalent)</li>
+  <li>Rockwool or Glasswool fire-rated acoustic insulation in cavity</li>
+  <li>Fire-rated sealants (intumescent acrylic, silicone, or graphite)</li>
+  <li>Fire collars and wraps for combustible pipe penetrations</li>
+  <li>Cavity barriers at slab edges and compartment lines</li>
+  <li>Smoke and acoustic sealant at all perimeters</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Maidstone Borough Council Building Control</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">All fire-rated drylining in Maidstone must be signed off by <strong>Maidstone Borough Council Building Control</strong> (or an approved inspector) at completion. We liaise directly with the building control surveyor, arrange interim and final inspections, and supply photographic records, third-party certificates, and a full O&amp;M handover pack. For HMO conversions, we also coordinate with Maidstone's Private Sector Housing team for HMO licensing requirements.</p>
+
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Need a Fire-Rated Drylining Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Free site survey and itemised written quote. Full certification included.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is fire-rated drylining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Fire-rated drylining uses specialist plasterboard (Type F, often 12.5mm-15mm) and compatible fixings/sealants to provide fire resistance of 30, 60, or 120 minutes. It is required by Approved Document B (fire safety) of the Building Regulations for separating walls, ceilings, service risers, plant rooms, and protected corridors.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Where is fire-rated drylining required in Maidstone?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Fire-rated drylining is required in commercial buildings, HMOs, multi-occupancy residential blocks, and any premises covered by the Regulatory Reform (Fire Safety) Order 2005. Common Maidstone applications include Maidstone riverside commercial studios, Maidstone town centre apartment compartmentation, Maidstone town centre HMO conversions, and Headcorn/Harrietsham retail parks.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can you provide fire-stopping certification?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We provide full fire-stopping certification including photographic evidence of penetration seals, third-party accreditation where required (FIRAS or equivalent), and signed handover documentation for your Responsible Person or building control.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What's the cost of fire-rated drylining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Fire-rated drylining typically costs £35-£65 per square metre depending on the fire resistance period (30/60/120 min), board thickness, and complexity of detailing. We provide a written itemised quote after a site survey.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

@@ -1,0 +1,74 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const question = "Is insulated plasterboard worth using?";
+const answer = `Almost always, yes — particularly for uninsulated solid walls typical of Maidstone's pre-1930s housing stock.
+
+Why it is worth using:
+
+- Substantial thermal performance gain (60-80% heat-loss reduction)
+- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)
+- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)
+- Reduces condensation risk and improves indoor comfort
+- Improves EPC rating (often 10-20 points)
+- May qualify for ECO4/GBIS retrofit funding for eligible households
+
+Where the extra cost is harder to justify:
+
+- Cavity walls (already insulated) — use standard plasterboard
+- Internal partitions that don't lose heat
+- Listed buildings where breathable construction is required
+
+For most Maidstone solid-wall properties, the payback period is 5-8 years from energy savings alone, and the comfort improvement is immediate.`;
+const description = `Almost always, yes — particularly for uninsulated solid walls typical of Maidstone's pre-1930s housing stock.  Why it is worth using:  - Substantial thermal perfo`;
+const canonical = "/drylining-faq/is-insulated-plasterboard-worth-using/";
+
+const schema = {"@context": "https://schema.org", "@graph": [{"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is insulated plasterboard worth using?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always, yes — particularly for uninsulated solid walls typical of Maidstone's pre-1930s housing stock.\n\nWhy it is worth using:\n\n- Substantial thermal performance gain (60-80% heat-loss reduction)\n- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)\n- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)\n- Reduces condensation risk and improves indoor comfort\n- Improves EPC rating (often 10-20 points)\n- May qualify for ECO4/GBIS retrofit funding for eligible households\n\nWhere the extra cost is harder to justify:\n\n- Cavity walls (already insulated) — use standard plasterboard\n- Internal partitions that don't lose heat\n- Listed buildings where breathable construction is required\n\nFor most Maidstone solid-wall properties, the payback period is 5-8 years from energy savings alone, and the comfort improvement is immediate."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://dryliningmaidstone.co.uk/faq/"}, {"@type": "ListItem", "position": 3, "name": "Is insulated plasterboard worth using?", "item": "https://dryliningmaidstone.co.uk/drylining-faq/is-insulated-plasterboard-worth-using/"}]}]};---
+
+<Layout
+  title={question + " | Drylining Maidstone"}
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <main class="container" style="padding: 34px 0 70px;">
+    <article class="card" style="padding: 28px; max-width: 860px;">
+      <header style="margin-bottom: 22px;">
+        <p style="margin: 0 0 10px; color: var(--primary); font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 13px;">
+          Maidstone Drylining FAQ
+        </p>
+        <h1 style="margin: 0; font-size: clamp(26px, 4vw, 36px); line-height: 1.15;">{question}</h1>
+      </header>
+
+      <section style="padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 22px;">
+        <p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Almost always, yes — particularly for uninsulated solid walls typical of Maidstone's pre-1930s housing stock.</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Why it is worth using:</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">- Substantial thermal performance gain (60-80% heat-loss reduction)
+- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)
+- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)
+- Reduces condensation risk and improves indoor comfort
+- Improves EPC rating (often 10-20 points)
+- May qualify for ECO4/GBIS retrofit funding for eligible households</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Where the extra cost is harder to justify:</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">- Cavity walls (already insulated) — use standard plasterboard
+- Internal partitions that don't lose heat
+- Listed buildings where breathable construction is required</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">For most Maidstone solid-wall properties, the payback period is 5-8 years from energy savings alone, and the comfort improvement is immediate.</p>
+      </section>
+
+      <section style="margin: 24px 0; padding: 18px 0; border-top: 1px solid var(--border);">
+        <h3 style="font-size: 1.1rem; margin-bottom: 12px; color: var(--text);">Related Questions</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+<li><a href="/drylining-faq/can-dry-lining-improve-a-propertys-energy-efficiency/" style="color: var(--primary); font-weight: 500;">Can dry lining improve energy efficiency?</a></li>
+<li><a href="/drylining-faq/can-dry-lining-improve-wall-insulation/" style="color: var(--primary); font-weight: 500;">Can dry lining improve wall insulation?</a></li>
+<li><a href="/services/insulated-drylining/" style="color: var(--primary); font-weight: 500;">Insulated drylining service</a></li>
+        </ul>
+      </section>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px;">
+        <a href="/faq/" class="btn btn-outline">All FAQs</a>
+        <a href="/get-quote/" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </article>
+  </main>
+</Layout>

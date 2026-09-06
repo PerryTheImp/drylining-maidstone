@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { faqs } from "../data/faqs";
+
+function toSlug(str: string): string {
+  return str
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://dryliningmaidstone.co.uk/" },
+        { "@type": "ListItem", position: 2, name: "FAQ", item: "https://dryliningmaidstone.co.uk/faq/" },
+      ],
+    },
+  ],
+};
+---
+
+<Layout
+  title="FAQ | Drylining Maidstone"
+  description="Browse our most asked questions about drylining, partition walls, suspended ceilings and our services in Maidstone. Click any question to read the full answer."
+  canonical="/faq/"
+  schema={schema}
+>
+  <section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);overflow:hidden;">
+    <img src="/images/trust-safety.jpg" alt="Drylining Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.25;">
+    <div class="container" style="position:relative;z-index:1;text-align:center;">
+      <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--white); margin-bottom: 1rem;">Frequently Asked Questions</h1>
+      <p style="font-size: 1.0625rem; color: rgba(255,255,255,0.85); max-width: 700px; margin: 0 auto;">Browse our most asked questions below. Click any question to read the full answer.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        {faqs.map(f => (
+          <li style="border-bottom: 1px solid var(--border); padding: 16px 0;">
+            <a href={`/drylining-faq/${toSlug(f.question)}/`} style="font-size: 1.1rem; font-weight: 600; color: var(--primary); text-decoration: none;">
+              {f.question}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--accent); border-radius: var(--radius);">
+        <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--secondary); margin-bottom: 0.75rem;">Still Have Questions?</h3>
+        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Our team is happy to help. Reach out for a free consultation or quote.</p>
+        <a href="/get-quote/" class="btn btn-primary">Get a Free Quote</a>
+      </div>
+    </div>
+  </section>
+</Layout>

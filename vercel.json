@@ -1,0 +1,17 @@
+{
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/www",
+      "destination": "https://dryliningmaidstone.co.uk",
+      "statusCode": 308
+    },
+    {
+      "source": "/www/",
+      "destination": "https://dryliningmaidstone.co.uk",
+      "statusCode": 308
+    }
+  ]
+}

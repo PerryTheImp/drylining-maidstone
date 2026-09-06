@@ -1,0 +1,203 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Suspended Ceilings";
+const serviceSlug = "suspended-ceilings";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is a suspended ceiling?","acceptedAnswer":{"@type":"Answer","text":"A suspended ceiling is a secondary ceiling hung below the main structural ceiling. It creates a clean visual plane, hides services like ductwork and cabling, and allows easy access for maintenance."}},
+    {"@type":"Question","name":"How long does suspended ceiling installation take?","acceptedAnswer":{"@type":"Answer","text":"A typical office suspended ceiling takes 2-3 days. Larger commercial spaces may take 4-7 days depending on the area and any integrated services like lighting or air vents."}},
+    {"@type":"Question","name":"Can suspended ceilings improve acoustics?","acceptedAnswer":{"@type":"Answer","text":"Yes. Acoustic ceiling tiles absorb sound and reduce noise levels in open-plan offices, meeting rooms, and call centres. We install mineral fibre and perforated metal tiles with NRC ratings up to 0.85 for optimal sound control."}},
+    {"@type":"Question","name":"Are suspended ceilings fire-rated?","acceptedAnswer":{"@type":"Answer","text":"Yes. We install fire-rated ceiling systems that meet Part B building regulations. Fire-rated tiles and grid systems provide protection and slow the spread of fire through ceiling voids."}},
+    {"@type":"Question","name":"Can you integrate lighting into suspended ceilings?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can integrate LED panels, recessed downlights, emergency lighting, and air conditioning vents into suspended ceiling systems for a seamless, professional finish."}},
+    {"@type":"Question","name":"What types of ceiling tiles do you install?","acceptedAnswer":{"@type":"Answer","text":"We install mineral fibre tiles, metal tiles (perforated and plain), plasterboard suspended ceilings, fire-rated tiles, and moisture-resistant tiles for kitchens and bathrooms."}},
+    {"@type":"Question","name":"What areas do you cover for suspended ceilings?","acceptedAnswer":{"@type":"Answer","text":"We provide suspended ceiling installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh."}}
+  ],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Suspended Ceilings Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q175294",
+  about: { "@type": "Thing", name: "Dropped ceiling", sameAs: ["https://www.wikidata.org/entity/Q175294", "https://en.wikipedia.org/wiki/Dropped_ceiling"] },
+  sameAs: "https://en.wikipedia.org/wiki/Drywall",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business",
+    knowsAbout: ["https://en.wikipedia.org/wiki/Drywall", "https://en.wikipedia.org/wiki/Plaster", "https://en.wikipedia.org/wiki/Partition_wall", "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom", "https://en.wikipedia.org/wiki/Construction_worker", "https://en.wikipedia.org/wiki/General_contractor", "https://en.wikipedia.org/wiki/Cold-formed_steel", "https://en.wikipedia.org/wiki/Dropped_ceiling"],
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: [
+      "https://en.wikipedia.org/wiki/Maidstone",
+      "https://www.wikidata.org/entity/Q213180"
+    ],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  },
+};
+---
+
+<Layout title="Suspended Ceilings Maidstone | Office & Commercial Installation" description="Professional suspended ceiling installation in Maidstone. Conceal services, improve acoustics, and modernise your space. Free quotes from experienced contractors." canonical="/services/suspended-ceilings/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<!-- Hero -->
+<section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-ceiling.jpg" alt="Suspended Ceilings project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Suspended Ceilings</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">COMMERCIAL & OFFICE</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Suspended Ceilings in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Modern suspended ceilings that hide services, improve acoustics, and give your office or retail space a clean, professional finish.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<!-- TL;DR -->
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Professional suspended ceiling installation for offices, retail, and commercial spaces across Maidstone. Mineral fibre, metal, and acoustic tile options. Integrated lighting and 12-month guarantee.</p>
+</div>
+
+<!-- What We Offer -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Our Suspended Ceiling Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Suspended ceilings are one of the most effective ways to modernise a commercial interior. At <strong>Drylining Maidstone</strong>, we install high-quality suspended ceiling systems that conceal ductwork, wiring, and plumbing while improving acoustics and lighting distribution.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Mineral fibre ceiling tiles (standard and acoustic)</li>
+  <li>Metal ceiling tiles (perforated and plain)</li>
+  <li>Plasterboard suspended ceilings</li>
+  <li>Fire-rated ceiling systems</li>
+  <li>Moisture-resistant tiles for kitchens and bathrooms</li>
+  <li>Integrated lighting and air vent cutouts</li>
+  <li>Emergency lighting integration</li>
+  <li>Easy-access ceiling tiles for maintenance</li>
+</ul>
+
+<!-- Why Choose Us -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Why Install a Suspended Ceiling?</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Hide unsightly services:</strong> Suspended ceilings create a clean visual plane that conceals electrical cables, ductwork, pipes, and structural elements.</li>
+  <li><strong>Improve acoustics:</strong> Acoustic ceiling tiles absorb sound and significantly reduce noise levels in open-plan offices, meeting rooms, and call centres.</li>
+  <li><strong>Enhance lighting:</strong> Integrated LED panels and downlights create even light distribution and eliminate dark spots.</li>
+  <li><strong>Easy maintenance access:</strong> Individual ceiling tiles can be removed to access building services for maintenance and repairs.</li>
+  <li><strong>Fire safety:</strong> Fire-rated ceiling tiles and grid systems slow the spread of fire through ceiling voids and meet building regulation requirements.</li>
+</ul>
+
+<!-- Materials -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials & Specifications</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We use high-quality ceiling systems and tiles from trusted manufacturers to ensure durability, compliance, and a professional finish.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Armstrong, Rockfon, and British Gypsum suspended ceiling grid systems</li>
+  <li>Mineral fibre tiles (standard, acoustic, and moisture-resistant)</li>
+  <li>Metal ceiling tiles (perforated, plain, and powder-coated)</li>
+  <li>Fire-rated tiles and grid components for Part B compliance</li>
+  <li>LED panel and downlight integration</li>
+  <li>Air conditioning vent cutouts and diffusers</li>
+  <li>Emergency lighting and smoke detector integration</li>
+  <li>Perimeter trim and edge finishing</li>
+</ul>
+
+<!-- Applications -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Applications & Use Cases</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our suspended ceiling services are suitable for a wide range of commercial and public buildings across Maidstone.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Open-plan offices and co-working spaces</li>
+  <li>Retail stores and shopping centres</li>
+  <li>Healthcare facilities and care homes</li>
+  <li>Schools, colleges, and universities</li>
+  <li>Warehouse and industrial unit offices</li>
+  <li>Call centres and customer service hubs</li>
+  <li>Leisure centres and community buildings</li>
+</ul>
+
+<!-- How It Works -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">How It Works</h2>
+<ol style="list-style:decimal;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Free Quote:</strong> Call or fill in our form. We will survey your space and recommend the best ceiling system for your needs.</li>
+  <li><strong>Detailed Plan:</strong> We confirm tile type, grid layout, lighting integration, and timeline. Everything is agreed upfront with no hidden extras.</li>
+  <li><strong>Professional Installation:</strong> Our team installs the grid framework, fits the ceiling tiles, and integrates lighting and ventilation as required.</li>
+  <li><strong>Quality Check & Handover:</strong> We inspect every tile, test lighting and services, and leave your space looking professional and modern.</li>
+</ol>
+
+<!-- Areas -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Suspended Ceilings Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We provide suspended ceiling services in the following areas:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone town centre</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone central</a>
+  <a href="/areas/bearsted/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Bearsted</a>
+  <a href="/areas/headcorn/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Headcorn</a>
+  <a href="/areas/allington/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Allington</a>
+  <a href="/areas/harrietsham/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Harrietsham</a>
+  <a href="/areas/staplehurst/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Staplehurst</a>
+  <a href="/areas/boxley/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Boxley</a>
+  <a href="/areas/marden/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Marden</a>
+  <a href="/areas/yalding/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Yalding</a>
+  <a href="/areas/east-farleigh/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">East Farleigh</a>
+</div>
+<p style="font-size:1.0625rem;margin-bottom:1.5rem;"><a href="/areas/" style="font-weight:600;">View all areas we cover →</a></p>
+
+<!-- Related Services -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Related Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Clients who book suspended ceilings often also require:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/services/plasterboard-installation/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Plasterboard Installation</a>
+  <a href="/services/partition-walls/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Partition Walls</a>
+  <a href="/services/commercial-drylining/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Commercial Drylining</a>
+  <a href="/services/office-drylining/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Office Drylining</a>
+</div>
+
+<!-- CTA -->
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Ready for a Free Ceiling Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Call us or fill in our quick form. We will arrange a site visit and provide a detailed, no-obligation quote.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions about Suspended Ceilings</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is a suspended ceiling?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A suspended ceiling is a secondary ceiling hung below the main structural ceiling. It creates a clean visual plane, hides services like ductwork and cabling, and allows easy access for maintenance.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How long does suspended ceiling installation take?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A typical office suspended ceiling takes 2-3 days. Larger commercial spaces may take 4-7 days depending on the area and any integrated services like lighting or air vents.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can suspended ceilings improve acoustics?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. Acoustic ceiling tiles absorb sound and reduce noise levels in open-plan offices, meeting rooms, and call centres. We install mineral fibre and perforated metal tiles with NRC ratings up to 0.85 for optimal sound control.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Are suspended ceilings fire-rated?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We install fire-rated ceiling systems that meet Part B building regulations. Fire-rated tiles and grid systems provide protection and slow the spread of fire through ceiling voids.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can you integrate lighting into suspended ceilings?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We can integrate LED panels, recessed downlights, emergency lighting, and air conditioning vents into suspended ceiling systems for a seamless, professional finish.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What types of ceiling tiles do you install?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We install mineral fibre tiles, metal tiles (perforated and plain), plasterboard suspended ceilings, fire-rated tiles, and moisture-resistant tiles for kitchens and bathrooms.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What areas do you cover for suspended ceilings?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We provide suspended ceiling installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

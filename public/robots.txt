@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dryliningmaidstone.co.uk/sitemap.xml
+Sitemap: https://dryliningmaidstone.co.uk/news-sitemap.xml

@@ -1,0 +1,128 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Insulated Drylining";
+const serviceSlug = "insulated-drylining";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is insulated drylining?","acceptedAnswer":{"@type":"Answer","text":"Insulated drylining uses insulated plasterboard — typically PIR, phenolic, or graphite EPS bonded to a plasterboard face — to add thermal insulation and a smooth internal finish in one installation. It is the standard solution for upgrading uninsulated solid walls."}},
+    {"@type":"Question","name":"How much heat loss does it reduce?","acceptedAnswer":{"@type":"Answer","text":"Insulated drylining can reduce heat loss through an uninsulated solid wall by 60-80%, depending on the insulation thickness and the wall construction. This typically makes rooms feel noticeably warmer and reduces heating bills."}},
+    {"@type":"Question","name":"How thick is insulated drylining?","acceptedAnswer":{"@type":"Answer","text":"Insulated plasterboard is typically 30-90 mm thick total, depending on the required thermal performance. We will specify the correct thickness to meet Part L targets while keeping the room loss to a minimum."}},
+    {"@type":"Question","name":"Can it be installed in listed buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes. Insulated drylining is often the preferred thermal upgrade for listed buildings because it does not alter the external appearance. However, it may require listed building consent if it affects significant internal features. We liaise with Maidstone Borough Council conservation officers as needed."}}
+  ]
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Insulated Drylining Maidstone",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business"
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: ["https://en.wikipedia.org/wiki/Maidstone", "https://www.wikidata.org/entity/Q213180"],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  }
+};
+---
+
+<Layout title="Insulated Drylining Maidstone" description="Thermal upgrades for uninsulated solid walls across the Maidstone. Part L compliant, EPC rating improvements, lower heating bills." canonical="/services/insulated-drylining/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<section style="position:relative;min-height:380px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-insulated.jpg" alt="Insulated Drylining project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Insulated Drylining</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">PART L THERMAL UPGRADES</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Insulated Drylining in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Thermal upgrades for uninsulated solid walls across the Maidstone. Part L compliant, EPC rating improvements, lower heating bills.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Insulated plasterboard for thermal upgrades on external walls. Cuts heat loss in uninsulated solid-wall properties — typical of Maidstone's Victorian and pre-1920s housing stock in Maidstone central, Bearsted, Loose, and Boxley village. Part L compliant.</p>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Insulated Plasterboard Systems We Install</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">At <strong>Drylining Maidstone</strong> we install insulated plasterboard systems — typically PIR, phenolic foam, or graphite-enhanced EPS bonded to a plasterboard face — that add thermal insulation and a smooth internal finish in a single installation. This is the standard solution for upgrading uninsulated 9-inch solid brick walls that are common across Maidstone's Victorian and pre-1920s terraced housing stock.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>PIR (polyisocyanurate) insulated plasterboard — thinnest profile, highest R-value per mm</li>
+  <li>Phenolic foam insulated plasterboard (Kingspan K17 or equivalent)</li>
+  <li>Graphite EPS insulated plasterboard — better U-value than standard EPS</li>
+  <li>Standard EPS insulated plasterboard for budget upgrades</li>
+  <li>Hybrid systems combining insulated plasterboard with additional stud + mineral wool</li>
+  <li>Mechanical fixing using adhesive dabs (dot-and-dab) or direct mechanical fix to masonry</li>
+  <li>Services pattressing (chasing for sockets, switches, and downlights)</li>
+  <li>Skim finish or direct decoration-ready surface</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Where Insulated Drylining Helps in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Many of Maidstone's properties have uninsulated solid 9-inch brick walls that lose significant heat in winter and create cold interior surfaces prone to condensation. Insulated drylining solves both, often improving EPC ratings by 10-20 points and qualifying properties for ECO4 and GBIS retrofit funding where eligibility criteria are met.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Victorian terraced houses in Maidstone central, Bearsted, Lower Bearsted, and Loose (ME14, ME15, ME17)</li>
+  <li>Pre-1920s semis in Boxley village, East Farleigh, and Staplehurst</li>
+  <li>Solid-wall Maidstone town centre apartments (early phases, pre-2010)</li>
+  <li>Older detached and semi-detached homes in Allington, Harrietsham, and Headcorn</li>
+  <li>HMO and rental property upgrades (minimum EPC E required for new tenancies)</li>
+  <li>Pre-sale upgrades to improve EPC rating ahead of mortgage valuation</li>
+  <li>ECO4 / GBIS funded retrofit schemes (subject to eligibility)</li>
+  <li>Listed buildings where external insulation is not permissible (consult building control)</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials and Specifications</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Kingspan K17 (phenolic) — 50-80mm typical, R-value 2.2-3.6 m²K/W</li>
+  <li>Celotex PIR insulated plasterboard — 50-100mm typical, R-value 2.25-4.5 m²K/W</li>
+  <li>British Gypsum Gyproc ThermaLine — 50-90mm PIR or EPS bonded to 9.5mm board</li>
+  <li>Knauf Thermal Laminate — graphite EPS bonded to 12.5mm board</li>
+  <li>Adhesive dabs (British Gypsum Gyproc DriWall Adhesive or equivalent)</li>
+  <li>Mechanical fixings (hammer-in fixings for heavier boards)</li>
+  <li>Perimeter and service penetrations sealed with low-expansion foam</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Building Regulations and Insulation in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Insulated drylining on external walls triggers Part L (conservation of fuel and power) and Part B (fire safety) compliance. We design the system to meet the relevant U-value target (typically 0.30 W/m²K for retrofit work) while considering fire safety (insulation must be Class O surface spread of flame, with a fire-resistant layer at ceiling line for multi-storey buildings). For Maidstone Borough Council building control sign-off, we submit a Building Notice or Full Plans application depending on scope, and provide all U-value calculations on request.</p>
+
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Need a Insulated Drylining Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Free site survey and itemised written quote. We cover all of the Maidstone.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is insulated drylining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Insulated drylining uses insulated plasterboard — typically PIR, phenolic, or graphite EPS bonded to a plasterboard face — to add thermal insulation and a smooth internal finish in one installation. It is the standard solution for upgrading uninsulated solid walls.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How much heat loss does it reduce?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Insulated drylining can reduce heat loss through an uninsulated solid wall by 60-80%, depending on the insulation thickness and the wall construction. This typically makes rooms feel noticeably warmer and reduces heating bills.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How thick is insulated drylining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Insulated plasterboard is typically 30-90 mm thick total, depending on the required thermal performance. We will specify the correct thickness to meet Part L targets while keeping the room loss to a minimum.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can it be installed in listed buildings?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. Insulated drylining is often the preferred thermal upgrade for listed buildings because it does not alter the external appearance. However, it may require listed building consent if it affects significant internal features. We liaise with Maidstone Borough Council conservation officers as needed.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

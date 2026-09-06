@@ -1,0 +1,274 @@
+/* ============================================================
+   base.css — Drylining Maidstone Base Styles
+   Reset + global primitives. Uses tokens from tokens.css.
+   ============================================================ */
+
+/* --------------------------------------------------------
+   MODERN CSS RESET (concise)
+   -------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* --------------------------------------------------------
+   ACCESSIBLE FOCUS RING
+   -------------------------------------------------------- */
+*:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* --------------------------------------------------------
+   LAYOUT PRIMITIVES
+   -------------------------------------------------------- */
+
+/* .container — page-wide width-constrained wrapper */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+/* .section — vertical rhythm for page sections */
+.section {
+  padding: var(--space-20) 0;
+}
+
+/* .section-title — primary heading within a section */
+.section-title {
+  font-size: var(--text-4xl);
+  font-weight: var(--weight-extrabold);
+  color: var(--secondary);
+  margin-bottom: var(--space-4);
+  line-height: var(--leading-tight);
+}
+
+/* .section-subtitle — lead paragraph within a section */
+.section-subtitle {
+  font-size: var(--text-lg);
+  color: var(--text-light);
+  margin-bottom: var(--space-12);
+  max-width: 700px;
+  line-height: var(--leading-relaxed);
+}
+
+/* --------------------------------------------------------
+   TYPOGRAPHY UTILITIES
+   -------------------------------------------------------- */
+
+/* .prose — long-form text container (about, resources) */
+.prose {
+  max-width: var(--max-width-prose);
+  font-size: var(--text-md);
+  line-height: var(--leading-loose);
+  color: var(--text);
+}
+
+.prose h2 {
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-bold);
+  color: var(--secondary);
+  margin-top: var(--space-12);
+  margin-bottom: var(--space-4);
+  line-height: var(--leading-snug);
+}
+
+.prose h3 {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  color: var(--secondary);
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-3);
+}
+
+.prose p {
+  margin-bottom: var(--space-4);
+}
+
+.prose ul, .prose ol {
+  margin-bottom: var(--space-4);
+  padding-left: var(--space-6);
+}
+
+.prose li {
+  margin-bottom: var(--space-2);
+}
+
+.prose a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.prose a:hover {
+  color: var(--primary-dark);
+}
+
+.prose strong {
+  color: var(--secondary);
+  font-weight: var(--weight-semibold);
+}
+
+/* --------------------------------------------------------
+   BUTTONS
+   -------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  border-radius: var(--radius);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-base);
+  line-height: 1;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Hero CTA — yellow button that deepens on hover. On-brand: blue site, yellow accent.
+   Strong contrast against the dark hero gradient (--gradient-hero). */
+.hero-cta {
+  background: var(--accent);
+  color: var(--secondary);
+  border-color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 14px rgba(250, 204, 21, 0.35), 0 2px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.35) 50%, transparent 100%);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+  pointer-events: none;
+}
+
+.hero-cta:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: var(--secondary);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(250, 204, 21, 0.5), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-cta:hover::before {
+  transform: translateX(100%);
+}
+
+.btn-secondary {
+  background: var(--secondary);
+  color: var(--white);
+  border-color: var(--secondary);
+}
+
+.btn-secondary:hover {
+  background: #000;
+  border-color: #000;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+/* --------------------------------------------------------
+   NAV DROPDOWN
+   -------------------------------------------------------- */
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
+  display: block !important;
+}
+
+.dropdown-menu a:hover {
+  background: var(--primary-hover-bg);
+}
+
+/* --------------------------------------------------------
+   RESPONSIVE
+   -------------------------------------------------------- */
+@media (max-width: 768px) {
+  .section { padding: var(--space-12) 0; }
+  .section-title { font-size: var(--text-3xl); }
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-6) !important;
+    padding: var(--space-8) var(--space-6) !important;
+  }
+  .desktop-nav { display: none !important; }
+}
+
+/* --------------------------------------------------------
+   PRINT — strip nav, footer, and visual-only chrome
+   -------------------------------------------------------- */
+@media print {
+  header, footer, .no-print { display: none; }
+  body { color: #000; background: #fff; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+}

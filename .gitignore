@@ -1,0 +1,25 @@
+# Build artefacts
+node_modules/
+dist/
+.astro/
+.vercel/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Env
+.env
+.env.local
+
+# Vercel deploy artifacts
+api/
+scripts/
+public/BingSiteAuth.xml
+public/googled*.html
+public/videos/
+package-lock.json
+.vercel
+.env*

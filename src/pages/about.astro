@@ -1,0 +1,100 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://dryliningmaidstone.co.uk/#aboutOrg",
+      "name": "Drylining Maidstone",
+      "url": "https://dryliningmaidstone.co.uk",
+      "logo": "https://dryliningmaidstone.co.uk/logo.png",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q213180",
+        "https://en.wikipedia.org/wiki/Maidstone",
+        "https://www.wikidata.org/entity/Q385378"
+      ],
+      "knowsAbout": [
+        "https://en.wikipedia.org/wiki/Drywall",
+        "https://en.wikipedia.org/wiki/Partition_wall",
+        "https://en.wikipedia.org/wiki/Dropped_ceiling",
+        "https://en.wikipedia.org/wiki/Plaster",
+        "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom",
+        "https://en.wikipedia.org/wiki/Construction_worker",
+        "https://en.wikipedia.org/wiki/General_contractor"
+      ],
+      "areaServed": {
+        "@type": "Place",
+        "name": "Maidstone and surrounding areas",
+        "sameAs": [
+          "https://en.wikipedia.org/wiki/Maidstone",
+          "https://www.wikidata.org/entity/Q213180"
+        ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+448****8888",
+        "contactType": "customer service",
+        "areaServed": "Maidstone and surrounding areas"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://dryliningmaidstone.co.uk/about/" }
+      ]
+    }
+  ]
+};
+
+const schema = orgSchema;
+---
+<Layout title="About Us | Drylining Maidstone — Expert Contractors" description="Learn about Drylining Maidstone. CSCS-accredited drylining contractors serving Maidstone and surrounding areas. £1M insured, free quotes, 24h response." canonical="/about/" schema={schema}>
+<section style="position:relative;min-height:480px;display:flex;align-items:center;background:linear-gradient(135deg,#0a0e1a 0%,#1a1f3a 100%);overflow:hidden;">
+  <img src="/images/about-team.jpg" alt="The Drylining Maidstone team at work" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.45;">
+  <div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,14,26,0.85) 0%,rgba(10,14,26,0.5) 60%,rgba(10,14,26,0.2) 100%);"></div>
+  <div class="container" style="position:relative;z-index:1;text-align:center;">
+    <nav style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px;letter-spacing:0.05em;text-transform:uppercase;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.7);">Home</a> &nbsp;/&nbsp; <span style="color:#FACC15;">About</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">CSCS ACCREDITED · £1M INSURED</div>
+    <h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">About <span style="color:#FACC15;">Drylining Maidstone</span></h1>
+    <p style="font-size:1.125rem;color:rgba(255,255,255,0.88);max-width:680px;margin:0 auto 1.5rem;line-height:1.65;font-weight:400;">Your trusted drylining contractors in Maidstone and the North West. Quality workmanship, transparent pricing, and a commitment to every project — from a single partition wall to a full commercial fit-out.</p>
+    <div style="display:flex;gap:0.875rem;justify-content:center;flex-wrap:wrap;">
+      <a href="/get-quote/" class="btn btn-highlight" style="font-size:1rem;padding:0.875rem 1.75rem;">Get a Free Quote</a>
+      <a href="/services/" class="btn btn-outline" style="border-color:rgba(255,255,255,0.4);color:#ffffff;font-size:1rem;padding:0.75rem 1.75rem;">View Our Services</a>
+    </div>
+  </div>
+</section>
+<section class="section"><div class="container" style="max-width:900px;">
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;"><strong>Drylining Maidstone</strong> is a team of experienced drylining contractors dedicated to delivering high-quality partition walls, suspended ceilings, and plasterboard installations across Maidstone, the surrounding borough, and the wider North West. We combine traditional craftsmanship with modern techniques to produce interiors that look exceptional and stand the test of time.</p>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Founded on the principles of honesty, reliability, and quality, we have built a reputation as one of the most trusted drylining companies in the region. Every member of our team is CSCS accredited, fully trained, and committed to maintaining the highest standards of workmanship and site safety.</p>
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">What We Believe In</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We believe that great drylining is about more than just fixing boards to walls. It is about understanding the client's vision, respecting their property, and delivering a finish that exceeds expectations. Whether it is a single-room renovation or a multi-floor commercial fit-out, we treat every project with the same level of care and professionalism.</p>
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Our Credentials</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;"><li>CSCS accredited contractors on every project</li><li>£1 million public liability insurance</li><li>Fully compliant with health and safety regulations</li><li>Years of experience in residential and commercial drylining</li><li>Transparent pricing with no hidden fees</li><li>Free, no-obligation quotes with fast response times</li></ul>
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Areas We Serve</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We are based in Maidstone and regularly work in Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Boxley, East Farleigh, Harrietsham, Staplehurst, Marden, and Yalding. For larger commercial projects across the Maidstone metropolitan borough, we are happy to travel further across the North West.</p>
+
+<!-- Mission & Vision Cards -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin:2.5rem 0;">
+  <div style="background:var(--accent);padding:2rem;border-radius:var(--radius);border-top:4px solid var(--primary);">
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+      <div style="width:48px;height:48px;background:var(--primary);color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:800;flex-shrink:0;">🎯</div>
+      <h3 style="font-size:1.375rem;font-weight:800;color:var(--secondary);margin:0;">Our Mission</h3>
+    </div>
+    <p style="font-size:1rem;color:var(--text);line-height:1.75;margin:0;">To deliver the highest-quality drylining and plasterboard installations across Maidstone and the surrounding borough — every project, every time. We exist to make Maidstone homes warmer, quieter, and more beautiful, and to give Maidstone businesses the commercial interiors they need to grow. We do this by combining CSCS-accredited tradespeople, premium British Gypsum and Knauf systems, and a transparent pricing model that respects both our customers" budgets and our own people.</p>
+  </div>
+  <div style="background:var(--accent);padding:2rem;border-radius:var(--radius);border-top:4px solid var(--secondary);">
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1rem;">
+      <div style="width:48px;height:48px;background:var(--secondary);color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:800;flex-shrink:0;">👁</div>
+      <h3 style="font-size:1.375rem;font-weight:800;color:var(--secondary);margin:0;">Our Vision</h3>
+    </div>
+    <p style="font-size:1rem;color:var(--text);line-height:1.75;margin:0;">To be the drylining contractor Maidstone builders, homeowners, and developers reach for first — known across the borough for craftsmanship, integrity, and the kind of aftercare that turns one project into a lifelong relationship. We see a Maidstone where every retrofit, extension, and commercial fit-out lifts the local built environment; where insulated plasterboard cuts fuel poverty on the Victorian terraces of Maidstone central, where acoustic partitions make Maidstone town centre flats genuinely liveable, and where Maidstone's small businesses get the same quality of interior finish as the City of London.</p>
+  </div>
+</div>
+<div style="margin-top:2.5rem;text-align:center;"><a href="/get-quote/" class="btn btn-primary" style="font-size:1.0625rem;padding:1rem 2.5rem;">Get a Free Quote</a></div>
+</div></section>
+</Layout>

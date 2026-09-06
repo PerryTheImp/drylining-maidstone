@@ -1,0 +1,66 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const question = "What are the main benefits of dry lining?";
+const answer = `Key benefits of dry lining for Maidstone projects:
+
+- Speed: typically 5-10x faster than wet plastering, so projects complete in days rather than weeks
+- Cleanliness: no wet trades on site, less mess, no plaster mixing, no dust
+- Thermal performance: insulated plasterboard upgrades solid walls (Maidstone Victorian terraces benefit most)
+- Acoustic performance: sound-rated systems achieve Part E compliance for HMO and flat conversions
+- Fire safety: Type F plasterboard gives 30-120 minute fire resistance for Part B compliance
+- Service cavity: runs cables, pipes, and ventilation invisibly
+- Quality finish: flat, true surfaces ready for decoration with minimal snagging
+- Lower cost: typically 30-50% cheaper than wet plastering
+- Less drying time: decorate within 1-2 days rather than waiting a week
+- Predictable programme: weather-independent, no drying windows`;
+const description = `Key benefits of dry lining for Maidstone projects:  - Speed: typically 5-10x faster than wet plastering, so projects complete in days rather than weeks - Cleanlin`;
+const canonical = "/drylining-faq/what-are-the-main-benefits-of-dry-lining/";
+
+const schema = {"@context": "https://schema.org", "@graph": [{"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the main benefits of dry lining?", "acceptedAnswer": {"@type": "Answer", "text": "Key benefits of dry lining for Maidstone projects:\n\n- Speed: typically 5-10x faster than wet plastering, so projects complete in days rather than weeks\n- Cleanliness: no wet trades on site, less mess, no plaster mixing, no dust\n- Thermal performance: insulated plasterboard upgrades solid walls (Maidstone Victorian terraces benefit most)\n- Acoustic performance: sound-rated systems achieve Part E compliance for HMO and flat conversions\n- Fire safety: Type F plasterboard gives 30-120 minute fire resistance for Part B compliance\n- Service cavity: runs cables, pipes, and ventilation invisibly\n- Quality finish: flat, true surfaces ready for decoration with minimal snagging\n- Lower cost: typically 30-50% cheaper than wet plastering\n- Less drying time: decorate within 1-2 days rather than waiting a week\n- Predictable programme: weather-independent, no drying windows"}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://dryliningmaidstone.co.uk/faq/"}, {"@type": "ListItem", "position": 3, "name": "What are the main benefits of dry lining?", "item": "https://dryliningmaidstone.co.uk/drylining-faq/what-are-the-main-benefits-of-dry-lining/"}]}]};---
+
+<Layout
+  title={question + " | Drylining Maidstone"}
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <main class="container" style="padding: 34px 0 70px;">
+    <article class="card" style="padding: 28px; max-width: 860px;">
+      <header style="margin-bottom: 22px;">
+        <p style="margin: 0 0 10px; color: var(--primary); font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 13px;">
+          Maidstone Drylining FAQ
+        </p>
+        <h1 style="margin: 0; font-size: clamp(26px, 4vw, 36px); line-height: 1.15;">{question}</h1>
+      </header>
+
+      <section style="padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 22px;">
+        <p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Key benefits of dry lining for Maidstone projects:</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">- Speed: typically 5-10x faster than wet plastering, so projects complete in days rather than weeks
+- Cleanliness: no wet trades on site, less mess, no plaster mixing, no dust
+- Thermal performance: insulated plasterboard upgrades solid walls (Maidstone Victorian terraces benefit most)
+- Acoustic performance: sound-rated systems achieve Part E compliance for HMO and flat conversions
+- Fire safety: Type F plasterboard gives 30-120 minute fire resistance for Part B compliance
+- Service cavity: runs cables, pipes, and ventilation invisibly
+- Quality finish: flat, true surfaces ready for decoration with minimal snagging
+- Lower cost: typically 30-50% cheaper than wet plastering
+- Less drying time: decorate within 1-2 days rather than waiting a week
+- Predictable programme: weather-independent, no drying windows</p>
+      </section>
+
+      <section style="margin: 24px 0; padding: 18px 0; border-top: 1px solid var(--border);">
+        <h3 style="font-size: 1.1rem; margin-bottom: 12px; color: var(--text);">Related Questions</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+<li><a href="/drylining-faq/is-dry-lining-cheaper-than-traditional-plastering/" style="color: var(--primary); font-weight: 500;">Is dry lining cheaper than plastering?</a></li>
+<li><a href="/drylining-faq/can-dry-lining-improve-soundproofing/" style="color: var(--primary); font-weight: 500;">Can dry lining improve soundproofing?</a></li>
+<li><a href="/services/drylining-contractors/" style="color: var(--primary); font-weight: 500;">Our services</a></li>
+        </ul>
+      </section>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px;">
+        <a href="/faq/" class="btn btn-outline">All FAQs</a>
+        <a href="/get-quote/" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </article>
+  </main>
+</Layout>

@@ -1,0 +1,63 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const question = "Can dry lining improve soundproofing?";
+const answer = `Yes. Acoustic plasterboard (denser than standard board) combined with acoustic insulation in the cavity and resilient bar or isolation clips can improve sound resistance by 10-20 dB Rw.
+
+This is essential for:
+
+- Part E compliance in HMO conversions (40 dB Rw between bedsits)
+- Separating walls between flats (45 dB Rw for new-build, 43 dB for conversions)
+- Home offices, recording studios, media rooms
+- Maidstone town centre apartments, Maidstone riverside commercial space, and Maidstone town centre student lets
+
+British Standard BS EN ISO 717 rates airborne sound insulation. For Maidstone HMO conversions under Article 4 (Houses in Multiple Occupation), Building Control will sign off only with proof of adequate acoustic performance — we provide this in the design pack.
+
+Common high-performance system: 50mm metal stud + 25mm acoustic wool + 2 layers of 15mm SoundBloc plasterboard each side, achieving 55-60 dB Rw.`;
+const description = `Yes. Acoustic plasterboard (denser than standard board) combined with acoustic insulation in the cavity and resilient bar or isolation clips can improve sound r`;
+const canonical = "/drylining-faq/can-dry-lining-improve-soundproofing/";
+
+const schema = {"@context": "https://schema.org", "@graph": [{"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can dry lining improve soundproofing?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Acoustic plasterboard (denser than standard board) combined with acoustic insulation in the cavity and resilient bar or isolation clips can improve sound resistance by 10-20 dB Rw.\n\nThis is essential for:\n\n- Part E compliance in HMO conversions (40 dB Rw between bedsits)\n- Separating walls between flats (45 dB Rw for new-build, 43 dB for conversions)\n- Home offices, recording studios, media rooms\n- Maidstone town centre apartments, Maidstone riverside commercial space, and Maidstone town centre student lets\n\nBritish Standard BS EN ISO 717 rates airborne sound insulation. For Maidstone HMO conversions under Article 4 (Houses in Multiple Occupation), Building Control will sign off only with proof of adequate acoustic performance — we provide this in the design pack.\n\nCommon high-performance system: 50mm metal stud + 25mm acoustic wool + 2 layers of 15mm SoundBloc plasterboard each side, achieving 55-60 dB Rw."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://dryliningmaidstone.co.uk/faq/"}, {"@type": "ListItem", "position": 3, "name": "Can dry lining improve soundproofing?", "item": "https://dryliningmaidstone.co.uk/drylining-faq/can-dry-lining-improve-soundproofing/"}]}]};---
+
+<Layout
+  title={question + " | Drylining Maidstone"}
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <main class="container" style="padding: 34px 0 70px;">
+    <article class="card" style="padding: 28px; max-width: 860px;">
+      <header style="margin-bottom: 22px;">
+        <p style="margin: 0 0 10px; color: var(--primary); font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 13px;">
+          Maidstone Drylining FAQ
+        </p>
+        <h1 style="margin: 0; font-size: clamp(26px, 4vw, 36px); line-height: 1.15;">{question}</h1>
+      </header>
+
+      <section style="padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 22px;">
+        <p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Yes. Acoustic plasterboard (denser than standard board) combined with acoustic insulation in the cavity and resilient bar or isolation clips can improve sound resistance by 10-20 dB Rw.</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">This is essential for:</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">- Part E compliance in HMO conversions (40 dB Rw between bedsits)
+- Separating walls between flats (45 dB Rw for new-build, 43 dB for conversions)
+- Home offices, recording studios, media rooms
+- Maidstone town centre apartments, Maidstone riverside commercial space, and Maidstone town centre student lets</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">British Standard BS EN ISO 717 rates airborne sound insulation. For Maidstone HMO conversions under Article 4 (Houses in Multiple Occupation), Building Control will sign off only with proof of adequate acoustic performance — we provide this in the design pack.</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Common high-performance system: 50mm metal stud + 25mm acoustic wool + 2 layers of 15mm SoundBloc plasterboard each side, achieving 55-60 dB Rw.</p>
+      </section>
+
+      <section style="margin: 24px 0; padding: 18px 0; border-top: 1px solid var(--border);">
+        <h3 style="font-size: 1.1rem; margin-bottom: 12px; color: var(--text);">Related Questions</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+<li><a href="/drylining-faq/what-is-metal-frame-dry-lining/" style="color: var(--primary); font-weight: 500;">What is metal frame dry lining?</a></li>
+<li><a href="/drylining-faq/is-dry-lining-suitable-for-commercial-properties/" style="color: var(--primary); font-weight: 500;">Is dry lining suitable for commercial?</a></li>
+<li><a href="/services/acoustic-drylining/" style="color: var(--primary); font-weight: 500;">Acoustic drylining service</a></li>
+        </ul>
+      </section>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px;">
+        <a href="/faq/" class="btn btn-outline">All FAQs</a>
+        <a href="/get-quote/" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </article>
+  </main>
+</Layout>

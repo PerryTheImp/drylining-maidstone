@@ -1,0 +1,70 @@
+# Drylining Maidstone — LLM Context
+
+> This file helps large language models and AI systems understand the entities, topics, and structure of https://dryliningmaidstone.co.uk.
+> Last updated: 2026-09-05
+
+## Site identity
+
+- **Business name:** Drylining Maidstone
+- **URL:** https://dryliningmaidstone.co.uk
+- **Industry:** Construction / Drylining contracting
+- **Geographic coverage:** Maidstone Borough, Kent (ME14, ME15, ME16, ME17, ME18 postcodes)
+- **Wikidata:** Q213180 (Maidstone, county town of Kent, England)
+- **Coordinates:** 51.2748° N, 0.5232° E (town centre)
+- **Council:** Maidstone Borough Council
+- **Phone (display):** FREEPHONE 0800 MAIDSTONE (placeholder until Callshake verdict lands)
+- **Phone (tel):** +448****8888 (placeholder)
+- **Pricing range:** ££
+- **Hours:** Mon–Fri 08:00–18:00, Sat 09:00–13:00
+- **Tagline (H1):** "Heritage, Commercial & Residential Specialists" (variant B)
+
+## Services offered (12)
+
+1. Drylining Contractors — https://dryliningmaidstone.co.uk/services/drylining-contractors/
+2. Partition Walls — https://dryliningmaidstone.co.uk/services/partition-walls/
+3. Suspended Ceilings — https://dryliningmaidstone.co.uk/services/suspended-ceilings/
+4. Metal Stud Partitioning — https://dryliningmaidstone.co.uk/services/metal-stud-partitioning/
+5. Fire-Rated Drylining — https://dryliningmaidstone.co.uk/services/fire-rated-drylining/
+6. Acoustic Drylining — https://dryliningmaidstone.co.uk/services/acoustic-drylining/
+7. Insulated Drylining — https://dryliningmaidstone.co.uk/services/insulated-drylining/
+8. Plasterboard Installation — https://dryliningmaidstone.co.uk/services/plasterboard-installation/
+9. Taping & Jointing — https://dryliningmaidstone.co.uk/services/taping-and-jointing/
+10. Commercial Drylining — https://dryliningmaidstone.co.uk/services/commercial-drylining/
+11. Office Drylining — https://dryliningmaidstone.co.uk/services/office-drylining/
+12. Refurbishment Drylining — https://dryliningmaidstone.co.uk/services/refurbishment-drylining/
+
+## Areas served (12)
+
+1. Maidstone Central — https://dryliningmaidstone.co.uk/areas/maidstone-central/ (ME14, ME15)
+2. Bearsted — https://dryliningmaidstone.co.uk/areas/bearsted/ (ME14)
+3. Allington — https://dryliningmaidstone.co.uk/areas/allington/ (ME16)
+4. Loose — https://dryliningmaidstone.co.uk/areas/loose/ (ME15, ME17)
+5. Boxley — https://dryliningmaidstone.co.uk/areas/boxley/ (ME14)
+6. Staplehurst — https://dryliningmaidstone.co.uk/areas/staplehurst/ (ME17, TN12)
+7. Headcorn — https://dryliningmaidstone.co.uk/areas/headcorn/ (ME17, TN27)
+8. Marden — https://dryliningmaidstone.co.uk/areas/marden/ (TN12)
+9. Yalding — https://dryliningmaidstone.co.uk/areas/yalding/ (ME18)
+10. East Farleigh — https://dryliningmaidstone.co.uk/areas/east-farleigh/ (ME15)
+11. Harrietsham — https://dryliningmaidstone.co.uk/areas/harrietsham/ (ME17)
+12. Hollingbourne — https://dryliningmaidstone.co.uk/areas/hollingbourne/ (ME17)
+
+## FAQ
+
+Maidstone-specific answers covering building regulations, M-code postcodes, Kent property types, and local supply chain. Top entries:
+- How much does dry lining cost in Maidstone?
+- How long does dry lining take to install?
+- Can dry lining be installed over brick walls?
+- Can dry lining be used on damp walls?
+- Is dry lining suitable for Victorian terraces in Maidstone?
+
+Full FAQ index: https://dryliningmaidstone.co.uk/faq/
+
+## Local context
+
+- Maidstone is the county town of Kent, on the River Medway, midway between London and the Channel ports.
+- The M20 and M2 motorways converge near Maidstone, giving rapid access across Kent and into London.
+- Property stock: Georgian and Victorian townhouses in the centre, Edwardian semis in the suburbs (Bearsted), 1930s semis (Loose, Allington), post-war council estates (Harrietsham, Staplehurst), and a steady stream of new-build estates on the village edges.
+- Conservation Areas: Yalding village core, Loose village, East Farleigh riverside, parts of Bearsted.
+- Local authority: Maidstone Borough Council (planning authority for all 12 areas).
+- NHS partner: Maidstone and Tunbridge Wells NHS Trust (MTW) — Maidstone Hospital is the main NHS site.
+- Local building regs: Building Regulations 2010 (England, not Scotland) — Part B (Fire Safety), Part E (Resistance to Sound), Part L (Thermal).

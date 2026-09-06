@@ -1,0 +1,78 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import AreasGrid from "../../components/AreasGrid.astro";
+
+const areas = [
+  { name: "Maidstone Central", slug: "maidstone-central", desc: "Full drylining services across Maidstone town centre, the High Street, riverside quarters, and all surrounding neighbourhoods (ME14, ME15)." },
+  { name: "Bearsted", slug: "bearsted", desc: "Affluent north Maidstone suburb — Victorian and Edwardian semis plus newer Bearsted Green developments (ME14)." },
+  { name: "Allington", slug: "allington", desc: "South of the Medway — drylining for the post-war estates, Allington Castle grounds, and Castle Road commercial units (ME16)." },
+  { name: "Loose", slug: "loose", desc: "South-east Maidstone village — Victorian cottages along Loose Road and 1930s semis in the Loose Valley (ME15, ME17)." },
+  { name: "Boxley", slug: "boxley", desc: "North Maidstone village on the A249 — period homes near Boxley Abbey and the modern Church Lane estates (ME14)." },
+  { name: "Staplehurst", slug: "staplehurst", desc: "Large village on the Hastings Line, 9 mi south of Maidstone — Victorian terraces and post-war council housing (ME17, TN12)." },
+  { name: "Headcorn", slug: "headcorn", desc: "8 mi SE of Maidstone — pre-war village housing plus the recent Headcorn Aerodrome residential developments (ME17, TN27)." },
+  { name: "Marden", slug: "marden", desc: "11 mi south of Maidstone — rural village with growing new-build estate and on-going barn conversions (TN12)." },
+  { name: "Yalding", slug: "yalding", desc: "Conservation Area village 7 mi SW of Maidstone — heritage cottage renovations and farm-conversion drylining (ME18)." },
+  { name: "East Farleigh", slug: "east-farleigh", desc: "3 mi SW of Maidstone, on the Medway — rural village with farm conversions and riverside period cottages (ME15)." },
+  { name: "Harrietsham", slug: "harrietsham", desc: "7 mi east along the M20 corridor — village housing plus new-build estates at Harrietsham Park (ME17)." },
+  { name: "Hollingbourne", slug: "hollingbourne", desc: "5 mi east on the North Downs — hillside village properties and the Hollingbourne Rural Park area (ME17)." },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://dryliningmaidstone.co.uk/#business",
+      "name": "Drylining Maidstone",
+      "url": "https://dryliningmaidstone.co.uk",
+      "telephone": "+448****8888",
+      "priceRange": "££",
+      "image": "https://dryliningmaidstone.co.uk/images/area-maidstone-central.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Maidstone Borough",
+        "addressLocality": "Maidstone",
+        "addressRegion": "Kent",
+        "postalCode": "ME14",
+        "addressCountry": "GB"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.2748,
+        "longitude": 0.5232
+      },
+      "areaServed": areas.map(a => ({
+        "@type": "Place",
+        "name": a.name,
+        "url": `https://dryliningmaidstone.co.uk/areas/${a.slug}/`
+      })),
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+      ]
+    }
+  ]
+};
+---
+<Layout title="Areas We Cover | Drylining Maidstone" description="Drylining contractors across Maidstone and the wider ME14-ME18 catchment — Bearsted, Allington, Loose, Boxley, Staplehurst, Headcorn, Marden, Yalding, East Farleigh, Harrietsham, Hollingbourne." canonical="/areas/" schema={schema}>
+  <section style="position:relative;min-height:480px;display:flex;align-items:center;background:linear-gradient(135deg,#0a0e1a 0%,#1a1f3a 100%);overflow:hidden;">
+    <img src="/images/area-maidstone-central.jpg" alt="Maidstone town centre skyline" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.25;">
+    <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,14,26,0.85) 0%,rgba(26,31,58,0.85) 100%);"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <nav style="font-size:0.75rem;color:rgba(255,255,255,0.6);margin-bottom:1.5rem;">
+        <a href="/" style="color:#FACC15;">HOME</a> / <span style="color:#FACC15;font-weight:600;">AREAS</span>
+      </nav>
+      <span style="display:inline-block;padding:0.375rem 1rem;background:rgba(30,64,175,0.15);border:1px solid #FACC15;color:#FACC15;font-size:0.75rem;font-weight:700;letter-spacing:0.05em;border-radius:99px;margin-bottom:1.25rem;">ME POSTCODES</span>
+      <h1 style="font-size:3.5rem;font-weight:800;color:var(--white);line-height:1.1;margin-bottom:1.25rem;">Areas We Cover in <span style="color:#FACC15;">Maidstone</span></h1>
+      <p style="font-size:1.125rem;color:rgba(255,255,255,0.85);margin-bottom:1.5rem;max-width:48rem;">Twelve areas across the Maidstone Borough — from the town centre to the rural villages south of the M20. Same-day quotes across the ME14, ME15, ME16, ME17 and ME18 postcode districts.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+        <a href="/get-quote/" class="btn btn-primary">Get My Free Quote</a>
+        <a href="/services/" class="btn btn-outline" style="color:var(--white);border-color:rgba(255,255,255,0.3);">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:3rem 1.5rem;">
+    <AreasGrid areas={areas} />
+  </section>
+</Layout>

@@ -1,0 +1,203 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Partition Walls";
+const serviceSlug = "partition-walls";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is a partition wall?","acceptedAnswer":{"@type":"Answer","text":"A partition wall is a non-load-bearing interior wall used to divide open spaces into separate rooms or areas. Partition walls are lightweight, cost-effective, and can be modified or removed in the future."}},
+    {"@type":"Question","name":"How much does partition wall installation cost?","acceptedAnswer":{"@type":"Answer","text":"Partition wall costs depend on size, materials, and any acoustic or fire-rating requirements. Single-layer partitions start from around £45-£65 per square metre. We provide free, detailed quotes for every project."}},
+    {"@type":"Question","name":"Can partition walls be soundproofed?","acceptedAnswer":{"@type":"Answer","text":"Yes. We install acoustic insulation within the partition cavity and can use double-layer plasterboard with acoustic boards to achieve excellent sound reduction for offices, bedrooms, and meeting rooms."}},
+    {"@type":"Question","name":"Are partition walls fire-rated?","acceptedAnswer":{"@type":"Answer","text":"Yes. When combined with fire-rated plasterboard, partition walls can achieve fire ratings from 30 minutes up to 120 minutes, meeting Part B building regulation requirements."}},
+    {"@type":"Question","name":"How long does it take to install a partition wall?","acceptedAnswer":{"@type":"Answer","text":"A single partition wall takes 1-2 days. Multiple partitions or complex layouts may take 3-5 days. We provide accurate timelines during your quote."}},
+    {"@type":"Question","name":"Can partition walls include doors and windows?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can integrate standard and fire-rated doors, glazing panels, and sliding doors into partition wall systems to create fully functional rooms."}},
+    {"@type":"Question","name":"What areas do you cover for partition walls?","acceptedAnswer":{"@type":"Answer","text":"We provide partition wall installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh."}}
+  ],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Partition Walls Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q175263",
+  about: { "@type": "Thing", name: "Partition wall", sameAs: ["https://www.wikidata.org/entity/Q175263", "https://en.wikipedia.org/wiki/Partition_wall"] },
+  sameAs: "https://en.wikipedia.org/wiki/Drywall",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business",
+    knowsAbout: ["https://en.wikipedia.org/wiki/Drywall", "https://en.wikipedia.org/wiki/Plaster", "https://en.wikipedia.org/wiki/Partition_wall", "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom", "https://en.wikipedia.org/wiki/Construction_worker", "https://en.wikipedia.org/wiki/General_contractor", "https://en.wikipedia.org/wiki/Cold-formed_steel", "https://en.wikipedia.org/wiki/Dropped_ceiling"],
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: [
+      "https://en.wikipedia.org/wiki/Maidstone",
+      "https://www.wikidata.org/entity/Q213180"
+    ],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  },
+};
+---
+
+<Layout title="Partition Walls Maidstone | Office & Residential Installation" description="Expert partition wall installation in Maidstone. Metal stud and timber frame partitions for offices, retail, and homes. Sound-rated options. Free quotes." canonical="/services/partition-walls/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<!-- Hero -->
+<section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-partition.jpg" alt="Partition Walls project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Partition Walls</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">OFFICE & RESIDENTIAL</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Partition Walls in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Flexible, cost-effective partition wall solutions for offices, retail units, and residential properties across Maidstone and the North West.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<!-- TL;DR -->
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Professional partition wall installation for offices, retail, and homes across Maidstone. Metal stud and timber options, sound-rated and fire-rated, with 12-month guarantee.</p>
+</div>
+
+<!-- What We Offer -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Our Partition Wall Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Partition walls are one of the fastest and most affordable ways to divide open-plan spaces into functional rooms. At <strong>Drylining Maidstone</strong>, we design and install partition walls using both timber and metal stud framing, with plasterboard finishes that look clean and professional.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Standard single-layer plasterboard partitions</li>
+  <li>Double-layer soundproof partitions</li>
+  <li>Fire-rated partitions (30–120 minutes)</li>
+  <li>Metal stud partitions for commercial fit-outs</li>
+  <li>Timber stud partitions for residential projects</li>
+  <li>Demountable and relocatable partitions</li>
+  <li>Integrated door and glazing frames</li>
+  <li>Corner bead and professional joint finishing</li>
+</ul>
+
+<!-- Why Choose Us -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Why Choose Our Partition Walls?</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Fast and cost-effective:</strong> Partition walls are significantly cheaper and faster to install than traditional brick or block walls, with minimal disruption to your property.</li>
+  <li><strong>Flexible and adaptable:</strong> Unlike permanent walls, partition walls can be modified, extended, or removed as your needs change.</li>
+  <li><strong>Sound-rated options:</strong> We install acoustic insulation and sound-rated plasterboard to create quiet, private spaces in offices and homes.</li>
+  <li><strong>Fire-rated compliance:</strong> Our fire-rated partitions meet Part B building regulations for commercial and public buildings.</li>
+  <li><strong>Professional finish:</strong> Every partition is finished with corner beads, tape, and jointing compound for a seamless surface ready for decoration.</li>
+</ul>
+
+<!-- Materials -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials & Specifications</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We use high-quality materials to ensure your partition walls are strong, compliant, and built to last.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Galvanised steel C-studs and U-tracks (50mm, 70mm, 92mm profiles)</li>
+  <li>Sawn timber studs for residential partitions</li>
+  <li>British Gypsum Gyproc plasterboard (standard, moisture-resistant, fire-rated, soundbloc)</li>
+  <li>Knauf plasterboard and jointing systems</li>
+  <li>Rockwool and Isover acoustic insulation batts</li>
+  <li>Fire-rated intumescent sealants and cavity barriers</li>
+  <li>Steel corner beads and edge trim</li>
+  <li>Joint compound and paper tape for seamless finishing</li>
+</ul>
+
+<!-- Applications -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Applications & Use Cases</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our partition wall services are suitable for a wide range of building types and project sizes across Maidstone, from Bearsted offices to Harbourside retail units, Maidstone central homes, and Allington renovations.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Office space division and room creation</li>
+  <li>Retail store fitting and back-of-house areas</li>
+  <li>Residential room division and extensions</li>
+  <li>Warehouse and industrial unit partitioning</li>
+  <li>Healthcare facility room separation</li>
+  <li>School and education building interiors</li>
+  <li>Studio and workshop space configuration</li>
+</ul>
+
+<!-- How It Works -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">How It Works</h2>
+<ol style="list-style:decimal;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Free Quote:</strong> Call or fill in our form. We will assess your space, discuss your layout needs, and provide a detailed, no-obligation quote.</li>
+  <li><strong>Detailed Plan:</strong> We confirm stud type, board specification, insulation, and any door or glazing integrations. Everything is agreed upfront.</li>
+  <li><strong>Professional Installation:</strong> Our team installs the framing, fixes plasterboard, and completes all joints and finishing to a professional standard.</li>
+  <li><strong>Quality Check & Handover:</strong> We inspect every partition for straightness and finish quality, then leave your site clean and ready for decoration.</li>
+</ol>
+
+<!-- Areas -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Partition Walls Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We provide partition wall services in the following areas:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone town centre</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone central</a>
+  <a href="/areas/bearsted/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Bearsted</a>
+  <a href="/areas/headcorn/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Headcorn</a>
+  <a href="/areas/allington/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Allington</a>
+  <a href="/areas/harrietsham/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Harrietsham</a>
+  <a href="/areas/staplehurst/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Staplehurst</a>
+  <a href="/areas/boxley/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Boxley</a>
+  <a href="/areas/marden/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Marden</a>
+  <a href="/areas/yalding/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Yalding</a>
+  <a href="/areas/east-farleigh/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">East Farleigh</a>
+</div>
+<p style="font-size:1.0625rem;margin-bottom:1.5rem;"><a href="/areas/" style="font-weight:600;">View all areas we cover →</a></p>
+
+<!-- Related Services -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Related Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Clients who book partition walls often also require:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/services/metal-stud-partitioning/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Metal Stud Partitioning</a>
+  <a href="/services/taping-and-jointing/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Taping & Jointing</a>
+  <a href="/services/plasterboard-installation/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Plasterboard Installation</a>
+  <a href="/services/office-drylining/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Office Drylining</a>
+</div>
+
+<!-- CTA -->
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Ready for a Free Partition Wall Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Call us or fill in our quick form. We will arrange a site visit and provide a detailed, no-obligation quote.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions about Partition Walls</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is a partition wall?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A partition wall is a non-load-bearing interior wall used to divide open spaces into separate rooms or areas. Partition walls are lightweight, cost-effective, and can be modified or removed in the future.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How much does partition wall installation cost?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Partition wall costs depend on size, materials, and any acoustic or fire-rating requirements. Single-layer partitions start from around £45-£65 per square metre. We provide free, detailed quotes for every project.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can partition walls be soundproofed?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We install acoustic insulation within the partition cavity and can use double-layer plasterboard with acoustic boards to achieve excellent sound reduction for offices, bedrooms, and meeting rooms.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Are partition walls fire-rated?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. When combined with fire-rated plasterboard, partition walls can achieve fire ratings from 30 minutes up to 120 minutes, meeting Part B building regulation requirements.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How long does it take to install a partition wall?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A single partition wall takes 1-2 days. Multiple partitions or complex layouts may take 3-5 days. We provide accurate timelines during your quote.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can partition walls include doors and windows?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We can integrate standard and fire-rated doors, glazing panels, and sliding doors into partition wall systems to create fully functional rooms.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What areas do you cover for partition walls?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We provide partition wall installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

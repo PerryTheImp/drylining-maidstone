@@ -1,0 +1,203 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Plasterboard Installation";
+const serviceSlug = "plasterboard-installation";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is plasterboard installation?","acceptedAnswer":{"@type":"Answer","text":"Plasterboard installation is the process of measuring, cutting, and fixing plasterboard sheets to walls and ceilings. It forms the foundation of drylining and provides a smooth surface ready for decoration."}},
+    {"@type":"Question","name":"How long does plasterboard installation take?","acceptedAnswer":{"@type":"Answer","text":"A single room takes 1-2 days. Whole-house installations typically take 3-7 days depending on the number of rooms and any complex features like ceilings or bulkheads."}},
+    {"@type":"Question","name":"What types of plasterboard do you install?","acceptedAnswer":{"@type":"Answer","text":"We install standard wallboard, moisture-resistant boards for bathrooms and kitchens, fire-rated boards for safety compliance, acoustic boards for sound insulation, and insulated plasterboard for thermal efficiency."}},
+    {"@type":"Question","name":"Do I need plastering after plasterboard installation?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. We offer taping and jointing as an alternative to wet plastering, which produces a smooth, paint-ready finish without the mess and drying time of traditional plaster."}},
+    {"@type":"Question","name":"Can plasterboard be installed on existing brick walls?","acceptedAnswer":{"@type":"Answer","text":"Yes. We use the dot and dab method or timber battens to fix plasterboard directly to brick and block walls, creating a smooth surface and improving insulation."}},
+    {"@type":"Question","name":"Is plasterboard installation messy?","acceptedAnswer":{"@type":"Answer","text":"We work cleanly and efficiently, keeping dust and debris to a minimum. Our team uses dust extraction equipment and protects floors and furnishings throughout the installation."}},
+    {"@type":"Question","name":"What areas do you cover for plasterboard installation?","acceptedAnswer":{"@type":"Answer","text":"We provide plasterboard installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh."}}
+  ],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Plasterboard Installation Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q942297",
+  about: { "@type": "Thing", name: "Plasterboard", sameAs: ["https://www.wikidata.org/entity/Q942297", "https://en.wikipedia.org/wiki/Drywall"] },
+  sameAs: "https://en.wikipedia.org/wiki/Drywall",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business",
+    knowsAbout: ["https://en.wikipedia.org/wiki/Drywall", "https://en.wikipedia.org/wiki/Plaster", "https://en.wikipedia.org/wiki/Partition_wall", "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom", "https://en.wikipedia.org/wiki/Construction_worker", "https://en.wikipedia.org/wiki/General_contractor", "https://en.wikipedia.org/wiki/Cold-formed_steel", "https://en.wikipedia.org/wiki/Dropped_ceiling"],
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: [
+      "https://en.wikipedia.org/wiki/Maidstone",
+      "https://www.wikidata.org/entity/Q213180"
+    ],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  },
+};
+---
+
+<Layout title="Plasterboard Installation Maidstone | Walls & Ceilings" description="Expert plasterboard installation in Maidstone. Precision fitting for walls and ceilings with seamless joints and professional finishing. Free quotes." canonical="/services/plasterboard-installation/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<!-- Hero -->
+<section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-plasterboard.jpg" alt="Plasterboard Installation project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Plasterboard Installation</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">INSTALLATION & FINISHING</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Plasterboard Installation in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Precision plasterboard fitting for walls and ceilings. Seamless joints, professional finishing, and minimal disruption to your project.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<!-- TL;DR -->
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Expert plasterboard installation for walls and ceilings across Maidstone. Standard, moisture-resistant, fire-rated, and acoustic options. CSCS-accredited team with 12-month guarantee.</p>
+</div>
+
+<!-- What We Offer -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Our Plasterboard Installation Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Plasterboard is the foundation of modern drylining. At <strong>Drylining Maidstone</strong>, we provide expert plasterboard installation for walls, ceilings, and custom features in residential, commercial, and industrial properties across Maidstone and the North West.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Standard wall and ceiling plasterboard installation</li>
+  <li>Moisture-resistant boards for bathrooms and kitchens</li>
+  <li>Fire-rated plasterboard (30–120 minutes)</li>
+  <li>Acoustic plasterboard for sound insulation</li>
+  <li>Tapered edge and square edge options</li>
+  <li>Insulated plasterboard for thermal efficiency</li>
+  <li>Dot and dab direct-to-brick applications</li>
+  <li>Timber and metal stud framing for board fixing</li>
+</ul>
+
+<!-- Why Choose Us -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Why Choose Our Plasterboard Installation?</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Precision cutting and fitting:</strong> Our team measures and cuts every board with accuracy, ensuring tight joints and a flawless finish around sockets, pipes, and fixtures.</li>
+  <li><strong>Minimal disruption:</strong> We work cleanly and efficiently, using dust extraction and protective measures to keep your property tidy throughout the installation.</li>
+  <li><strong>Board expertise:</strong> We help you choose the right board type for each room, from moisture-resistant bathrooms to fire-rated corridors and acoustic bedrooms.</li>
+  <li><strong>Complete service:</strong> From framing to finishing, we handle every stage including stud work, board fixing, taping, jointing, and final sanding.</li>
+  <li><strong>12-month guarantee:</strong> All our plasterboard installations are backed by a workmanship guarantee for your peace of mind.</li>
+</ul>
+
+<!-- Materials -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials & Specifications</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We use industry-leading plasterboard products to ensure durability, compliance, and a premium finish.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum Gyproc plasterboard (standard, moisture-resistant, fire-rated, soundbloc)</li>
+  <li>Knauf plasterboard and jointing systems</li>
+  <li>Metal C-studs and U-tracks (50mm, 70mm, 92mm profiles)</li>
+  <li>Gyproc drywall adhesive for dot and dab applications</li>
+  <li>Joint compound, paper tape, and scrim tape</li>
+  <li>Insulation-backed plasterboard (Celotex, Kingspan, Rockwool)</li>
+  <li>Fire-rated intumescent sealants and cavity barriers</li>
+  <li>Moisture-resistant boards for wet areas</li>
+</ul>
+
+<!-- Applications -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Applications & Use Cases</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our plasterboard installation services are suitable for a wide range of building types and project sizes.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>New build residential properties and housing estates</li>
+  <li>Home renovations, extensions, and loft conversions</li>
+  <li>Commercial office fit-outs and refurbishments</li>
+  <li>Retail shop fitting and display wall construction</li>
+  <li>School and education building upgrades</li>
+  <li>Healthcare and care home interior works</li>
+  <li>Industrial unit partitioning and warehouse linings</li>
+</ul>
+
+<!-- How It Works -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">How It Works</h2>
+<ol style="list-style:decimal;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Free Quote:</strong> Call or fill in our form. We will assess your project, recommend the best board types, and provide a detailed, no-obligation quote.</li>
+  <li><strong>Detailed Plan:</strong> We confirm board types, fixing methods, insulation requirements, and timeline. No hidden extras - everything is agreed upfront.</li>
+  <li><strong>Professional Installation:</strong> Our CSCS-registered team measures, cuts, and fixes boards with precision, working cleanly and efficiently.</li>
+  <li><strong>Quality Check & Handover:</strong> We inspect every joint and surface, ensure compliance, and leave your space ready for decoration.</li>
+</ol>
+
+<!-- Areas -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Plasterboard Installation Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We provide plasterboard installation services in the following areas:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone town centre</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone central</a>
+  <a href="/areas/bearsted/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Bearsted</a>
+  <a href="/areas/headcorn/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Headcorn</a>
+  <a href="/areas/allington/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Allington</a>
+  <a href="/areas/harrietsham/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Harrietsham</a>
+  <a href="/areas/staplehurst/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Staplehurst</a>
+  <a href="/areas/boxley/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Boxley</a>
+  <a href="/areas/marden/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Marden</a>
+  <a href="/areas/yalding/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Yalding</a>
+  <a href="/areas/east-farleigh/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">East Farleigh</a>
+</div>
+<p style="font-size:1.0625rem;margin-bottom:1.5rem;"><a href="/areas/" style="font-weight:600;">View all areas we cover →</a></p>
+
+<!-- Related Services -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Related Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Clients who book plasterboard installation often also require:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/services/taping-and-jointing/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Taping & Jointing</a>
+  <a href="/services/partition-walls/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Partition Walls</a>
+  <a href="/services/suspended-ceilings/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Suspended Ceilings</a>
+  <a href="/services/drylining-contractors/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Drylining Contractors</a>
+</div>
+
+<!-- CTA -->
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Ready for a Free Plasterboard Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Call us or fill in our quick form. We will arrange a site visit and provide a detailed, no-obligation quote.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions about Plasterboard Installation</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is plasterboard installation?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Plasterboard installation is the process of measuring, cutting, and fixing plasterboard sheets to walls and ceilings. It forms the foundation of drylining and provides a smooth surface ready for decoration.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How long does plasterboard installation take?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A single room takes 1-2 days. Whole-house installations typically take 3-7 days depending on the number of rooms and any complex features like ceilings or bulkheads.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What types of plasterboard do you install?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We install standard wallboard, moisture-resistant boards for bathrooms and kitchens, fire-rated boards for safety compliance, acoustic boards for sound insulation, and insulated plasterboard for thermal efficiency.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Do I need plastering after plasterboard installation?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Not necessarily. We offer taping and jointing as an alternative to wet plastering, which produces a smooth, paint-ready finish without the mess and drying time of traditional plaster.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can plasterboard be installed on existing brick walls?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We use the dot and dab method or timber battens to fix plasterboard directly to brick and block walls, creating a smooth surface and improving insulation.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Is plasterboard installation messy?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We work cleanly and efficiently, keeping dust and debris to a minimum. Our team uses dust extraction equipment and protects floors and furnishings throughout the installation.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What areas do you cover for plasterboard installation?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We provide plasterboard installation across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

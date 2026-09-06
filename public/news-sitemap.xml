@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="https://www.google.com/schemas/sitemap-news/0.9">
+  <!--
+    Google News sitemap for dryliningmaidstone.co.uk.
+    Populated by the Maidstone blog cron job (placeholder ID — set to actual job_id
+    after cronjob is created). Each new blog post at /blog/{slug}/ appends a <url>
+    entry here automatically.
+  -->
+</urlset>

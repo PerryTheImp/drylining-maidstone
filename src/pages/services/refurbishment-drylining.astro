@@ -1,0 +1,134 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Refurbishment Drylining";
+const serviceSlug = "refurbishment-drylining";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What does refurbishment drylining include?","acceptedAnswer":{"@type":"Answer","text":"Strip-out of old or damaged linings, replacement plasterboard to walls and ceilings, re-skim or tape-and-joint finish, and redecoration-ready surfaces. We can also coordinate associated trades (electrical, plumbing, damp-proofing, decorating) for a full refurbishment package."}},
+    {"@type":"Question","name":"Do you handle insurance work?","acceptedAnswer":{"@type":"Answer","text":"Yes. We regularly work on insurance restoration projects (escape of water, fire, impact damage). We provide full documentation, photographic evidence, itemised schedules, and direct liaison with loss adjusters."}},
+    {"@type":"Question","name":"Can you handle damp-affected plasterboard?","acceptedAnswer":{"@type":"Answer","text":"Yes, but only after the underlying damp cause has been identified and fixed (rising damp, penetrating damp, condensation, or plumbing leak). We replace the damaged plasterboard with moisture-resistant board and ensure the wall is dry before re-finishing."}},
+    {"@type":"Question","name":"How much does refurbishment drylining cost?","acceptedAnswer":{"@type":"Answer","text":"Refurbishment costs vary widely depending on scope. A single room replaster is typically £350-£800 labour + materials. A full HMO strip-out and re-fit is typically £4,000-£12,000 depending on size and specification. We provide a written itemised quote after a site survey."}}
+  ]
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Refurbishment Drylining Maidstone",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business"
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: ["https://en.wikipedia.org/wiki/Maidstone", "https://www.wikidata.org/entity/Q213180"],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  }
+};
+---
+
+<Layout title="Refurbishment Drylining Maidstone" description="Strip-out and re-plaster for renovation, damp repair, fire damage, and property upgrades across the Maidstone." canonical="/services/refurbishment-drylining/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<section style="position:relative;min-height:380px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-refurbishment.jpg" alt="Refurbishment Drylining project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Refurbishment Drylining</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">STRIP-OUT & RE-PLASTER</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Refurbishment Drylining in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Strip-out and re-plaster for renovation, damp repair, fire damage, and property upgrades across the Maidstone.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Refurbishment drylining — strip-out, replacement, and re-plaster for renovation projects. From a single room to a full property refurb, including damp and damage repair. Common across Maidstone's older housing stock and post-Grenfell remediation work.</p>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Refurbishment Services We Provide</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">At <strong>Drylining Maidstone</strong> we handle the drylining side of any refurbishment — from a single damaged room to a full strip-out and re-fit of a vacant property. We work alongside general builders, insurance restoration firms, and homeowners to remove old, damaged, or contaminated linings and install fresh, modern plasterboard systems.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Strip-out of old lath-and-plaster ceilings (common in pre-1930s Maidstone properties)</li>
+  <li>Removal of damaged plasterboard after leaks, fires, or impact</li>
+  <li>Replacement plasterboard walls and ceilings with redecoration-ready finish</li>
+  <li>Damp and condensation-affected plasterboard replacement (after damp cause fixed)</li>
+  <li>Post-flood strip-out and re-plaster (Lower Irwell flood zone properties)</li>
+  <li>Fire damage repair and re-lining to current Part B standards</li>
+  <li>HMO refurbishment (full property strip-out and re-fit for licensing)</li>
+  <li>Pre-sale cosmetic upgrades (skimming, new partitions, ceiling re-plaster)</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Refurbishment Work Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Maidstone's housing stock is mixed — Victorian terraces in Maidstone central and Bearsted, inter-war and 1950s semis in Boxley, East Farleigh, and Staplehurst, 1960s-80s post-war estates in Harrietsham, Marden, and Yalding, and modern apartments in Maidstone town centre and the riverside. Each has its own refurbishment demands, from the asbestos-risk ceiling textures in 1960s homes to the EWI-compatibility issues of post-Grenfell apartment blocks.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Pre-1930s terraces (lath-and-plaster ceilings, lime plaster, often need breathable boards)</li>
+  <li>1930s-1950s semis (plasterboard on timber stud, soundproofing upgrades common)</li>
+  <li>1960s-1980s post-war housing (textured coatings, Artex, sometimes asbestos risk)</li>
+  <li>1990s-2000s apartments (poor original sound insulation, EWI considerations)</li>
+  <li>Maidstone town centre post-Grenfell remediation (EWS1 forms, fire-rated replacements)</li>
+  <li>HMO conversion strip-outs (full clear-out and re-fit to current Part B/E standards)</li>
+  <li>Insurance work (escape of water, fire, impact damage)</li>
+  <li>Pre-purchase and pre-sale refurbishments to lift property value</li>
+</ul>
+
+<figure style="margin:2rem 0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
+  <img src="/images/workers-victorian-partition-1.jpg" alt="Drylining contractors installing a partition wall in a Victorian house in Maidstone" style="width:100%;height:auto;display:block;" />
+  <figcaption style="background:var(--accent);padding:0.875rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">Refurbishment in progress</strong> — partition wall installation in a Victorian terrace, Bearsted.</figcaption>
+</figure>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials and Specifications</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum Gyproc, Knauf, and Siniat plasterboard ranges</li>
+  <li>Moisture-resistant (MR) plasterboard for kitchens, bathrooms, and post-flood areas</li>
+  <li>Fire-line (Type F) plasterboard for separating walls in HMO work</li>
+  <li>Sound-rated plasterboard (SoundBloc) for acoustic upgrades</li>
+  <li>Insulated plasterboard (Thermal Laminate) for external wall upgrades</li>
+  <li>Metal stud and track systems for new partitions</li>
+  <li>Decorative coving and cornice work for period property restoration</li>
+  <li>Sealants, scrim tape, and jointing compounds for seamless finishes</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Coordination with Other Trades in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Refurbishment rarely involves just the drylining. We coordinate closely with electricians, plumbers, gas engineers, damp-proofing specialists, and decorators to ensure the right sequencing and a clean hand-off. For HMO and Article 4 projects, we work with Maidstone Borough Council's Private Sector Housing team to deliver a property that meets HMO licensing standards. For insurance work, we provide full photographic records, itemised schedules of work, and liaison with loss adjusters.</p>
+
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Need a Refurbishment Drylining Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Free site survey and itemised written quote. We cover all of the Maidstone.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What does refurbishment drylining include?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Strip-out of old or damaged linings, replacement plasterboard to walls and ceilings, re-skim or tape-and-joint finish, and redecoration-ready surfaces. We can also coordinate associated trades (electrical, plumbing, damp-proofing, decorating) for a full refurbishment package.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Do you handle insurance work?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We regularly work on insurance restoration projects (escape of water, fire, impact damage). We provide full documentation, photographic evidence, itemised schedules, and direct liaison with loss adjusters.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can you handle damp-affected plasterboard?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes, but only after the underlying damp cause has been identified and fixed (rising damp, penetrating damp, condensation, or plumbing leak). We replace the damaged plasterboard with moisture-resistant board and ensure the wall is dry before re-finishing.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How much does refurbishment drylining cost?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Refurbishment costs vary widely depending on scope. A single room replaster is typically £350-£800 labour + materials. A full HMO strip-out and re-fit is typically £4,000-£12,000 depending on size and specification. We provide a written itemised quote after a site survey.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

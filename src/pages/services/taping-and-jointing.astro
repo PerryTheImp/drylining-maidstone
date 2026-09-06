@@ -1,0 +1,203 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Taping and Jointing";
+const serviceSlug = "taping-and-jointing";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is taping and jointing?","acceptedAnswer":{"@type":"Answer","text":"Taping and jointing is the process of covering plasterboard joints and screw holes with jointing compound and paper tape. It creates a smooth, seamless finish ready for painting without the need for wet plastering."}},
+    {"@type":"Question","name":"How long does taping and jointing take?","acceptedAnswer":{"@type":"Answer","text":"A typical room takes 2-3 days including drying time between coats. Larger projects take proportionally longer, but the process is still faster than traditional wet plastering."}},
+    {"@type":"Question","name":"Is taping and jointing better than plastering?","acceptedAnswer":{"@type":"Answer","text":"Taping and jointing is faster, cleaner, and more cost-effective than wet plastering. It produces a smooth, crack-resistant finish that is indistinguishable from plastered walls and ready for decoration sooner."}},
+    {"@type":"Question","name":"Will the joints crack over time?","acceptedAnswer":{"@type":"Answer","text":"When done correctly, taped joints are highly resistant to cracking. We use paper tape and multiple coats of jointing compound to create a flexible, durable seam that moves with the building."}},
+    {"@type":"Question","name":"Can you tape and joint ceilings as well as walls?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide taping and jointing for both walls and ceilings, including bulkheads, bulkhead details, and complex shapes."}},
+    {"@type":"Question","name":"Do I need to sand between coats?","acceptedAnswer":{"@type":"Answer","text":"We handle all sanding between coats as part of our service. Our team uses dust extraction equipment to minimise mess and leaves your surfaces smooth and ready for painting."}},
+    {"@type":"Question","name":"What areas do you cover for taping and jointing?","acceptedAnswer":{"@type":"Answer","text":"We provide taping and jointing services across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh."}}
+  ],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Taping and Jointing Maidstone",
+  additionalType: "https://www.wikidata.org/entity/Q213825",
+  about: { "@type": "Thing", name: "Drywall", sameAs: ["https://www.wikidata.org/entity/Q213825", "https://en.wikipedia.org/wiki/Drywall"] },
+  sameAs: "https://en.wikipedia.org/wiki/Drywall",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business",
+    knowsAbout: ["https://en.wikipedia.org/wiki/Drywall", "https://en.wikipedia.org/wiki/Plaster", "https://en.wikipedia.org/wiki/Partition_wall", "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom", "https://en.wikipedia.org/wiki/Construction_worker", "https://en.wikipedia.org/wiki/General_contractor", "https://en.wikipedia.org/wiki/Cold-formed_steel", "https://en.wikipedia.org/wiki/Dropped_ceiling"],
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: [
+      "https://en.wikipedia.org/wiki/Maidstone",
+      "https://www.wikidata.org/entity/Q213180"
+    ],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  },
+};
+---
+
+<Layout title="Taping & Jointing Maidstone | Smooth, Crack-Resistant Finishes" description="Expert taping and jointing in Maidstone. Seamless plasterboard finishes without wet plastering. Ready for painting. Free quotes from professional contractors." canonical="/services/taping-and-jointing/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<!-- Hero -->
+<section style="position:relative;min-height:400px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-taping.jpg" alt="Taping & Jointing project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Taping & Jointing</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">PROFESSIONAL FINISHING</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Taping & Jointing in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Smooth, professional plasterboard finishes without the mess and drying time of traditional wet plastering. Ready for decoration in days, not weeks.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<!-- TL;DR -->
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Expert taping and jointing for walls and ceilings across Maidstone. Smooth, crack-resistant finishes ready for painting. Faster and cleaner than traditional plastering with 12-month guarantee.</p>
+</div>
+
+<!-- What We Offer -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Our Taping & Jointing Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Taping and jointing is the modern alternative to wet plastering. Instead of applying wet plaster over plasterboard joints, our skilled technicians apply jointing compound and paper tape to create an invisible, crack-resistant seam. The result is a perfectly smooth wall or ceiling that is ready for painting or wallpapering in a fraction of the time.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Inspect and prepare all board joints and screw holes</li>
+  <li>Apply jointing tape and first coat of compound</li>
+  <li>Second and third coats for seamless blending</li>
+  <li>Sanding to a smooth, paint-ready finish</li>
+  <li>Corner bead installation for crisp edges</li>
+  <li>Bulkhead and complex shape jointing</li>
+  <li>Final inspection and site cleanup</li>
+  <li>Paint-ready surface handover</li>
+</ul>
+
+<!-- Why Choose Us -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Why Choose Taping & Jointing?</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Faster than plastering:</strong> Taping and jointing is significantly faster than wet plastering, with no lengthy drying times. Rooms are ready for decoration in days, not weeks.</li>
+  <li><strong>Cleaner process:</strong> Jointing compound produces minimal dust during application and no wet plaster mess. We use dust extraction for sanding to keep your property clean.</li>
+  <li><strong>Crack-resistant finish:</strong> Properly taped joints are flexible and move with the building, preventing the cracking that can occur as wet plaster dries and shrinks.</li>
+  <li><strong>Cost-effective:</strong> Less labour and material than full plastering, making it ideal for large areas and commercial projects.</li>
+  <li><strong>Professional results:</strong> Our skilled finishers achieve a flawless surface that is indistinguishable from plastered walls and ready for painting or wallpapering.</li>
+</ul>
+
+<!-- Materials -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials & Specifications</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We use professional-grade materials to ensure a durable, crack-resistant finish on every project.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum Gyproc joint compound and finishing products</li>
+  <li>Knauf jointing systems and ready-mixed compounds</li>
+  <li>Paper jointing tape for strong, flexible seams</li>
+  <li>Scrim tape for internal corners and intersections</li>
+  <li>Metal corner beads for crisp, durable edges</li>
+  <li>Flexible corner beads for curved and bulkhead details</li>
+  <li>Dust extraction equipment for clean sanding</li>
+  <li>Protective sheeting for floors and furnishings</li>
+</ul>
+
+<!-- Applications -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Applications & Use Cases</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Our taping and jointing services are suitable for all types of drylined surfaces across Maidstone.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>New build residential properties</li>
+  <li>Home renovations, extensions, and loft conversions</li>
+  <li>Commercial office fit-outs and refurbishments</li>
+  <li>Retail shop fitting and display walls</li>
+  <li>School and education building upgrades</li>
+  <li>Healthcare and care home interior works</li>
+  <li>Industrial unit and warehouse linings</li>
+</ul>
+
+<!-- How It Works -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">How It Works</h2>
+<ol style="list-style:decimal;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li><strong>Free Quote:</strong> Call or fill in our form. We will assess your project and provide a detailed, no-obligation quote.</li>
+  <li><strong>Detailed Plan:</strong> We confirm the scope, timeline, and any specific requirements. Everything is agreed upfront with no hidden extras.</li>
+  <li><strong>Professional Application:</strong> Our skilled finishers apply tape and compound in multiple coats, sanding between each layer for a flawless result.</li>
+  <li><strong>Quality Check & Handover:</strong> We inspect every joint and corner, ensure the surface is paint-ready, and leave your site clean.</li>
+</ol>
+
+<!-- Areas -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Taping & Jointing Across Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">We provide taping and jointing services in the following areas:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone town centre</a>
+  <a href="/areas/maidstone-central/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Maidstone central</a>
+  <a href="/areas/bearsted/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Bearsted</a>
+  <a href="/areas/headcorn/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Headcorn</a>
+  <a href="/areas/allington/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Allington</a>
+  <a href="/areas/harrietsham/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Harrietsham</a>
+  <a href="/areas/staplehurst/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Staplehurst</a>
+  <a href="/areas/boxley/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Boxley</a>
+  <a href="/areas/marden/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Marden</a>
+  <a href="/areas/yalding/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Yalding</a>
+  <a href="/areas/east-farleigh/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">East Farleigh</a>
+</div>
+<p style="font-size:1.0625rem;margin-bottom:1.5rem;"><a href="/areas/" style="font-weight:600;">View all areas we cover →</a></p>
+
+<!-- Related Services -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Related Services</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Clients who book taping and jointing often also require:</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:1.5rem;">
+  <a href="/services/plasterboard-installation/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Plasterboard Installation</a>
+  <a href="/services/partition-walls/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Partition Walls</a>
+  <a href="/services/drylining-contractors/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Drylining Contractors</a>
+  <a href="/services/suspended-ceilings/" style="text-decoration:none;padding:10px 14px;background:var(--white);border-radius:6px;font-size:14px;font-weight:600;border:1px solid var(--border);color:var(--text);">Suspended Ceilings</a>
+</div>
+
+<!-- CTA -->
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Ready for a Free Taping Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Call us or fill in our quick form. We will arrange a site visit and provide a detailed, no-obligation quote.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<!-- FAQ -->
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions about Taping & Jointing</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is taping and jointing?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Taping and jointing is the process of covering plasterboard joints and screw holes with jointing compound and paper tape. It creates a smooth, seamless finish ready for painting without the need for wet plastering.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How long does taping and jointing take?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">A typical room takes 2-3 days including drying time between coats. Larger projects take proportionally longer, but the process is still faster than traditional wet plastering.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Is taping and jointing better than plastering?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Taping and jointing is faster, cleaner, and more cost-effective than wet plastering. It produces a smooth, crack-resistant finish that is indistinguishable from plastered walls and ready for decoration sooner.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Will the joints crack over time?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">When done correctly, taped joints are highly resistant to cracking. We use paper tape and multiple coats of jointing compound to create a flexible, durable seam that moves with the building.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can you tape and joint ceilings as well as walls?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. We provide taping and jointing for both walls and ceilings, including bulkheads, bulkhead details, and complex shapes.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Do I need to sand between coats?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We handle all sanding between coats as part of our service. Our team uses dust extraction equipment to minimise mess and leaves your surfaces smooth and ready for painting.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What areas do you cover for taping and jointing?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">We provide taping and jointing services across Maidstone, Maidstone town centre, the High Street, Bearsted, Headcorn, Allington, Harrietsham, Staplehurst, Boxley, Marden, Yalding, and East Farleigh.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>

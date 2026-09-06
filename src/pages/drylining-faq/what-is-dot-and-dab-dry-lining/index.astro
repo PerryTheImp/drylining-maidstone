@@ -1,0 +1,51 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const question = "What is dot-and-dab dry lining?";
+const answer = `Dot-and-dab is the most common drylining method for solid masonry walls in Maidstone. Plasterboard is fixed to the wall using dabs of drywall adhesive applied in a regular pattern, leaving a 10-25mm cavity between the board and the wall.
+
+That cavity is what makes dot-and-dab so popular in Victorian terraces in Maidstone central, Bearsted, Loose and Staplehurst: it can carry electrical cables, switch drops, plumbing pipes, and a layer of insulation, all without chasing the brickwork. It is faster, cleaner, and more thermally efficient than traditional wet plastering.
+
+Limitations: the existing wall must be sound, dry, and reasonably flat. We do not dot-and-dab onto damp walls, painted surfaces, or unstable renders without prior treatment. For severely uneven walls, independent metal stud is the more reliable approach.`;
+const description = `Dot-and-dab is the most common drylining method for solid masonry walls in Maidstone. Plasterboard is fixed to the wall using dabs of drywall adhesive applied in`;
+const canonical = "/drylining-faq/what-is-dot-and-dab-dry-lining/";
+
+const schema = {"@context": "https://schema.org", "@graph": [{"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is dot-and-dab dry lining?", "acceptedAnswer": {"@type": "Answer", "text": "Dot-and-dab is the most common drylining method for solid masonry walls in Maidstone. Plasterboard is fixed to the wall using dabs of drywall adhesive applied in a regular pattern, leaving a 10-25mm cavity between the board and the wall.\n\nThat cavity is what makes dot-and-dab so popular in Victorian terraces in Maidstone central, Bearsted, Loose and Staplehurst: it can carry electrical cables, switch drops, plumbing pipes, and a layer of insulation, all without chasing the brickwork. It is faster, cleaner, and more thermally efficient than traditional wet plastering.\n\nLimitations: the existing wall must be sound, dry, and reasonably flat. We do not dot-and-dab onto damp walls, painted surfaces, or unstable renders without prior treatment. For severely uneven walls, independent metal stud is the more reliable approach."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://dryliningmaidstone.co.uk/faq/"}, {"@type": "ListItem", "position": 3, "name": "What is dot-and-dab dry lining?", "item": "https://dryliningmaidstone.co.uk/drylining-faq/what-is-dot-and-dab-dry-lining/"}]}]};---
+
+<Layout
+  title={question + " | Drylining Maidstone"}
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <main class="container" style="padding: 34px 0 70px;">
+    <article class="card" style="padding: 28px; max-width: 860px;">
+      <header style="margin-bottom: 22px;">
+        <p style="margin: 0 0 10px; color: var(--primary); font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; font-size: 13px;">
+          Maidstone Drylining FAQ
+        </p>
+        <h1 style="margin: 0; font-size: clamp(26px, 4vw, 36px); line-height: 1.15;">{question}</h1>
+      </header>
+
+      <section style="padding: 18px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 22px;">
+        <p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Dot-and-dab is the most common drylining method for solid masonry walls in Maidstone. Plasterboard is fixed to the wall using dabs of drywall adhesive applied in a regular pattern, leaving a 10-25mm cavity between the board and the wall.</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">That cavity is what makes dot-and-dab so popular in Victorian terraces in Maidstone central, Bearsted, Loose and Staplehurst: it can carry electrical cables, switch drops, plumbing pipes, and a layer of insulation, all without chasing the brickwork. It is faster, cleaner, and more thermally efficient than traditional wet plastering.</p>
+<p style="margin: 0 0 1rem; font-size: 1.0625rem; line-height: 1.8; color: var(--text);">Limitations: the existing wall must be sound, dry, and reasonably flat. We do not dot-and-dab onto damp walls, painted surfaces, or unstable renders without prior treatment. For severely uneven walls, independent metal stud is the more reliable approach.</p>
+      </section>
+
+      <section style="margin: 24px 0; padding: 18px 0; border-top: 1px solid var(--border);">
+        <h3 style="font-size: 1.1rem; margin-bottom: 12px; color: var(--text);">Related Questions</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+<li><a href="/drylining-faq/can-dry-lining-be-installed-over-brick-walls/" style="color: var(--primary); font-weight: 500;">Can dry lining be installed over brick walls?</a></li>
+<li><a href="/drylining-faq/what-is-metal-frame-dry-lining/" style="color: var(--primary); font-weight: 500;">What is metal frame dry lining?</a></li>
+<li><a href="/drylining-faq/does-dry-lining-make-a-room-smaller/" style="color: var(--primary); font-weight: 500;">Does dry lining make a room smaller?</a></li>
+        </ul>
+      </section>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px;">
+        <a href="/faq/" class="btn btn-outline">All FAQs</a>
+        <a href="/get-quote/" class="btn btn-primary">Get a Quote</a>
+      </div>
+    </article>
+  </main>
+</Layout>

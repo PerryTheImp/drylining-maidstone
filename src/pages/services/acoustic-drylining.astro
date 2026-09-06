@@ -1,0 +1,128 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const serviceName = "Acoustic Drylining";
+const serviceSlug = "acoustic-drylining";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {"@type":"Question","name":"What is acoustic drylining?","acceptedAnswer":{"@type":"Answer","text":"Acoustic drylining uses specialist plasterboard (often denser than standard board), acoustic insulation, and resilient bar or isolation systems to reduce airborne and impact sound transmission through walls and ceilings. Typical performance is 40-65 dB Rw depending on the system."}},
+    {"@type":"Question","name":"Is Part E sound testing required?","acceptedAnswer":{"@type":"Answer","text":"Yes for new builds, conversions creating new dwellings, and material change-of-use projects. We arrange independent pre-completion sound testing (PCT) and supply all acoustic detailing to achieve the required values."}},
+    {"@type":"Question","name":"Can acoustic drylining be added to an existing wall?","acceptedAnswer":{"@type":"Answer","text":"Yes. The most common approach is an independent wall lining on the room side of the existing wall, using resilient bar, acoustic insulation, and acoustic plasterboard. This adds 50-100mm but provides substantial sound reduction (typically +10 to +20 dB Rw)."}},
+    {"@type":"Question","name":"How much does acoustic drylining cost?","acceptedAnswer":{"@type":"Answer","text":"Acoustic drylining typically costs £40-£80 per square metre depending on the required performance, board layers, and isolation system used. We provide a written itemised quote after a site survey."}}
+  ]
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Acoustic Drylining Maidstone",
+  provider: {
+    "@type": "Organization",
+    name: "Drylining Maidstone",
+    "@id": "https://dryliningmaidstone.co.uk/#business"
+  },
+  areaServed: {
+    "@type": "Place",
+    name: "Maidstone and surrounding areas",
+    sameAs: ["https://en.wikipedia.org/wiki/Maidstone", "https://www.wikidata.org/entity/Q213180"],
+    geo: { "@type": "GeoCoordinates", "latitude": 51.2748, "longitude": 0.5232 }
+  }
+};
+---
+
+<Layout title="Acoustic Drylining Maidstone" description="Soundproofing systems for homes, flats, offices, and HMOs across the Maidstone. Approved Document E compliant." canonical="/services/acoustic-drylining/">
+
+<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(serviceJsonLd)} />
+
+<section style="position:relative;min-height:380px;display:flex;align-items:center;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);overflow:hidden;border-radius:0 0 14px 14px;">
+  <img src="/images/service-acoustic.jpg" alt="Acoustic Drylining project in Maidstone" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.30;">
+  <div class="container" style="position:relative;z-index:1;text-align:center;padding:60px 20px;">
+    <nav style="font-size:13px;color:rgba(255,255,255,0.70);margin-bottom:12px;">
+      <a href="/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Home</a> / <a href="/services/" style="text-decoration:none;color:rgba(255,255,255,0.70);">Services</a> / <span style="color:#ffffff;">Acoustic Drylining</span>
+    </nav>
+    <div style="display:inline-block;background:rgba(30,64,175,0.25);color:#ffffff;padding:0.4rem 1rem;border-radius:9999px;font-size:0.8125rem;font-weight:600;margin-bottom:1.25rem;border:1px solid rgba(250,204,21,0.4);letter-spacing:0.05em;">PART E COMPLIANT SOUNDPROOFING</div><h1 style="font-size:clamp(2.25rem,5vw,3.75rem);font-weight:800;color:#ffffff;margin-bottom:1rem;line-height:1.05;letter-spacing:-0.02em;">Acoustic Drylining in <span style="color:#FACC15;">Maidstone</span></h1>
+    <p style="font-size:17px;color:rgba(255,255,255,0.85);max-width:700px;margin:0 auto;line-height:1.6;">Soundproofing systems for homes, flats, offices, and HMOs across the Maidstone. Approved Document E compliant.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container" style="max-width:900px;">
+
+<div style="padding:24px;margin-bottom:24px;border-left:4px solid var(--primary);background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+  <p style="margin:0;font-size:15px;color:var(--text);"><strong>TL;DR:</strong> Acoustic plasterboard and insulation systems for sound resistance between homes, flats, offices, and schools. Part E compliant. Ideal for Maidstone town centre apartment upgrades, Maidstone town centre student lets, and HMO conversions in the ME14/ME15/ME16 corridor.</p>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Acoustic Systems We Install</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">At <strong>Drylining Maidstone</strong> we design and install acoustic drylining systems that achieve the sound resistance values required by Approved Document E of the Building Regulations. We use British Gypsum, Knauf, and Rockwool products, with independent pre-completion sound testing (PCT) where required for Building Control sign-off.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Acoustic plasterboard partitions (12.5mm+12.5mm on 70mm metal stud, Rw 40-45 dB)</li>
+  <li>High-performance acoustic walls (multiple layers + acoustic insulation, Rw 55-65 dB)</li>
+  <li>Acoustic ceiling systems for impact and airborne sound</li>
+  <li>Acoustic floor overlays for conversions and refurbishments</li>
+  <li>Independent wall linings on existing masonry (resilient bar or isolation clips)</li>
+  <li>Acoustic insulation (mineral wool, glass wool, or specialist acoustic batts)</li>
+  <li>Acoustic sealants at perimeters, around sockets, and at penetrations</li>
+  <li>Resilient bar and acoustic hanger systems for ceilings</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Where Acoustic Drylining Helps in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">Maidstone has a wide mix of property types where acoustic drylining solves real noise problems — from the Victorian terraces of Maidstone central, Bearsted, and Loose to the 1960s-1980s post-war housing of Harrietsham, Marden, and Yalding, and the new-build apartments of Maidstone town centre and Chapel Street.</p>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>Maidstone town centre apartment upgrades (most built pre-2003 with poor Part E performance)</li>
+  <li>Student lets in the ME14/ME15/ME16 corridor (HMO Article 4 areas)</li>
+  <li>HMO conversions requiring Part E compliance between bedrooms</li>
+  <li>Maidstone central, Bearsted, and Loose Victorian terrace upgrades (party wall sound reduction)</li>
+  <li>Harrietsham, Allington, and Headcorn new-build homes (separation from garages, plant rooms)</li>
+  <li>Maidstone city centre flats and conversions (Boutique, Vimto Gardens, Middlewood Locks-adjacent)</li>
+  <li>Office and co-working fit-outs in Maidstone riverside, Spinningfields fringe, and the Quays</li>
+  <li>Schools, nurseries, healthcare, and care home settings</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Materials and Specifications</h2>
+<ul style="list-style:disc;padding-left:1.5rem;color:var(--text);line-height:1.8;font-size:1.0625rem;margin-bottom:1.5rem;">
+  <li>British Gypsum SoundBloc, Knauf Sound Panel, and specialist acoustic boards</li>
+  <li>Acoustic mineral wool insulation (Rockwool RWA45, 50mm or 100mm)</li>
+  <li>Resilient bar systems (British Gypsum Gypframe RB1 or equivalent)</li>
+  <li>Acoustic isolation clips and hangers for ceilings</li>
+  <li>Acoustic sealants (e.g. Fire & Acoustic Rated Intumescent Sealant)</li>
+  <li>Acoustic socket putty pads for penetrations in partitions</li>
+  <li>Mineral fibre acoustic ceiling tiles for office and commercial</li>
+</ul>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Approved Document E Compliance in Maidstone</h2>
+<p style="font-size:1.0625rem;color:var(--text);line-height:1.8;margin-bottom:1.5rem;">For new builds, conversions creating new dwellings, and material change-of-use projects, Part E sound testing is mandatory before completion. We coordinate PCT with an independent tester, supply and install the separating structure, and remedy any failures (rare with our detailing) to ensure sign-off. For existing dwellings, we design to achieve target STC/IIC values even where formal testing is not required — particularly important for Maidstone town centre apartment owners suffering neighbour noise.</p>
+
+<div style="padding:32px;text-align:center;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:var(--radius);color:white;margin-top:2.5rem;">
+  <h2 style="margin-bottom:12px;color:white;font-size:28px;">Need a Acoustic Drylining Quote?</h2>
+  <p style="margin-bottom:20px;opacity:0.9;font-size:16px;">Free site survey and itemised written quote. We cover all of the Maidstone.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+    <a href="/get-quote/" class="btn btn-primary" style="background:white;color:var(--primary);font-size:16px;padding:14px 28px;">Get a Free Quote</a>
+    <a href="tel:+448****8888" class="btn btn-secondary" style="background:transparent;border:2px solid white;color:white;font-size:16px;padding:14px 28px;">FREEPHONE 0800 MAIDSTONE</a>
+  </div>
+</div>
+
+<h2 style="font-size:1.75rem;font-weight:700;color:var(--secondary);margin:2.5rem 0 1rem;">Frequently Asked Questions</h2>
+<div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">What is acoustic drylining?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Acoustic drylining uses specialist plasterboard (often denser than standard board), acoustic insulation, and resilient bar or isolation systems to reduce airborne and impact sound transmission through walls and ceilings. Typical performance is 40-65 dB Rw depending on the system.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Is Part E sound testing required?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes for new builds, conversions creating new dwellings, and material change-of-use projects. We arrange independent pre-completion sound testing (PCT) and supply all acoustic detailing to achieve the required values.</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">Can acoustic drylining be added to an existing wall?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Yes. The most common approach is an independent wall lining on the room side of the existing wall, using resilient bar, acoustic insulation, and acoustic plasterboard. This adds 50-100mm but provides substantial sound reduction (typically +10 to +20 dB Rw).</p>
+  </div>
+  <div style="padding:20px;margin-bottom:12px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);">
+    <h3 style="font-size:16px;margin-bottom:8px;color:var(--primary);">How much does acoustic drylining cost?</h3>
+    <p style="font-size:14px;color:var(--text-light);margin:0;">Acoustic drylining typically costs £40-£80 per square metre depending on the required performance, board layers, and isolation system used. We provide a written itemised quote after a site survey.</p>
+  </div>
+</div>
+
+</div></section>
+</Layout>
