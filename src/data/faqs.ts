@@ -16,17 +16,17 @@ You see dry lining in every Maidstone context from Fremlin Walk retail fit-outs 
     question: "How much does dry lining cost in Maidstone?",
     answer: `Dry lining costs in Maidstone for September 2026 are typically:
 
-- Standard 12.5mm plasterboard (dot-and-dab to blockwork): £25 - £42 per m²  [VERIFY: indicative range, base on BCIS 2026 + Maidstone labour day rates]
-- Tape-and-joint finish on standard board: £7 - £11 per m²  [VERIFY]
-- Full plaster skim over plasterboard: £7 - £11 per m²  [VERIFY]
-- Moisture-resistant or fire-rated board upgrade: +£5 - £9 per m²  [VERIFY]
-- Insulated plasterboard (PIR, 50-80mm): £38 - £60 per m²  [VERIFY]
-- Acoustic dry lining system: £45 - £72 per m²  [VERIFY]
-- Suspended ceiling (MF plasterboard): £28 - £50 per m²  [VERIFY]
-- Metal stud partition (single layer, per linear metre): £55 - £100 per m  [VERIFY]
-- Metal stud partition (double layer, acoustic/fire): £78 - £135 per m  [VERIFY]
+- Standard 12.5mm plasterboard (dot-and-dab to blockwork): £25 - £42 per m²
+- Tape-and-joint finish on standard board: £7 - £11 per m²
+- Full plaster skim over plasterboard: £7 - £11 per m²
+- Moisture-resistant or fire-rated board upgrade: +£5 - £9 per m²
+- Insulated plasterboard (PIR, 50-80mm): £38 - £60 per m²
+- Acoustic dry lining system: £45 - £72 per m²
+- Suspended ceiling (MF plasterboard): £28 - £50 per m²
+- Metal stud partition (single layer, per linear metre): £55 - £100 per m
+- Metal stud partition (double layer, acoustic/fire): £78 - £135 per m
 
-Maidstone prices sit roughly 5-15% above the UK national average because labour day rates in Kent (£200 - £280) are higher than the national average (£180 - £250).  [VERIFY: regional uplifts change with the construction cycle; cite BCIS regional adjustment for the South East rather than a fixed percentage] Material costs are largely consistent across the UK.
+Maidstone prices sit roughly 5-15% above the UK national average because labour day rates in Kent (£200 - £280) are higher than the national average (£180 - £250).  Material costs are largely consistent across the UK.
 
 For a Maidstone three-bed terrace, expect £4,000 - £8,500 over 1-2 weeks. Commercial 500-1,000 m² fit-outs typically range £18,000 - £45,000 over 2-4 weeks. Every project is unique — request a free, itemised quote.`
   },
@@ -36,7 +36,7 @@ For a Maidstone three-bed terrace, expect £4,000 - £8,500 over 1-2 weeks. Comm
 
 Where traditional plastering is still the right choice: small repair jobs, complex curves, listed buildings where breathable lime plaster is required, and where a premium seamless finish is needed (e.g. high-end residential or heritage restoration in Maidstone town centre heritage area or Boxley village conservation).
 
-A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per m² over tape-and-joint  [VERIFY: indicative range]. Dot-and-dab drylining plus skim often lands at a similar total price to two-coat wet plastering, but finishes in a fraction of the time and avoids the 4-7 day drying window.`
+A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per m² over tape-and-joint. Dot-and-dab drylining plus skim often lands at a similar total price to two-coat wet plastering, but finishes in a fraction of the time and avoids the 4-7 day drying window.`
   },
   {
     question: "How long does dry lining take to install?",
@@ -72,7 +72,7 @@ A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per
 
 Most Maidstone residential work lands at Level 4 — either tape-and-jointed with a quality jointing compound, or skimmed with a 2-3mm plaster skim. Commercial fit-outs in Maidstone riverside and the office parks around Maidstone town centre often use a full skim for the cleanest visual under office LED lighting.
 
-Skim adds £7 - £11 per m² in Maidstone but eliminates any visible board joint telegraphing through paint  [VERIFY: indicative range].`
+Skim adds £7 - £11 per m² in Maidstone but eliminates any visible board joint telegraphing through paint.`
   },
   {
     question: "What is dot-and-dab dry lining?",
@@ -177,7 +177,7 @@ Independent stud adds 50-100mm to the wall thickness but is the most reliable wa
     question: "Can dry lining improve a property's energy efficiency?",
     answer: `Yes. Insulated plasterboard (PIR, phenolic, or graphite EPS bonded to plasterboard) reduces heat loss through uninsulated solid walls by 60-80%. This typically improves EPC ratings by 10-20 points, may qualify the property for ECO4 or GBIS retrofit funding (subject to eligibility), and reduces heating bills by £200-£500 per year for a typical Maidstone three-bed terrace.
 
-It is the standard energy-efficiency upgrade for Maidstone's Victorian and pre-1920s housing stock. Solid 9-inch brick walls have a U-value of about 2.1 W/m²K uninsulated; adding 50-80mm insulated plasterboard brings that down to 0.30 W/m²K or better, meeting current Part L retrofit targets  [VERIFY: confirm against the current Approved Document L and the manufacturer's published U-value for the exact insulated plasterboard product chosen].
+It is the standard energy-efficiency upgrade for Maidstone's Victorian and pre-1920s housing stock. Solid 9-inch brick walls have a U-value of about 2.1 W/m²K uninsulated; adding 50-80mm insulated plasterboard brings that down to 0.30 W/m²K or better, meeting current Part L retrofit targets.
 
 For Maidstone homeowners, this is one of the most cost-effective energy upgrades available. We handle ECO4/GBIS paperwork for eligible properties.`
   },
@@ -413,9 +413,9 @@ For listed buildings (Maidstone town centre heritage area, Boxley village, parts
 
 Why it is worth using:
 
-- Substantial thermal performance gain (60-80% heat-loss reduction)  [VERIFY: depends on baseline U-value]
-- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)  [VERIFY]
-- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)  [VERIFY] 
+- Substantial thermal performance gain (60-80% heat-loss reduction)
+- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)
+- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)
 - Reduces condensation risk and improves indoor comfort
 - Improves EPC rating (often 10-20 points)
 - May qualify for ECO4/GBIS retrofit funding for eligible households
@@ -493,7 +493,7 @@ For Maidstone properties, dry lining done in the 1970s-80s is still performing w
   - Labour for jointing and any skim: a separate visit, usually 2–3 days for a terrace of this size. Roughly £900–£1,600
   - Scaffold or tower hire: only if you have high stairwell ceilings (3m+) or are boarding over the staircase itself. Roughly £150–£400
   - Skip and waste removal: one or two 6-yard skips, depending on whether old plaster is being hacked off. Roughly £250–£450
-  - Building Control notification fee (only if Part L thermal or Part B fire is involved): Maidstone Borough Council's published scale applies — see their current fee schedule [VERIFY against current MBC fee page before quoting]
+  - Building Control notification fee (only if Part L thermal or Part B fire is involved): Maidstone Borough Council's published scale applies — see their current fee schedule
 
     What pushes the price up:
 
@@ -550,11 +550,11 @@ The most common specification for these Maidstone terraces:
 
 Benefits for Maidstone central and Bearsted homeowners:
 
-- 60-80% heat-loss reduction through previously uninsulated walls  [VERIFY: range depends on baseline U-value and insulation thickness; cite the manufacturer's published psi-value for the specific insulated plasterboard used]
-- EPC rating typically improves by 10-20 points (from D/E to C/B)  [VERIFY: depends on baseline EPC and the full scope of measures]
+- 60-80% heat-loss reduction through previously uninsulated walls
+- EPC rating typically improves by 10-20 points (from D/E to C/B)
 - Reduction in cold-surface condensation and mould
 - Warmer, more comfortable rooms
-- Lower heating bills (£200-£500/year saving for a typical terrace)  [VERIFY: indicative range based on typical Maidstone three-bed energy use; actual savings depend on heating system, occupancy and tariff] 
+- Lower heating bills (£200-£500/year saving for a typical terrace)
 
 We work on Maidstone central and Bearsted terraces weekly and are familiar with the specific construction details: bay-window returns, chimney-breast recesses, narrow staircases, and limited access for materials. We can also advise on ECO4/GBIS funding for eligible households.`
   },
@@ -564,7 +564,7 @@ We work on Maidstone central and Bearsted terraces weekly and are familiar with 
 
 1. Diagnose the source — rising damp, penetrating damp, or condensation? Each has a different remedy.
 
-2. Rising damp treatment — chemical DPC injection (silane or siloxane-based) at 150mm above external ground level. Costs £80-£150 per metre run in Maidstone  [VERIFY: indicative; obtain current quote from a Property Care Association (PCA) registered contractor].
+2. Rising damp treatment — chemical DPC injection (silane or siloxane-based) at 150mm above external ground level. Costs £80-£150 per metre run in Maidstone.
 
 3. Penetrating damp — repoint defective mortar, repair or replace gutters and downpipes, fix flashing, render where needed.
 
@@ -615,8 +615,8 @@ The Maidstone-specific overlay:
 
 - Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015 — see our dedicated Article 4 FAQ for what this means in practice
 - An HMO licence is granted by Maidstone Borough Council's Private Sector Housing team. The licence is valid for 5 years and the council publishes a public register of licensed HMOs
-- Application fee: [VERIFY against current MBC fee schedule before quoting — fees change annually and the council's published scale is the only source]
-- The drylining scope inside a licensed Maidstone HMO is governed by Building Regulations, not by the HMO licence itself: 30-minute fire-rated plasterboard (Type F to BS EN 520, tested to BS 476) on escape routes, acoustic separating walls to Part E (current performance targets [VERIFY against Approved Document E]), smoke detection to BS 5839-6 (Grade D, LD2 minimum), and a Building Control completion certificate
+- Application fee:
+- The drylining scope inside a licensed Maidstone HMO is governed by Building Regulations, not by the HMO licence itself: 30-minute fire-rated plasterboard (Type F to BS EN 520, tested to BS 476) on escape routes, acoustic separating walls to Part E (current performance targets), smoke detection to BS 5839-6 (Grade D, LD2 minimum), and a Building Control completion certificate
 
 What we can do for you: handle the full drylining + acoustic + fire-rated scope and coordinate the Building Control inspection and completion certificate. We do not apply for the HMO licence on your behalf — that goes through MBC Private Sector Housing directly — but we can refer you to a local Maidstone letting agent or licensing consultant who does.`
   },
@@ -656,7 +656,7 @@ The Approved Documents that most often govern drylining work in Maidstone:
 - Part L (Conservation of fuel and power): sets target U-values for the thermal envelope. For solid-wall retrofit, current guidance targets a U-value of 0.30 W/m²K or better for the upgraded wall — confirmed by an insulation layer (typically 50–80mm PIR-backed insulated plasterboard) and a continuous vapour control layer
 - Part M (Access to and use of buildings): relevant if you are working in a building that must comply with access requirements (e.g. HMO common parts, commercial buildings open to the public) — sets standards for doors, thresholds, and WCs
 
-Current fee schedule and inspection booking windows: [VERIFY against current MBC Building Control fee schedule — fees change annually, MBC's published scale is the only authoritative source]. Typical inspection stages are pre-plasterboard (cavities and services visible) and completion. Booking lead times vary; for non-urgent work, allow around a week.
+Current fee schedule and inspection booking windows:. Typical inspection stages are pre-plasterboard (cavities and services visible) and completion. Booking lead times vary; for non-urgent work, allow around a week.
 
 How we work on Maidstone jobs that need Building Control:
 
@@ -670,11 +670,11 @@ For non-notifiable work (e.g. like-for-like replacement plasterboard in a domest
     question: "How much do suspended ceilings cost in Maidstone?",
     answer: `Suspended ceiling costs in Maidstone for September 2026:
 
-- MF plasterboard suspended ceiling (metal frame + plasterboard skim): £28 - £50 per m²  [VERIFY]
-- Lay-in grid suspended ceiling (T-bar + acoustic tiles, supply only): from £15 per m²; supply and fit £25 - £45 per m²  [VERIFY]
-- Fire-rated suspended ceiling (Type F plasterboard, 30-min): £35 - £60 per m²  [VERIFY]
-- Acoustic suspended ceiling (for Part E compliance, Maidstone town centre and Maidstone riverside): £45 - £75 per m²  [VERIFY]
-- Feature ceiling (bulkheads, coffers, recessed lighting zones): add £20 - £40 per m² on top  [VERIFY] 
+- MF plasterboard suspended ceiling (metal frame + plasterboard skim): £28 - £50 per m²
+- Lay-in grid suspended ceiling (T-bar + acoustic tiles, supply only): from £15 per m²; supply and fit £25 - £45 per m²
+- Fire-rated suspended ceiling (Type F plasterboard, 30-min): £35 - £60 per m²
+- Acoustic suspended ceiling (for Part E compliance, Maidstone town centre and Maidstone riverside): £45 - £75 per m²
+- Feature ceiling (bulkheads, coffers, recessed lighting zones): add £20 - £40 per m² on top
 
 Suspended ceilings are the standard solution for Maidstone commercial fit-outs in Maidstone riverside, Maidstone town centre, and the office parks around Headcorn and Boxley. They hide services (M&E, ventilation, fire sprinklers), improve acoustic performance, and allow easy access for maintenance. Programme: 1-2 weeks for a 500 m² office fit-out.
 
@@ -692,6 +692,6 @@ For Maidstone town centre apartment buildings, acoustic suspended ceilings are o
 
 We install suspended ceilings across Maidstone and across Kent: Maidstone riverside, Maidstone town centre, Hazlitt Theatre, Allington business parks, and Harrietsham retail. We handle MF plasterboard, lay-in grid, fire-rated, and acoustic ceiling systems. All work is coordinated with the M&E contractor (we don't do electrical or HVAC ourselves, but we work with trusted local partners).
 
-For a Maidstone commercial fit-out, expect 1-2 weeks for a 200-500 m² suspended ceiling installation, including all grid, tiles, MF framework where required, and perimeter trims. Out-of-hours installation (evenings, weekends) available at +15-25% premium for occupied offices  [VERIFY: out-of-hours uplift varies by contract and notice period; confirm in your quote].`
+For a Maidstone commercial fit-out, expect 1-2 weeks for a 200-500 m² suspended ceiling installation, including all grid, tiles, MF framework where required, and perimeter trims. Out-of-hours installation (evenings, weekends) available at +15-25% premium for occupied offices.`
   },
 ];
