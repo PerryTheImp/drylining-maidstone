@@ -6,11 +6,11 @@ export interface FaqItem {
 export const faqs: FaqItem[] = [
   {
     question: "What is dry lining and how does it work?",
-    answer: `Dry lining is a method of finishing internal walls and ceilings with pre-formed plasterboard sheets rather than applying several coats of wet plaster to the masonry. Plasterboard is fixed either directly to brick or blockwork with dabs of drywall adhesive (the dot-and-dab method), or screwed to a timber or metal stud frame that is itself independent of the wall. Joints and screw heads are sealed with scrim tape and jointing compound, producing a flat surface that can be decorated directly or finished with a thin plaster skim.
+    answer: `Dry lining is the modern way to finish a wall: instead of laying on wet coats of plaster that take days to dry, we fix factory-made plasterboard sheets and finish the joints. Two main fixing methods: bond the boards straight to the masonry with adhesive dabs ("dot and dab"), or build a separate metal or timber stud frame in front of the wall and screw the boards to it.
 
-In Maidstone, dry lining is the standard approach for new-build apartments at Maidstone town centre, commercial fit-outs in Maidstone riverside, the Victorian terraces in Maidstone central, Bearsted and Loose, and post-war semis in Boxley, East Farleigh, Harrietsham, Allington and Headcorn. The service cavity behind the board is used to run electrical cables, plumbing, ventilation, and insulation.
+The clever bit is the cavity. In a dot-and-dab wall it is the 10–25mm gap between board and brickwork; in a stud wall it is the full depth of the frame. That gap carries electrics, plumbing, ventilation ductwork, acoustic insulation, and — increasingly important for Maidstone's Victorian terraces — rigid thermal insulation. One operation, three jobs: level surface, hidden services, warmer wall.
 
-British Standard BS 8212 governs drylining and partitioning in the UK, and plasterboard itself is manufactured to BS EN 520. We install to these standards on every Maidstone project.`
+You see dry lining in every Maidstone context from Fremlin Walk retail fit-outs and new apartments at the riverside Lockmeadow, through commercial offices on the A229 ring road, to whole-house re-lines in Bearsted, Loose, and the older streets off the High Street. The two governing standards are BS 8212 (drylining and partitioning workmanship) and BS EN 520 (plasterboard manufacture — the Type A/H/F/D/I letter code on every board tells you its classification). Every Maidstone job we sign off is logged with the board manufacturer reference and the fix method so the warranty trail is clean.`
   },
   {
     question: "How much does dry lining cost in Maidstone?",
@@ -40,18 +40,24 @@ A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per
   },
   {
     question: "How long does dry lining take to install?",
-    answer: `Typical Maidstone installation times for September 2026:
+    answer: `Programme depends more on the building than the system. As a rough Maidstone guide:
 
-- Single room (walls + ceiling, ~12-20 m²): 2-3 days install + 1-2 days jointing/skim
-- Three-bed terrace (whole house, ~80-120 m² wall area): 5-8 working days
-- Maidstone town centre apartment (full re-line, 60-80 m²): 4-6 days
-- Commercial office fit-out (200 m²): 1-2 weeks
-- Large commercial (500-1,000 m²): 2-4 weeks
-- HMO conversion (4-6 bed): 1-2 weeks
+  - Single room (walls + ceiling, roughly 15–20 m² of surface): 2–3 days on site, plus 1–2 days for jointing and a further day if you want a plaster skim. The single biggest delay is other trades — if the electrician hasn't finished first-fix, we are waiting
+  - Maidstone three-bed Victorian terrace, full re-line including ceilings (typically 80–120 m² of wall, 60–80 m² of ceiling): 5–8 working days for two operatives, plus 2–3 days for jointing and skim. Add a day if the ceilings are direct-fix to old lath that needs sistering
+  - Maidstone town centre apartment full re-line (60–80 m²): 4–6 working days. Tower-block lift bookings often cap us to half-day delivery slots, which is the usual source of slippage on these jobs
+  - Commercial office fit-out, 200 m² floor plate: 1–2 weeks with a three-person team running partitions and ceilings in parallel
+  - Larger commercial (500–1,000 m²): 2–4 weeks depending on the number of meeting rooms, glazed partitions, and acoustic upgrades
+  - HMO conversion (4–6 bedsits): 1–2 weeks for the drylining, with fire-rated partitions and acoustic separating walls adding roughly 20% to the programme versus a standard partition layout
 
-Programme depends on access (lift availability in Maidstone town centre tower blocks can be a constraint), plasterboard delivery (next-day from Travis Perkins or CCF Maidstone), and any required electrical/plumbing first-fix.
+    What lengthens the programme in practice:
 
-We provide a written programme with every quote.`
+  - Lift access and delivery slot restrictions in Maidstone town centre blocks
+  - Out-of-hours working required for occupied commercial space (slower per hour, no weekend uplift)
+  - Coordination with other trades — first-fix electrics and plumbing must be done before we board
+  - Late specification changes mid-job — every wall revision resets our cut list
+  - Drying time on a wet skim (1–2 days before decoration, longer in winter in an unheated Maidstone property)
+
+    We provide a written programme with every quote, including the dependencies we expect you to manage (electrician, plumber, decorator) and any inspections we book with Maidstone Building Control.`
   },
   {
     question: "Do drylined walls need to be skimmed?",
@@ -70,44 +76,66 @@ Skim adds £7 - £11 per m² in Maidstone but eliminates any visible board joint
   },
   {
     question: "What is dot-and-dab dry lining?",
-    answer: `Dot-and-dab is the most common drylining method for solid masonry walls in Maidstone. Plasterboard is fixed to the wall using dabs of drywall adhesive applied in a regular pattern, leaving a 10-25mm cavity between the board and the wall.
+    answer: `Dot-and-dab is the standard way to stick plasterboard straight onto a masonry wall. The operative throws a regular grid of adhesive dabs (about 50mm wide, 10–25mm thick) onto the brickwork or blockwork, then presses the plasterboard sheet onto the dabs and checks it with a straight edge. The dabs cure, the board sets, and you have a flat, serviceable wall in a fraction of the time of wet plastering.
 
-That cavity is what makes dot-and-dab so popular in Victorian terraces in Maidstone central, Bearsted, Loose and Staplehurst: it can carry electrical cables, switch drops, plumbing pipes, and a layer of insulation, all without chasing the brickwork. It is faster, cleaner, and more thermally efficient than traditional wet plastering.
+The practical advantages for Maidstone work:
 
-Limitations: the existing wall must be sound, dry, and reasonably flat. We do not dot-and-dab onto damp walls, painted surfaces, or unstable renders without prior treatment. For severely uneven walls, independent metal stud is the more reliable approach.`
+- The 10–25mm gap behind the board runs cables, switch drops, and small-bore pipework without you having to chase the brickwork — important in the lime-mortar walls of older Bearsted and Loose terraces where chasing weakens the substrate
+- A dab pattern lets the wall "breathe" more than a continuous plaster skin, which matters where residual damp is being monitored (Boxley village, parts of East Farleigh)
+- It is fast: a two-person team can line out a Maidstone three-bed front room in a day
+
+The honest limitations: the wall must be sound, dry, reasonably flat, and free of bitumen, gloss paint, or unstable render. We never dot-and-dab over a damp wall, a painted wall, or a wall with active salt contamination — the dab bond fails and the board bellies out within months. For those situations we fall back to independent metal stud with a clean cavity.`
   },
   {
     question: "What is metal frame dry lining?",
-    answer: `Metal frame dry lining uses galvanised steel stud and track systems (commonly British Gypsum Gypframe or Knauf) instead of timber framing. It is non-combustible, dimensionally stable, lighter than timber, and produces straighter walls.
+    answer: `Metal frame dry lining replaces timber studs with galvanised steel sections — typically British Gypsum Gypframe or Knauf profiles. Track is fixed to floor and ceiling, studs clip into the track at 600mm centres, and boards are screwed to the studs. The result is a partition that is dimensionally stable, won't twist or shrink, is non-combustible (so it helps meet Part B in escape routes), and produces a truer wall than timber because every member is factory-rolled to the same gauge.
 
-Metal stud is the standard for commercial partitions in Maidstone — office fit-outs in Maidstone riverside, retail units in the Lockmeadow, healthcare and education projects, and any fire-rated or acoustic partition. It is also the default choice where Part B (Fire Safety) requires non-combustible construction, or where Part E (Resistance to Sound) requires independent stud framing to decouple the plasterboard from the structure.
+Where we use it in Maidstone:
 
-For residential Maidstone work, both timber and metal stud are suitable depending on specification. Metal stud costs more than timber in material but saves labour time and gives a better acoustic result.`
+- Commercial fit-outs at Maidstone riverside, Lockmeadow, Fremlin Walk retail, the A229 corridor offices, and the Allington/Boxley business parks — metal stud is the default for any partition over 3m long
+- Healthcare and education projects (Maidstone Hospital MTW NHS Trust sites, local schools): the non-combustible construction and the clean services cavity are mandatory
+- HMO separating walls: independent metal stud decoupled from the existing structure is the standard way to hit 40 dB Rw between bedsits without ripping out the original fabric
+- Acoustic upgrades in Maidstone town centre flats where the original 2000s-vintage partition underperforms — adding a metal stud skin in front of the existing wall is often cheaper than replacing it
+
+For most domestic work — a new bedroom wall in an Allington semi, a wardrobe stud in a Bearsted bungalow — timber is still fine and a touch cheaper. The crossover point is usually around partition length, acoustic requirement, or fire rating rather than pure cost.`
   },
   {
     question: "How thick is a drylined wall?",
-    answer: `Thickness depends on the system:
+    answer: `Quick rule of thumb by system — board thickness + build-up of the system behind it:
 
-- Dot-and-dab on solid masonry: 30-50mm (plasterboard + adhesive dabs)
-- Independent metal stud (single layer each side): 75-100mm
-- Independent metal stud (double layer each side, acoustic): 150-200mm
-- Metal stud with services cavity for M&E: 100-150mm
-- Standard partition with acoustic insulation: 100-150mm
-- Fire-rated 60-min partition: typically 100-150mm
-- Fire-rated 120-min partition: typically 150-200mm
+- Dot-and-dab on sound masonry: 30–50mm total (12.5mm board + adhesive)
+- Independent metal stud, single layer both sides: 75–100mm
+- Independent metal stud, double layer both sides for sound: 150–200mm
+- Stud with services cavity (M&E first fix): 100–150mm
+- Acoustic partition to Part E (HMO separating wall): 100–150mm typical
+- Fire-rated 60-min partition (BS 476): roughly 100–150mm
+- Fire-rated 120-min partition: 150–200mm
 
-For Maidstone town centre apartments where space is at a premium, we often use thinner 9.5mm plasterboard on independent stud to keep the cavity minimal. For Maidstone Victorian terraces, the trade-off is usually the other way — we use 50-80mm insulated plasterboard to gain thermal performance, accepting the 30-50mm room loss.`
+What drives the choice in Maidstone properties:
+
+- Maidstone town centre apartments: every millimetre counts. We use 9.5mm boards on a shallow 50mm stud where headroom and floor area are tight — gains you back roughly 40mm against a default 12.5mm/75mm build-up
+- Victorian terraces in Bearsted, Loose, Staplehurst: the opposite trade-off. We add 50–80mm of insulated plasterboard and accept the room loss in exchange for a 60–80% drop in heat loss through the wall
+- Commercial fit-outs in Maidstone riverside and the Lockmeadow: the partition thickness is set by the acoustic and fire spec first, room geometry second
+
+Measure your door reveals and stair turnings before deciding. A 100mm partition that won't fit a 90° turn loses you more usable space than the thickness itself.`
   },
   {
     question: "Can dry lining be installed over brick walls?",
-    answer: `Yes. Dot-and-dab is the standard method for fixing plasterboard directly to brick or blockwork in Maidstone. The wall must be clean, sound, and free of loose material or existing render. We do not recommend direct fixing to:
+    answer: `Yes — that's exactly what dot-and-dab exists for, and it is the everyday fix in Maidstone's solid-walled housing. The substrate has to meet a few conditions first:
 
-- Damp brickwork (rising or penetrating damp must be resolved first)
-- Painted surfaces (adhesion will fail)
-- Loose or crumbling render (must be hacked off and re-rendered)
-- Walls with active salt contamination
+  - Sound: brick or block in good condition, no spalling faces, no frost-damaged mortar
+  - Dry: moisture meter reading under about 5% WME (Wood Moisture Equivalent) on plasterboard scale — higher and the dab adhesive won't cure properly
+  - Reasonably flat: out-of-plane deviation under about 15mm over a 2m straight edge; anything worse and we either dub out with adhesive or switch to independent stud
+  - Clean: no bitumen, no flaking paint, no wallpaper paste residue, no loose render
 
-For solid 9-inch (225mm) Victorian brick walls typical of Maidstone central, Bearsted and Loose, we typically specify 50-80mm insulated plasterboard dot-and-dab. For damp or contaminated walls, an independent metal stud with a ventilated cavity is the more reliable approach.`
+    Walls we refuse to dot-and-dab:
+
+  - Active rising damp — fix the DPC first (chemical injection at 150mm above ground level is the standard Maidstone treatment)
+  - Penetrating damp from failed pointing, gutters, or render — repair externally, allow to dry, then line
+  - Walls with gypsum plaster already on them in poor condition — old plaster must be hacked off to expose the brick, otherwise the new board is bonded to a failing layer
+  - Painted walls — gloss and most emulsions defeat the dab bond. We either mechanically key the surface or strip the paint
+
+    For Maidstone's 9-inch Victorian solid brick walls (Bearsted, Loose, Maidstone central, parts of Staplehurst), the standard upgrade is 50–80mm insulated plasterboard dot-and-dabbed on the inside. For walls that won't pass the conditions above, an independent metal stud frame with a clean cavity is the more reliable — and ultimately cheaper — option.`
   },
   {
     question: "Can dry lining be used in a loft conversion?",
@@ -196,32 +224,40 @@ We coordinate with your electrician and plumber (or provide both as part of a fu
   },
   {
     question: "Do I need planning permission for dry lining?",
-    answer: `Usually no. Internal drylining is generally permitted development and does not require planning permission from Maidstone Borough Council. Exceptions:
+    answer: `Almost never for normal internal dry lining. Internal wall and ceiling finishing is permitted development under the Town and Country Planning (General Permitted Development) (England) Order, so Maidstone Borough Council planning department is not involved. The three exceptions worth knowing:
 
-- Listed buildings: listed-building consent may be required even for internal work
-- External drylining: any work that alters the external appearance of the building needs planning permission
-- Flats and maisonettes: some internal alterations require building-regulations approval even where planning is not needed
+- Listed buildings: any internal alteration that affects character — even a re-skim on a protected ceiling — needs listed-building consent before work starts. Maidstone has a number of listed interiors in the town centre heritage area and parts of Boxley village
+- External-facing work: anything that changes how the building looks from the outside (external render systems, EWI, replacing soffit boards) is planning territory, not just building control
+- Change of use: converting a house (Use Class C3) to an HMO (sui generis) triggers the Maidstone Article 4 Direction — see our dedicated HMO licensing FAQs
 
-Building Regulations approval IS required for significant work, including:
+What does involve Maidstone Borough Council Building Control, even when planning is not needed:
 
-- Fire safety upgrades (Part B) — fire-rated partitions, escape routes
-- Acoustic upgrades (Part E) — separating walls in conversions and HMOs
-- Thermal upgrades (Part L) — insulation affecting U-values
-- Structural alterations (Part A) — removing or modifying load-bearing walls
+- Part A (Structure): removing or modifying a load-bearing wall, even partially
+- Part B (Fire Safety): new fire-rated partitions, escape routes, garage-to-house separations
+- Part E (Resistance to Sound): new walls or significant upgrades between flats, between bedsits in an HMO, or between a house and an attached garage converted to a room
+- Part L (Conservation of fuel and power): thermal upgrades that change the U-value of an external wall — the typical 50–80mm insulated plasterboard on a Victorian terrace is a notifiable change
+- Part C (Dampness): where work affects an existing DPC or introduces a new one
+- Part F (Ventilation): where work reduces background ventilation, common in retrofit insulation schemes
 
-We handle the Building Control notification with Maidstone Borough Council on your behalf. For listed-building consent, you will need an architect or planning consultant — we are happy to recommend local specialists.`
+For notifiable work, we file the Building Control application on your behalf and arrange the inspections (typically a pre-plasterboard check and a completion inspection). For non-notifiable work, we still build to BS 8212 best practice but no formal sign-off is needed.`
   },
   {
     question: "Does dry lining help prevent condensation?",
-    answer: `Yes. Insulated plasterboard with a vapour-control layer keeps the internal wall surface above the dew point, preventing condensation, mould, and mildew. This is particularly important in Maidstone's older housing stock — Victorian terraces in Maidstone central, Bearsted and Loose, and pre-1930s semis in Boxley and East Farleigh — where solid 9-inch brick walls are prone to cold-surface condensation.
+    answer: `Yes — but only as part of a system, and only when the diagnosis is right. The mechanism is straightforward: condensation forms when warm moist air hits a cold surface below the dew point. In an uninsulated Victorian solid 9-inch brick wall in Bearsted, Loose, or Maidstone central, the internal wall surface in winter sits around 8–12°C — well below the dew point of typical indoor air at 21°C, so moisture condenses on the wall, runs down, and feeds the black mould you see in the corners.
 
-Where condensation is a known issue, we install:
+    Insulated plasterboard fixes the temperature side of that equation:
 
-- Insulated plasterboard (PIR or phenolic, 50-80mm) to raise internal surface temperature
-- Vapour-control layer (polyethylene sheet or foil-back board) on the warm side of the insulation
-- Positive input ventilation (PIV) or mechanical extract in kitchens and bathrooms (coordinated with your electrician)
+  - 50mm PIR-backed plasterboard lifts the internal surface temperature by roughly 8–10°C
+  - 80mm PIR-backed plasterboard lifts it by roughly 12–14°C
+  - Either way, the new internal surface sits above the dew point in normal winter conditions, and condensation stops
 
-This is also a standard retrofit measure under ECO4 and GBIS funding schemes for eligible Maidstone properties.`
+    What you also need (often missed):
+
+  - A continuous vapour-control layer on the warm side of the insulation — without it, water vapour migrates through the board, hits the cold original brick, and condenses inside the wall cavity where you cannot see or dry it
+  - Background ventilation — trickle vents in windows or a positive input ventilation (PIV) unit. Seal a 1900 terrace airtight and you swap wall condensation for window condensation and stale-air health issues
+  - Adequate extract in kitchens and bathrooms — Part F rates are 15 l/s for a bathroom, 30 l/s for a kitchen, 60 l/s for a utility room
+
+    ECO4 and GBIS funding (subject to current eligibility — verify before promising clients a funded job) can subsidise this work for low-income and EPC E/G-rated households in Maidstone. The drylining element is straightforward; the funding application paperwork is the slow bit.`
   },
   {
     question: "Does dry lining make a room smaller?",
@@ -269,20 +305,35 @@ If any contractor refuses to answer these in writing, walk away.`
   },
   {
     question: "What materials are used for dry lining?",
-    answer: `Standard drylining materials in Maidstone:
+    answer: `The material list for a Maidstone dry lining job falls into four groups:
 
-- 12.5mm plasterboard (most common) — to BS EN 520, Type A (standard), Type H (moisture-resistant), Type F (fire), Type D (impact), Type I (sound)
-- 15mm plasterboard — for higher impact resistance and acoustic performance
-- 9.5mm plasterboard — for ceilings and curved surfaces
-- 19mm plank — for floors and high-impact walls
-- Insulated plasterboard — PIR/phenolic/EPS bonded to plasterboard for thermal upgrades
-- Metal stud and track — galvanised steel, 50-150mm widths, to BS 7364
-- Drywall adhesive — gypsum-based, factory-premixed
-- Jointing compound — ready-mix or powder
-- Scrim tape — for joint reinforcement
-- Corner beads — galvanised or PVC for external corners
+Plasterboard (always BS EN 520 stamped on the board edge):
 
-We typically source from Travis Perkins, CCF Maidstone, or Selco Maidstone, with next-day delivery on most items. For fire-rated and acoustic systems we use British Gypsum or Knauf branded systems (GypLyner, GypWall, ShaftWall, Silent Floor) to maintain the manufacturer's tested performance.`
+- 12.5mm Type A — the everyday wall board
+- 12.5mm Type H — moisture-resistant, for kitchens, utility rooms, bathroom zones away from direct water
+- 12.5mm Type F — fire-rated (often the pink or red board), 30 or 60 minutes to BS 476
+- 12.5mm Type D — impact-resistant for corridors, stairwells, schools
+- 12.5mm Type I — enhanced acoustic (sometimes called SoundBloc or Silent Board)
+- 15mm upgrades — better impact and acoustic at the cost of weight
+- 9.5mm — ceilings and tight curves where 12.5mm won't bend
+- Insulated plasterboard — PIR (best thermal per mm), phenolic (marginal gain, more expensive), graphite EPS (cheapest, thicker)
+
+Framing:
+
+- Metal stud and track — British Gypsum Gypframe or Knauf, 50/70/92/146mm widths to BS 7364
+- Timber stud — CLS or regularised softwood for non-fire-rated partitions
+- Channels and angles — for independent stud linings and bulkheads
+
+Finishing consumables:
+
+- Drywall adhesive (factory-premix, gypsum-based) for dot-and-dab
+- Jointing compound — ready-mix for small jobs, powder for larger areas
+- Scrim tape for joint reinforcement
+- Corner beads — galvanised for crisp external corners, PVC for wet areas
+
+Branding matters for warranty. British Gypsum GypWall, Knauf, Lafarge (Saint-Gobain), and AMF/Rockfon publish tested system data — fire rating, acoustic rating, structural load — that we rely on for sign-off. Generic unbranded boards don't carry tested performance data, which is why Building Control rejects them on fire-rated and acoustic jobs.
+
+Most boards and metal sections are ex-stock at Travis Perkins Maidstone, CCF Maidstone, or Selco Maidstone with next-day delivery; specialist acoustic and fire-rated boards usually take 24–48 hours.`
   },
   {
     question: "What is the difference between dry lining and plastering?",
@@ -433,24 +484,26 @@ For Maidstone properties, dry lining done in the 1970s-80s is still performing w
   },
   {
     question: "How much does it cost to dry line a 3-bed terrace in Maidstone?",
-    answer: `For a typical Maidstone three-bed Victorian or Edwardian terrace (80-120 m² wall area), full dry lining including dot-and-dab insulated plasterboard, tape-and-joint, and decoration-ready finish, costs £4,000 - £8,500 in September 2026. Programme: 5-8 working days.
+    answer: `For a typical Maidstone three-bed Victorian or Edwardian terrace — about 80–120 m² of wall area and 60–80 m² of ceiling — full dry lining with dot-and-dab insulated plasterboard, tape-and-joint, and a decoration-ready finish, lands somewhere between £4,500 and £9,500 in September 2026 for a two-person CSCS team over 5–8 working days.
 
-Cost breakdown (typical):
+    What the money goes on (typical Maidstone split):
 
-- Materials (insulated plasterboard, fixings, compound): £1,200 - £2,500
-- Labour (CSCS-accredited, two-person team): £2,400 - £4,800
-- Scaffold/tower hire (if high ceilings): £150 - £400
-- Waste removal (skip): £250 - £400
-- Building Control notification (if required): included
+  - Materials: 12.5mm Type A plasterboard on the inside walls, 50–80mm insulated plasterboard on the external walls, 12.5mm plasterboard on the ceilings, fixings, jointing compound, scrim tape, corner beads. Roughly £1,300–£2,700 of the total
+  - Labour for boarding: two operatives, 5–8 working days. Roughly £2,600–£5,000
+  - Labour for jointing and any skim: a separate visit, usually 2–3 days for a terrace of this size. Roughly £900–£1,600
+  - Scaffold or tower hire: only if you have high stairwell ceilings (3m+) or are boarding over the staircase itself. Roughly £150–£400
+  - Skip and waste removal: one or two 6-yard skips, depending on whether old plaster is being hacked off. Roughly £250–£450
+  - Building Control notification fee (only if Part L thermal or Part B fire is involved): Maidstone Borough Council's published scale applies — see their current fee schedule [VERIFY against current MBC fee page before quoting]
 
-Variables that move the price:
+    What pushes the price up:
 
-- Wall condition (out-of-true Victorian brickwork may need independent stud, +£800-£1,500)
-- Insulation thickness (50mm vs 80mm PIR)
-- Finishing level (Level 3 tape-and-joint vs Level 5 full skim)
-- Access (terraced streets usually good; top-floor Maidstone town centre flats slower)
+  - Walls out of true — a Bearsted or Loose terrace with 25–40mm of bow over a 2m straight edge means independent stud instead of dot-and-dab, adding roughly £1,000–£1,800
+  - Heavy paint or bitumen on the existing wall that needs mechanical removal before dabs will stick
+  - Level 5 full skim finish (the highest grade, for gloss paint or critical lighting) instead of Level 4 tape-and-joint
+  - Top-floor Maidstone town centre flat with no lift and a tight stair turn — slower, more cuts, more waste
+  - Occupied house — we work room-by-room rather than stripping the whole house at once
 
-For an accurate written quote, we provide a free site survey anywhere in the Maidstone.`
+    For an accurate written quote, we offer a free site survey anywhere across the Maidstone borough (ME14–ME20, TN12, TN27). Quotes come itemised so you can see labour, materials, plant, and waste as separate lines.`
   },
   {
     question: "Do I need fire-rated plasterboard in my HMO in Maidstone?",
