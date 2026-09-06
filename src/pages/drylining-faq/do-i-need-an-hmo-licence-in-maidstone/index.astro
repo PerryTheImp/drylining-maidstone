@@ -1,0 +1,75 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+
+const question = "Do I need an HMO licence in Maidstone?";
+const answer = "Probably, yes — and the rules are tighter than most landlords realise. Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015. This removed permitted development rights for small HMOs (3-6 unrelated tenants sharing a house) and means you need planning permission for HMO conversions in addition to a licence.\n\nWhen you need an HMO licence in Maidstone:\n\n- 5 or more tenants from 2 or more households sharing any amenity (kitchen, bathroom, or toilet) — mandatory HMO licence under the Housing Act 2004\n- 3-4 tenants (small HMO) — Article 4 Direction applies, planning permission required in addition to building regulations approval\n- Purpose-built flats — HMO licensing does not apply; lease/freehold rules govern instead\n\nApplication is to Maidstone Borough Council's Private Sector Housing team. Current fee (2026): around £1,400-£1,800 per property, valid for 5 years. The council publishes a public register of licensed HMOs.\n\nFor the dry lining scope in a Maidstone HMO, you will need: 30-minute fire-rated plasterboard (Type F) on escape routes (stairs, landings, hallways); acoustic separating walls achieving 40 dB Rw between bedsits; smoke detection to BS 5839-6 (Grade D, LD2 minimum); and Building Control sign-off through Maidstone Borough Council. We handle the full drylining + acoustic + fire-rated scope and coordinate with Building Control on your behalf.";
+const description = "Probably, yes — and the rules are tighter than most landlords realise.";
+const canonical = "/drylining-faq/do-i-need-an-hmo-licence-in-maidstone/";
+
+const schema = {"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need an HMO licence in Maidstone?","acceptedAnswer":{"@type":"Answer","text":"Probably, yes — and the rules are tighter than most landlords realise. Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015. This removed permitted development rights for small HMOs (3-6 unrelated tenants sharing a house) and means you need planning permission for HMO conversions in addition to a licence.  When you need an HMO licence in Maidstone:  - 5 or more tenants from 2 or more households sharing any amenity (kitchen, bathroom, or toilet) — mandatory HMO licence under the Housing Act 2004 - 3-4 tenants (small HMO) — Article 4 Direction applies, planning permission required in addition to building regulations approval - Purpose-built flats — HMO licensing does not apply; lease/freehold rules govern instead  Application is to Maidstone Borough Council's Private Sector Housing team. Current fee (2026): around £1,400-£1,800 per property, valid for 5 years. The council publishes a public register of licensed HMOs.  For the dry lining scope in a Maidstone HMO, you will need: 30-minute fire-rated plasterboard (Type F) on escape routes (stairs, landings, hallways); acoustic separating walls achieving 40 dB Rw between bedsits; smoke detection to BS 5839-6 (Grade D, LD2 minimum); and Building Control sign-off through Maidstone Borough Council. We handle the full drylining + acoustic + fire-rated scope and coordinate with Building Control on your behalf."}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dryliningmaidstone.co.uk/"},{"@type":"ListItem","position":2,"name":"FAQ","item":"https://dryliningmaidstone.co.uk/faq/"},{"@type":"ListItem","position":3,"name":"Do I need an HMO licence in Maidstone?","item":"https://dryliningmaidstone.co.uk/drylining-faq/do-i-need-an-hmo-licence-in-maidstone/"}]}]};
+---
+
+<Layout
+  title={`${question} | Drylining Maidstone`}
+  description={description}
+  canonical={canonical}
+  schema={schema}
+>
+  <!-- HERO — matches new site design: dark navy gradient + yellow accent + breadcrumb + badge + H1 + CTAs -->
+  <section style="position:relative;min-height:380px;display:flex;align-items:center;background:linear-gradient(135deg,#0a0e1a 0%,#1a1f3a 100%);overflow:hidden;">
+    <img src="/images/maidstone-town.jpg" alt="Maidstone town centre — backdrop for the Drylining Maidstone FAQ" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.20;" />
+    <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,14,26,0.88) 0%,rgba(26,31,58,0.88) 100%);"></div>
+    <div class="container" style="position:relative;z-index:1;">
+      <nav style="font-size:0.75rem;color:rgba(255,255,255,0.6);margin-bottom:1.25rem;">
+        <a href="/" style="color:#FACC15;">HOME</a> / <a href="/faq/" style="color:#FACC15;">FAQ</a> / <span style="color:#FACC15;font-weight:600;">{question.slice(0, 60)}{question.length > 60 ? "…" : ""}</span>
+      </nav>
+      <span style="display:inline-block;padding:0.375rem 1rem;background:rgba(30,64,175,0.15);border:1px solid #FACC15;color:#FACC15;font-size:0.75rem;font-weight:700;letter-spacing:0.05em;border-radius:99px;margin-bottom:1.25rem;">MAIDSTONE DRYLINING FAQ</span>
+      <h1 style="font-size:clamp(1.75rem,4vw,3rem);font-weight:800;color:var(--white);line-height:1.15;margin-bottom:1rem;max-width:48rem;">{question}</h1>
+      <p style="font-size:1.0625rem;color:rgba(255,255,255,0.85);margin-bottom:1.5rem;max-width:42rem;">Maidstone-specific answer with current 2026 pricing, building regulations, HMO licensing rules and practical advice from our local team.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+        <a href="/get-quote/" class="btn btn-highlight">Get My Free Quote</a>
+        <a href="/faq/" class="btn btn-outline" style="color:var(--white);border-color:rgba(255,255,255,0.3);">All FAQs</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" style="padding:3rem 1.5rem 4rem;">
+    <article class="card" style="padding:2rem;max-width:880px;">
+      <div style="background:rgba(30,64,175,0.05);border-left:4px solid #FACC15;padding:1rem 1.5rem;margin-bottom:1.75rem;border-radius:0 8px 8px 0;">
+        <p style="margin:0;font-size:0.875rem;color:var(--text);text-transform:uppercase;letter-spacing:0.05em;font-weight:700;">Quick Answer</p>
+        <p style="margin:0.5rem 0 0;font-size:1.0625rem;color:var(--text);line-height:1.7;font-weight:500;">{description}</p>
+      </div>
+
+      <div class="faq-answer" style="font-size:1.0625rem;line-height:1.85;color:var(--text);">
+  <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">Probably, yes — and the rules are tighter than most landlords realise. Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015. This removed permitted development rights for small HMOs (3-6 unrelated tenants sharing a house) and means you need planning permission for HMO conversions in addition to a licence.</p>
+  <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">When you need an HMO licence in Maidstone:</p>
+  <ul style="list-style:disc;padding-left:1.5rem;margin:0 0 1.25rem;color:var(--text);">
+    <li style="margin-bottom:0.45rem;line-height:1.75;">5 or more tenants from 2 or more households sharing any amenity (kitchen, bathroom, or toilet) — mandatory HMO licence under the Housing Act 2004</li>
+    <li style="margin-bottom:0.45rem;line-height:1.75;">3-4 tenants (small HMO) — Article 4 Direction applies, planning permission required in addition to building regulations approval</li>
+    <li style="margin-bottom:0.45rem;line-height:1.75;">Purpose-built flats — HMO licensing does not apply; lease/freehold rules govern instead</li>
+  </ul>
+  <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">Application is to Maidstone Borough Council's Private Sector Housing team. Current fee (2026): around £1,400-£1,800 per property, valid for 5 years. The council publishes a public register of licensed HMOs.</p>
+  <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">For the dry lining scope in a Maidstone HMO, you will need: 30-minute fire-rated plasterboard (Type F) on escape routes (stairs, landings, hallways); acoustic separating walls achieving 40 dB Rw between bedsits; smoke detection to BS 5839-6 (Grade D, LD2 minimum); and Building Control sign-off through Maidstone Borough Council. We handle the full drylining + acoustic + fire-rated scope and coordinate with Building Control on your behalf.</p>
+      </div>
+
+      <div style="margin-top:2.5rem;padding:1.5rem;background:var(--accent);border-radius:var(--radius);">
+        <h3 style="font-size:1.25rem;font-weight:700;color:var(--secondary);margin-bottom:0.75rem;">Need a quote for this in Maidstone?</h3>
+        <p style="color:var(--text);margin-bottom:1.25rem;font-size:1rem;">Send a brief, your plans or just a few photos. We will turn around a fixed-price quote within 48 hours, anywhere across ME14–ME20, TN12 and TN27 postcodes.</p>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+          <a href="/get-quote/" class="btn btn-primary">Get My Free Quote</a>
+          <a href="/contact/" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </article>
+
+    <aside style="max-width:880px;margin-top:2rem;padding:1.5rem;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);">
+      <h3 style="font-size:1.125rem;font-weight:700;color:var(--text);margin-bottom:1rem;">Related Questions</h3>
+      <ul style="list-style:none;padding:0;margin:0;display:grid;gap:0.625rem;">
+            <li><a href="/drylining-faq/what-is-dry-lining-and-how-does-it-work/" style="color:var(--primary);font-weight:500;">What is dry lining and how does it work?</a></li>
+            <li><a href="/drylining-faq/how-much-does-dry-lining-cost-in-maidstone/" style="color:var(--primary);font-weight:500;">How much does dry lining cost in Maidstone?</a></li>
+            <li><a href="/drylining-faq/is-dry-lining-cheaper-than-traditional-plastering/" style="color:var(--primary);font-weight:500;">Is dry lining cheaper than traditional plastering?</a></li>
+      </ul>
+      <p style="margin-top:1.25rem;font-size:0.9375rem;color:var(--text-light);"><a href="/faq/" style="color:var(--primary);font-weight:600;">Browse all 41 FAQs →</a></p>
+    </aside>
+  </main>
+</Layout>
