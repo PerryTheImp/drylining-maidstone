@@ -16,17 +16,17 @@ You see dry lining in every Maidstone context from Fremlin Walk retail fit-outs 
     question: "How much does dry lining cost in Maidstone?",
     answer: `Dry lining costs in Maidstone for September 2026 are typically:
 
-- Standard 12.5mm plasterboard (dot-and-dab to blockwork): £25 - £42 per m²
-- Tape-and-joint finish on standard board: £7 - £11 per m²
-- Full plaster skim over plasterboard: £7 - £11 per m²
-- Moisture-resistant or fire-rated board upgrade: +£5 - £9 per m²
-- Insulated plasterboard (PIR, 50-80mm): £38 - £60 per m²
-- Acoustic dry lining system: £45 - £72 per m²
-- Suspended ceiling (MF plasterboard): £28 - £50 per m²
-- Metal stud partition (single layer, per linear metre): £55 - £100 per m
-- Metal stud partition (double layer, acoustic/fire): £78 - £135 per m
+- Standard 12.5mm plasterboard (dot-and-dab to blockwork): £25 - £42 per m²  [VERIFY: indicative range, base on BCIS 2026 + Maidstone labour day rates]
+- Tape-and-joint finish on standard board: £7 - £11 per m²  [VERIFY]
+- Full plaster skim over plasterboard: £7 - £11 per m²  [VERIFY]
+- Moisture-resistant or fire-rated board upgrade: +£5 - £9 per m²  [VERIFY]
+- Insulated plasterboard (PIR, 50-80mm): £38 - £60 per m²  [VERIFY]
+- Acoustic dry lining system: £45 - £72 per m²  [VERIFY]
+- Suspended ceiling (MF plasterboard): £28 - £50 per m²  [VERIFY]
+- Metal stud partition (single layer, per linear metre): £55 - £100 per m  [VERIFY]
+- Metal stud partition (double layer, acoustic/fire): £78 - £135 per m  [VERIFY]
 
-Maidstone prices sit roughly 5-15% above the UK national average because labour day rates in Kent (£200 - £280) are higher than the national average (£180 - £250). Material costs are largely consistent across the UK.
+Maidstone prices sit roughly 5-15% above the UK national average because labour day rates in Kent (£200 - £280) are higher than the national average (£180 - £250).  [VERIFY: regional uplifts change with the construction cycle; cite BCIS regional adjustment for the South East rather than a fixed percentage] Material costs are largely consistent across the UK.
 
 For a Maidstone three-bed terrace, expect £4,000 - £8,500 over 1-2 weeks. Commercial 500-1,000 m² fit-outs typically range £18,000 - £45,000 over 2-4 weeks. Every project is unique — request a free, itemised quote.`
   },
@@ -36,7 +36,7 @@ For a Maidstone three-bed terrace, expect £4,000 - £8,500 over 1-2 weeks. Comm
 
 Where traditional plastering is still the right choice: small repair jobs, complex curves, listed buildings where breathable lime plaster is required, and where a premium seamless finish is needed (e.g. high-end residential or heritage restoration in Maidstone town centre heritage area or Boxley village conservation).
 
-A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per m² over tape-and-joint. Dot-and-dab drylining plus skim often lands at a similar total price to two-coat wet plastering, but finishes in a fraction of the time and avoids the 4-7 day drying window.`
+A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per m² over tape-and-joint  [VERIFY: indicative range]. Dot-and-dab drylining plus skim often lands at a similar total price to two-coat wet plastering, but finishes in a fraction of the time and avoids the 4-7 day drying window.`
   },
   {
     question: "How long does dry lining take to install?",
@@ -72,7 +72,7 @@ A wet-plaster skim coat over plasterboard in Maidstone adds about £7 - £11 per
 
 Most Maidstone residential work lands at Level 4 — either tape-and-jointed with a quality jointing compound, or skimmed with a 2-3mm plaster skim. Commercial fit-outs in Maidstone riverside and the office parks around Maidstone town centre often use a full skim for the cleanest visual under office LED lighting.
 
-Skim adds £7 - £11 per m² in Maidstone but eliminates any visible board joint telegraphing through paint.`
+Skim adds £7 - £11 per m² in Maidstone but eliminates any visible board joint telegraphing through paint  [VERIFY: indicative range].`
   },
   {
     question: "What is dot-and-dab dry lining?",
@@ -177,7 +177,7 @@ Independent stud adds 50-100mm to the wall thickness but is the most reliable wa
     question: "Can dry lining improve a property's energy efficiency?",
     answer: `Yes. Insulated plasterboard (PIR, phenolic, or graphite EPS bonded to plasterboard) reduces heat loss through uninsulated solid walls by 60-80%. This typically improves EPC ratings by 10-20 points, may qualify the property for ECO4 or GBIS retrofit funding (subject to eligibility), and reduces heating bills by £200-£500 per year for a typical Maidstone three-bed terrace.
 
-It is the standard energy-efficiency upgrade for Maidstone's Victorian and pre-1920s housing stock. Solid 9-inch brick walls have a U-value of about 2.1 W/m²K uninsulated; adding 50-80mm insulated plasterboard brings that down to 0.30 W/m²K or better, meeting current Part L retrofit targets.
+It is the standard energy-efficiency upgrade for Maidstone's Victorian and pre-1920s housing stock. Solid 9-inch brick walls have a U-value of about 2.1 W/m²K uninsulated; adding 50-80mm insulated plasterboard brings that down to 0.30 W/m²K or better, meeting current Part L retrofit targets  [VERIFY: confirm against the current Approved Document L and the manufacturer's published U-value for the exact insulated plasterboard product chosen].
 
 For Maidstone homeowners, this is one of the most cost-effective energy upgrades available. We handle ECO4/GBIS paperwork for eligible properties.`
   },
@@ -413,9 +413,9 @@ For listed buildings (Maidstone town centre heritage area, Boxley village, parts
 
 Why it is worth using:
 
-- Substantial thermal performance gain (60-80% heat-loss reduction)
-- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)
-- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)
+- Substantial thermal performance gain (60-80% heat-loss reduction)  [VERIFY: depends on baseline U-value]
+- Modest cost premium over standard plasterboard (typically £10-£20 per m² extra)  [VERIFY]
+- Long-term energy savings (typically £200-£500 per year for a Maidstone three-bed)  [VERIFY] 
 - Reduces condensation risk and improves indoor comfort
 - Improves EPC rating (often 10-20 points)
 - May qualify for ECO4/GBIS retrofit funding for eligible households
@@ -550,11 +550,11 @@ The most common specification for these Maidstone terraces:
 
 Benefits for Maidstone central and Bearsted homeowners:
 
-- 60-80% heat-loss reduction through previously uninsulated walls
-- EPC rating typically improves by 10-20 points (from D/E to C/B)
+- 60-80% heat-loss reduction through previously uninsulated walls  [VERIFY: range depends on baseline U-value and insulation thickness; cite the manufacturer's published psi-value for the specific insulated plasterboard used]
+- EPC rating typically improves by 10-20 points (from D/E to C/B)  [VERIFY: depends on baseline EPC and the full scope of measures]
 - Reduction in cold-surface condensation and mould
 - Warmer, more comfortable rooms
-- Lower heating bills (£200-£500/year saving for a typical terrace)
+- Lower heating bills (£200-£500/year saving for a typical terrace)  [VERIFY: indicative range based on typical Maidstone three-bed energy use; actual savings depend on heating system, occupancy and tariff] 
 
 We work on Maidstone central and Bearsted terraces weekly and are familiar with the specific construction details: bay-window returns, chimney-breast recesses, narrow staircases, and limited access for materials. We can also advise on ECO4/GBIS funding for eligible households.`
   },
@@ -564,7 +564,7 @@ We work on Maidstone central and Bearsted terraces weekly and are familiar with 
 
 1. Diagnose the source — rising damp, penetrating damp, or condensation? Each has a different remedy.
 
-2. Rising damp treatment — chemical DPC injection (silane or siloxane-based) at 150mm above external ground level. Costs £80-£150 per metre run in Maidstone.
+2. Rising damp treatment — chemical DPC injection (silane or siloxane-based) at 150mm above external ground level. Costs £80-£150 per metre run in Maidstone  [VERIFY: indicative; obtain current quote from a Property Care Association (PCA) registered contractor].
 
 3. Penetrating damp — repoint defective mortar, repair or replace gutters and downpipes, fix flashing, render where needed.
 
@@ -602,57 +602,79 @@ We can work outside business hours (evenings, weekends) to minimise disruption t
 
   {
     question: "Do I need an HMO licence in Maidstone?",
-    answer: `Probably, yes — and the rules are tighter than most landlords realise. Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015. This removed permitted development rights for small HMOs (3-6 unrelated tenants sharing a house) and means you need planning permission for HMO conversions in addition to a licence.
+    answer: `The honest answer depends on three things: the size of the HMO, whether the property is in Maidstone Borough Council's area, and what changes you are making to the building. The regulatory backbone is national; the application route and fees are local.
 
-When you need an HMO licence in Maidstone:
+The national test (Housing Act 2004, as amended):
 
-- 5 or more tenants from 2 or more households sharing any amenity (kitchen, bathroom, or toilet) — mandatory HMO licence under the Housing Act 2004
-- 3-4 tenants (small HMO) — Article 4 Direction applies, planning permission required in addition to building regulations approval
-- Purpose-built flats — HMO licensing does not apply; lease/freehold rules govern instead
+- A House in Multiple Occupation (HMO) is a property occupied by tenants from more than one household who share basic amenities (kitchen, bathroom or toilet)
+- Mandatory HMO licensing under the Housing Act 2004 applies to HMOs with 5 or more tenants from 2 or more households — these must be licensed regardless of where they are in England
+- Additional licensing schemes (covering smaller HMOs, e.g. 3-4 tenants) are set by individual local authorities and Maidstone Borough Council may or may not operate one at any given time — confirm with MBC Private Sector Housing before assuming
+- Purpose-built self-contained flats are not HMOs and are governed by leasehold/freehold rules, not HMO licensing
 
-Application is to Maidstone Borough Council's Private Sector Housing team. Current fee (2026): around £1,400-£1,800 per property, valid for 5 years. The council publishes a public register of licensed HMOs.
+The Maidstone-specific overlay:
 
-For the dry lining scope in a Maidstone HMO, you will need: 30-minute fire-rated plasterboard (Type F) on escape routes (stairs, landings, hallways); acoustic separating walls achieving 40 dB Rw between bedsits; smoke detection to BS 5839-6 (Grade D, LD2 minimum); and Building Control sign-off through Maidstone Borough Council. We handle the full drylining + acoustic + fire-rated scope and coordinate with Building Control on your behalf.`
+- Maidstone Borough Council operates an Article 4 Direction under the Town and Country Planning (General Permitted Development) (England) Order 2015 — see our dedicated Article 4 FAQ for what this means in practice
+- An HMO licence is granted by Maidstone Borough Council's Private Sector Housing team. The licence is valid for 5 years and the council publishes a public register of licensed HMOs
+- Application fee: [VERIFY against current MBC fee schedule before quoting — fees change annually and the council's published scale is the only source]
+- The drylining scope inside a licensed Maidstone HMO is governed by Building Regulations, not by the HMO licence itself: 30-minute fire-rated plasterboard (Type F to BS EN 520, tested to BS 476) on escape routes, acoustic separating walls to Part E (current performance targets [VERIFY against Approved Document E]), smoke detection to BS 5839-6 (Grade D, LD2 minimum), and a Building Control completion certificate
+
+What we can do for you: handle the full drylining + acoustic + fire-rated scope and coordinate the Building Control inspection and completion certificate. We do not apply for the HMO licence on your behalf — that goes through MBC Private Sector Housing directly — but we can refer you to a local Maidstone letting agent or licensing consultant who does.`
   },
   {
     question: "What is the Article 4 Direction for HMOs in Maidstone?",
-    answer: `Maidstone Borough Council introduced an Article 4 Direction in 2018 to control the spread of small HMOs in residential areas, particularly in the Maidstone student-letting corridors around Maidstone town centre, the High Street, and parts of Staplehurst and Bearsted. It removed permitted development rights for converting a family home (Use Class C3) into a small HMO (sui generis).
+    answer: `An Article 4 Direction is the legal mechanism a local planning authority uses to withdraw permitted development rights in a defined area. Maidstone Borough Council operates one that affects Houses in Multiple Occupation.
 
-What it means in practice:
+The mechanics:
 
-- Converting a house to a 3-6 bed HMO now requires a full planning application
-- You cannot rely on the previous "no permission needed" assumption
-- The application is judged against Maidstone's HMO SPD (Supplementary Planning Document) policies — typically refused if it would result in more than 10% of properties within 50m being HMOs, or if there is insufficient amenity space, parking, or refuse storage
-- 5+ tenant HMOs also need a separate HMO licence (Housing Act 2004)
+- The Town and Country Planning (General Permitted Development) (England) Order 2015 (the GPDO) normally lets you change a use from Class C3 (a dwellinghouse) to a small HMO (technically sui generis) without applying for planning permission
+- An Article 4 Direction removes that automatic permission in the area it covers
+- Once an Article 4 Direction is in force, converting a family home to a small HMO within its boundary requires a full planning application to the local authority — and you cannot rely on the previous "no permission needed" assumption
+- Article 4 Directions do not change the underlying planning use classes. A property used as a C3 dwelling remains a C3 dwelling until a new use begins. The Article 4 just means you have to ask first
 
-The practical effect is that most Maidstone landlords now factor in a 3-6 month planning permission lead time before any HMO drylining work begins. The Article 4 Direction does not affect medium or large HMOs (7+ tenants) which have always required planning permission as sui generis use.
+What this means in practice for Maidstone landlords:
 
-We work with Maidstone landlords and their planning consultants to get the drylining specification right first time, so the HMO licence and planning permission processes run smoothly. Ask us for recommendations of local Maidstone planning consultants if you don't already have one.`
+- Maidstone Borough Council adopted an Article 4 Direction covering HMOs — confirm with MBC Planning the precise date it was made and the geographic area it covers (typically the wards most affected by student and professional letting, around Maidstone town centre and parts of the borough where HMO concentrations have grown)
+- For a small HMO (3-6 unrelated tenants sharing), the planning application is decided against MBC's HMO Supplementary Planning Document (SPD) — common refusal reasons include the proposal tipping the HMO share above the SPD's saturation threshold in a 50m radius, inadequate amenity space, or insufficient parking/refuse storage
+- For larger HMOs (7+ tenants) the planning requirement has always existed because larger HMOs have never been permitted development for this change of use; Article 4 just extends the requirement to smaller HMOs
+- A separate HMO licence under the Housing Act 2004 is a parallel requirement, not a substitute for planning consent
+
+Practical effect on the drylining timeline: most Maidstone landlords should assume a 3-6 month planning permission lead time before HMO drylining work begins. The drylining spec itself is set by Building Regulations (Part B fire, Part E sound, Part F ventilation) and is unaffected by whether planning is required — but the order of operations matters: planning first, then Building Control application, then drylining.
+
+We work with Maidstone landlords and their planning consultants to get the drylining specification right first time so the HMO licence and planning permission processes run in parallel rather than sequentially. Ask us for recommendations of local Maidstone planning consultants if you don't already have one.`
   },
   {
     question: "What are the building regulations for dry lining in Maidstone?",
-    answer: `Building Regulations approval in Maidstone is handled by Maidstone Borough Council Building Control. The four parts of the Building Regulations that most often apply to drylining work are:
+    answer: `Building Regulations are a set of national standards, set by the Secretary of State, that apply to most building work in England (separate but equivalent regimes operate in Wales, Scotland and Northern Ireland). In Maidstone the Building Control function is delivered by Maidstone Borough Council Building Control — for domestic work — or by an approved inspector (private Building Control) if you choose that route. The regulations themselves do not change between authorities.
 
-- Part A (Structure) — if you are removing or modifying load-bearing walls
-- Part B (Fire Safety) — fire-rated plasterboard on escape routes, garage ceilings, between garage and living space, in HMOs and flats
-- Part E (Resistance to Sound) — acoustic separating walls in flats, conversions, and HMOs (40-45 dB Rw)
-- Part L (Thermal) — insulated plasterboard achieving target U-values on external walls (currently 0.30 W/m²K or better for solid wall retrofits)
-- Part C (Damp) — moisture-resistant plasterboard in wet areas, vapour-control layers on the warm side of insulation
-- Part F (Ventilation) — adequate extract in kitchens and bathrooms
+The Approved Documents that most often govern drylining work in Maidstone:
 
-Notification fees (2026): domestic alterations ~£180-£450, full plans domestic ~£350-£600, commercial project-specific. Inspection stages: pre-plasterboard and completion. Maidstone Building Control is reasonably responsive — typical 5-7 working day inspection booking.
+- Part A (Structure): applies if you are removing or modifying a load-bearing wall, or if your work alters the structural stability of the building
+- Part B (Fire Safety): Volume 1 (dwellings) and Volume 2 (buildings other than dwellings) set the requirements for fire-rated plasterboard on escape routes, garage ceilings and walls separating a garage from living space, and compartmentation in flats, HMOs and commercial buildings. Fire resistance periods are typically expressed in minutes and tested to BS 476 (or the European equivalent BS EN 1364 series)
+- Part C (Dampness): moisture-resistant plasterboard in wet areas and a vapour-control layer on the warm side of insulation where condensation could otherwise occur
+- Part E (Resistance to Sound): sets acoustic performance targets for separating walls and floors between flats (typically 45 dB Rw for new-build conversions), between rooms in residential conversions, and between bedsits in HMOs (typically 40 dB Rw). Performance is measured to BS EN ISO 717
+- Part F (Ventilation): sets minimum extract rates for kitchens, bathrooms and utility rooms. Background ventilation (trickle vents or a PIV unit) is required in refurbished homes
+- Part L (Conservation of fuel and power): sets target U-values for the thermal envelope. For solid-wall retrofit, current guidance targets a U-value of 0.30 W/m²K or better for the upgraded wall — confirmed by an insulation layer (typically 50–80mm PIR-backed insulated plasterboard) and a continuous vapour control layer
+- Part M (Access to and use of buildings): relevant if you are working in a building that must comply with access requirements (e.g. HMO common parts, commercial buildings open to the public) — sets standards for doors, thresholds, and WCs
 
-We handle the Building Control notification on every Maidstone job that requires it. For work that doesn't require notification (e.g. like-for-like replacement plasterboard in a domestic room), we still work to BS 8212 best practice but no formal sign-off is needed.`
+Current fee schedule and inspection booking windows: [VERIFY against current MBC Building Control fee schedule — fees change annually, MBC's published scale is the only authoritative source]. Typical inspection stages are pre-plasterboard (cavities and services visible) and completion. Booking lead times vary; for non-urgent work, allow around a week.
+
+How we work on Maidstone jobs that need Building Control:
+
+1. We file the Building Control application (or your approved inspector) at the design stage, not after work starts
+2. We schedule the pre-plasterboard inspection before any boards go up so the inspector can see insulation, services, fire-stopping and acoustic insulation in the cavity
+3. We arrange the completion inspection and pass you the certificate
+
+For non-notifiable work (e.g. like-for-like replacement plasterboard in a domestic room with no change to fire, acoustic or thermal performance) we still build to BS 8212 best practice but no formal sign-off is required.`
   },
   {
     question: "How much do suspended ceilings cost in Maidstone?",
     answer: `Suspended ceiling costs in Maidstone for September 2026:
 
-- MF plasterboard suspended ceiling (metal frame + plasterboard skim): £28 - £50 per m²
-- Lay-in grid suspended ceiling (T-bar + acoustic tiles, supply only): from £15 per m²; supply and fit £25 - £45 per m²
-- Fire-rated suspended ceiling (Type F plasterboard, 30-min): £35 - £60 per m²
-- Acoustic suspended ceiling (for Part E compliance, Maidstone town centre and Maidstone riverside): £45 - £75 per m²
-- Feature ceiling (bulkheads, coffers, recessed lighting zones): add £20 - £40 per m² on top
+- MF plasterboard suspended ceiling (metal frame + plasterboard skim): £28 - £50 per m²  [VERIFY]
+- Lay-in grid suspended ceiling (T-bar + acoustic tiles, supply only): from £15 per m²; supply and fit £25 - £45 per m²  [VERIFY]
+- Fire-rated suspended ceiling (Type F plasterboard, 30-min): £35 - £60 per m²  [VERIFY]
+- Acoustic suspended ceiling (for Part E compliance, Maidstone town centre and Maidstone riverside): £45 - £75 per m²  [VERIFY]
+- Feature ceiling (bulkheads, coffers, recessed lighting zones): add £20 - £40 per m² on top  [VERIFY] 
 
 Suspended ceilings are the standard solution for Maidstone commercial fit-outs in Maidstone riverside, Maidstone town centre, and the office parks around Headcorn and Boxley. They hide services (M&E, ventilation, fire sprinklers), improve acoustic performance, and allow easy access for maintenance. Programme: 1-2 weeks for a 500 m² office fit-out.
 
@@ -670,6 +692,6 @@ For Maidstone town centre apartment buildings, acoustic suspended ceilings are o
 
 We install suspended ceilings across Maidstone and across Kent: Maidstone riverside, Maidstone town centre, Hazlitt Theatre, Allington business parks, and Harrietsham retail. We handle MF plasterboard, lay-in grid, fire-rated, and acoustic ceiling systems. All work is coordinated with the M&E contractor (we don't do electrical or HVAC ourselves, but we work with trusted local partners).
 
-For a Maidstone commercial fit-out, expect 1-2 weeks for a 200-500 m² suspended ceiling installation, including all grid, tiles, MF framework where required, and perimeter trims. Out-of-hours installation (evenings, weekends) available at +15-25% premium for occupied offices.`
+For a Maidstone commercial fit-out, expect 1-2 weeks for a 200-500 m² suspended ceiling installation, including all grid, tiles, MF framework where required, and perimeter trims. Out-of-hours installation (evenings, weekends) available at +15-25% premium for occupied offices  [VERIFY: out-of-hours uplift varies by contract and notice period; confirm in your quote].`
   },
 ];

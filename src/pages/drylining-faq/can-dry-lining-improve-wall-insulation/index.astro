@@ -5,6 +5,7 @@ const question = "Can dry lining improve wall insulation?";
 const answer = "Yes. Insulated plasterboard adds thermal insulation to external walls. For the uninsulated solid 9-inch brick walls typical of Maidstone's Victorian terraces (Maidstone central, Bearsted and Loose), a 50-80mm insulated plasterboard (PIR or phenolic) can reduce U-values from around 2.1 W/m²K to 0.30 W/m²K, meeting current Part L retrofit targets.\n\nThree common insulation options for Maidstone properties:\n\n- PIR (polyisocyanurate): best thermal performance per mm, ~0.022 W/mK, thinnest build-up\n- Phenolic foam: marginally better than PIR, ~0.018-0.020 W/mK, more expensive\n- Graphite EPS: cheaper, ~0.030 W/mK, slightly thicker board required\n\nWe typically recommend PIR for Maidstone retrofit work because the thinner build-up minimises room loss, particularly important in small terraced kitchens and bathrooms.";
 const description = "Yes.";
 const canonical = "/drylining-faq/can-dry-lining-improve-wall-insulation/";
+const has_pricing = false;
 
 const schema = {"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can dry lining improve wall insulation?","acceptedAnswer":{"@type":"Answer","text":"Yes. Insulated plasterboard adds thermal insulation to external walls. For the uninsulated solid 9-inch brick walls typical of Maidstone's Victorian terraces (Maidstone central, Bearsted and Loose), a 50-80mm insulated plasterboard (PIR or phenolic) can reduce U-values from around 2.1 W/m²K to 0.30 W/m²K, meeting current Part L retrofit targets.  Three common insulation options for Maidstone properties:  - PIR (polyisocyanurate): best thermal performance per mm, ~0.022 W/mK, thinnest build-up - Phenolic foam: marginally better than PIR, ~0.018-0.020 W/mK, more expensive - Graphite EPS: cheaper, ~0.030 W/mK, slightly thicker board required  We typically recommend PIR for Maidstone retrofit work because the thinner build-up minimises room loss, particularly important in small terraced kitchens and bathrooms."}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dryliningmaidstone.co.uk/"},{"@type":"ListItem","position":2,"name":"FAQ","item":"https://dryliningmaidstone.co.uk/faq/"},{"@type":"ListItem","position":3,"name":"Can dry lining improve wall insulation?","item":"https://dryliningmaidstone.co.uk/drylining-faq/can-dry-lining-improve-wall-insulation/"}]}]};
 ---
@@ -50,6 +51,13 @@ const schema = {"@context":"https://schema.org","@graph":[{"@type":"FAQPage","ma
   </ul>
   <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">We typically recommend PIR for Maidstone retrofit work because the thinner build-up minimises room loss, particularly important in small terraced kitchens and bathrooms.</p>
       </div>
+
+      {has_pricing && (
+        <div style="margin-top:2rem;padding:1.25rem 1.5rem;background:#fef3c7;border-left:4px solid #f59e0b;border-radius:0 8px 8px 0;">
+          <p style="margin:0;font-size:0.875rem;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:0.05em;">Pricing & figures — read this</p>
+          <p style="margin:0.5rem 0 0;font-size:0.9375rem;color:#78350f;line-height:1.7;">Any prices, fees or figure-based guidance on this page are indicative and intended for budget planning only. They are not a quote and not a substitute for the published source. For current fees always check: <strong>Maidstone Borough Council Building Control fee schedule</strong>, <strong>Maidstone Borough Council HMO licensing fees</strong>, <strong>BCIS construction cost indices</strong>, and the <strong>current Approved Documents</strong> (free PDFs from GOV.UK). Send us your plans and we will turn around a fixed-price written quote within 48 hours.</p>
+        </div>
+      )}
 
       <div style="margin-top:2.5rem;padding:1.5rem;background:var(--accent);border-radius:var(--radius);">
         <h3 style="font-size:1.25rem;font-weight:700;color:var(--secondary);margin-bottom:0.75rem;">Need a quote for this in Maidstone?</h3>

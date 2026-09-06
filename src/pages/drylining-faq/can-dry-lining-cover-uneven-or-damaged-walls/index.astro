@@ -5,6 +5,7 @@ const question = "Can dry lining cover uneven or damaged walls?";
 const answer = "Yes. Independent metal stud framing can create a perfectly flat, even surface over the most uneven or damaged masonry. This is the standard approach for:\n\n- Severely out-of-true Victorian brickwork (common in Maidstone central and Bearsted)\n- Walls with old plaster that has blown or detached\n- Walls where dot-and-dab adhesive would not bond reliably\n- Walls requiring services cavity for new electrical or plumbing runs\n\nIndependent stud adds 50-100mm to the wall thickness but is the most reliable way to get a perfect finish. We can also use resilient bar or acoustic clips to decouple the new plasterboard from the existing structure for improved sound insulation — relevant for Maidstone town centre apartments, Maidstone riverside studios, and HMO conversions.";
 const description = "Yes.";
 const canonical = "/drylining-faq/can-dry-lining-cover-uneven-or-damaged-walls/";
+const has_pricing = false;
 
 const schema = {"@context":"https://schema.org","@graph":[{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can dry lining cover uneven or damaged walls?","acceptedAnswer":{"@type":"Answer","text":"Yes. Independent metal stud framing can create a perfectly flat, even surface over the most uneven or damaged masonry. This is the standard approach for:  - Severely out-of-true Victorian brickwork (common in Maidstone central and Bearsted) - Walls with old plaster that has blown or detached - Walls where dot-and-dab adhesive would not bond reliably - Walls requiring services cavity for new electrical or plumbing runs  Independent stud adds 50-100mm to the wall thickness but is the most reliable way to get a perfect finish. We can also use resilient bar or acoustic clips to decouple the new plasterboard from the existing structure for improved sound insulation — relevant for Maidstone town centre apartments, Maidstone riverside studios, and HMO conversions."}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dryliningmaidstone.co.uk/"},{"@type":"ListItem","position":2,"name":"FAQ","item":"https://dryliningmaidstone.co.uk/faq/"},{"@type":"ListItem","position":3,"name":"Can dry lining cover uneven or damaged walls?","item":"https://dryliningmaidstone.co.uk/drylining-faq/can-dry-lining-cover-uneven-or-damaged-walls/"}]}]};
 ---
@@ -50,6 +51,13 @@ const schema = {"@context":"https://schema.org","@graph":[{"@type":"FAQPage","ma
   </ul>
   <p style="margin:0 0 1.1rem;color:var(--text);line-height:1.8;">Independent stud adds 50-100mm to the wall thickness but is the most reliable way to get a perfect finish. We can also use resilient bar or acoustic clips to decouple the new plasterboard from the existing structure for improved sound insulation — relevant for Maidstone town centre apartments, Maidstone riverside studios, and HMO conversions.</p>
       </div>
+
+      {has_pricing && (
+        <div style="margin-top:2rem;padding:1.25rem 1.5rem;background:#fef3c7;border-left:4px solid #f59e0b;border-radius:0 8px 8px 0;">
+          <p style="margin:0;font-size:0.875rem;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:0.05em;">Pricing & figures — read this</p>
+          <p style="margin:0.5rem 0 0;font-size:0.9375rem;color:#78350f;line-height:1.7;">Any prices, fees or figure-based guidance on this page are indicative and intended for budget planning only. They are not a quote and not a substitute for the published source. For current fees always check: <strong>Maidstone Borough Council Building Control fee schedule</strong>, <strong>Maidstone Borough Council HMO licensing fees</strong>, <strong>BCIS construction cost indices</strong>, and the <strong>current Approved Documents</strong> (free PDFs from GOV.UK). Send us your plans and we will turn around a fixed-price written quote within 48 hours.</p>
+        </div>
+      )}
 
       <div style="margin-top:2.5rem;padding:1.5rem;background:var(--accent);border-radius:var(--radius);">
         <h3 style="font-size:1.25rem;font-weight:700;color:var(--secondary);margin-bottom:0.75rem;">Need a quote for this in Maidstone?</h3>
