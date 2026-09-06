@@ -10,7 +10,7 @@ Status: READY FOR HANDOFF
 
 ### Last Action Completed
 
-- **2026-09-06 12:51:** Home page hero swapped to real Maidstone shot (`/images/maidstone-town.jpg`). References updated in 5 places: home page background, video poster, Layout JSON-LD `image` field, og:image meta, twitter:image meta. All 21 Salford-area leftover files (`area-salford-*.jpg`, `area-ordsall-*.jpg`, `area-broughton-*.jpg`, `area-eccles-*.jpg`, `area-irlam-*.jpg`, `area-worsley-*.jpg`, `area-lowry.jpg`, `hero-featured.jpg`, `hero-main.jpg`, `hero-residential.jpg`) and the orphaned `generate_images.py/sh` scripts removed from `public/images/`. `public/images/` is now 55 files, all real Maidstone photos + shared before/after library. Build green: 63 pages, 815ms.
+- **2026-09-06 12:55:** Site is live at https://www.dryliningmaidstone.co.uk. Vercel import succeeded. Verified: 200 OK on apex+www+10 deep pages, zero contamination leaks on homepage (`/images/maidstone-town.jpg` confirmed as hero), sitemap has all 12 correct Maidstone areas + 63 total URLs, robots.txt and news-sitemap.xml both 200.
 - All Salford/Manchester contamination removed (verified via `grep` over `dist/`)
 - 12 Maidstone area pages: allington, bearsted, boxley, east-farleigh, harrietsham, headcorn, hollingbourne, loose, maidstone-central, marden, staplehurst, yalding
 - 12 service pages: acoustic, commercial, drylining-contractors, fire-rated, insulated, metal-stud, office, partition-walls, plasterboard-installation, refurbishment, suspended-ceilings, taping-and-jointing

@@ -615,7 +615,7 @@ For Maidstone town centre apartment buildings, acoustic suspended ceilings are o
 - Proven experience on commercial projects of 200+ m²
 - The ability to deliver to programme (often 4-6 week lead times for commercial fit-outs)
 
-We install suspended ceilings across Maidstone and the North West: Maidstone riverside, Maidstone town centre, Hazlitt Theatre, Allington business parks, and Harrietsham retail. We handle MF plasterboard, lay-in grid, fire-rated, and acoustic ceiling systems. All work is coordinated with the M&E contractor (we don't do electrical or HVAC ourselves, but we work with trusted local partners).
+We install suspended ceilings across Maidstone and across Kent: Maidstone riverside, Maidstone town centre, Hazlitt Theatre, Allington business parks, and Harrietsham retail. We handle MF plasterboard, lay-in grid, fire-rated, and acoustic ceiling systems. All work is coordinated with the M&E contractor (we don't do electrical or HVAC ourselves, but we work with trusted local partners).
 
 For a Maidstone commercial fit-out, expect 1-2 weeks for a 200-500 m² suspended ceiling installation, including all grid, tiles, MF framework where required, and perimeter trims. Out-of-hours installation (evenings, weekends) available at +15-25% premium for occupied offices.`
   },
