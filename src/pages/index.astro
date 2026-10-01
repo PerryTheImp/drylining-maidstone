@@ -38,86 +38,9 @@ const areas = [
 
 const faqs = allFaqs.slice(0, 5);
 
-const serviceAreaSchema = {
-  "@type": "DefinedRegion",
-  "@id": "https://www.dryliningmaidstone.co.uk/#serviceArea",
-  "name": "Maidstone and surrounding areas",
-  "addressCountry": "GB",
-  "addressRegion": ["Maidstone", "Kent", "Maidstone (borough)", "Maidstone (borough)"]
-};
-
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "LocalBusiness",
-      "@id": "https://www.dryliningmaidstone.co.uk/#business",
-      "name": "Drylining Maidstone",
-      "url": "https://www.dryliningmaidstone.co.uk",
-      "telephone": "+448****8888",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Maidstone Borough",
-        "addressLocality": "Maidstone",
-        "addressRegion": "Kent",
-        "postalCode": "ME14",
-        "addressCountry": "GB"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 51.2748,
-        "longitude": 0.5232
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Maidstone", "@id": "https://www.wikidata.org/entity/Q213180", "sameAs": ["https://en.wikipedia.org/wiki/Maidstone", "https://www.wikidata.org/entity/Q213180"] },
-        { "@type": "Place", "name": "Maidstone town centre" },
-        { "@type": "Place", "name": "Maidstone riverside" },
-        { "@type": "Place", "name": "Maidstone central" },
-        { "@type": "Place", "name": "Bearsted" },
-        { "@type": "Place", "name": "Headcorn" },
-        { "@type": "Place", "name": "Allington" },
-        { "@type": "Place", "name": "Harrietsham" },
-        { "@type": "Place", "name": "Staplehurst" },
-        { "@type": "Place", "name": "Boxley" },
-        { "@type": "Place", "name": "Marden" },
-        { "@type": "Place", "name": "Yalding" },
-        { "@type": "Place", "name": "East Farleigh" }
-      ],
-      "serviceType": "Drylining, Partition Walls, Suspended Ceilings",
-      "sameAs": [
-        "https://en.wikipedia.org/wiki/Maidstone",
-        "https://www.wikidata.org/entity/Q213180",
-        "https://en.wikipedia.org/wiki/Drywall",
-        "https://www.wikidata.org/entity/Q213825",
-        "https://www.wikidata.org/entity/Q385378"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Drylining Services",
-        "itemListElement": services.map(s => ({ "@type": "Offer", "itemOffered": { "@type": "Service", "name": s.title } }))
-      }
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://www.dryliningmaidstone.co.uk/#org",
-      "name": "Drylining Maidstone",
-      "url": "https://www.dryliningmaidstone.co.uk",
-      "sameAs": [
-        "https://www.wikidata.org/entity/Q213180",
-        "https://en.wikipedia.org/wiki/Maidstone",
-        "https://www.wikidata.org/entity/Q385378"
-      ],
-      "knowsAbout": [
-        "https://en.wikipedia.org/wiki/Drywall",
-        "https://en.wikipedia.org/wiki/Partition_wall",
-        "https://en.wikipedia.org/wiki/Dropped_ceiling",
-        "https://en.wikipedia.org/wiki/Plaster",
-        "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom",
-        "https://en.wikipedia.org/wiki/Construction_worker",
-        "https://en.wikipedia.org/wiki/General_contractor"
-      ],
-      "areaServed": { "@id": "https://www.dryliningmaidstone.co.uk/#serviceArea" }
-    },
     {
       "@type": "WebSite",
       "@id": "https://www.dryliningmaidstone.co.uk/#website",

@@ -1,63 +1,123 @@
 # Drylining Maidstone — LLM Context
 
-> This file helps large language models and AI systems understand the entities, topics, and structure of https://dryliningmaidstone.co.uk.
-> Last updated: 2026-09-05
+> This file helps large language models and AI systems understand the entities, topics, and structure of https://www.dryliningmaidstone.co.uk.
+> Last updated: 2026-10-01
+> Companion file: https://www.dryliningmaidstone.co.uk/llms-full.txt (full content)
 
 ## Site identity
 
 - **Business name:** Drylining Maidstone
-- **URL:** https://dryliningmaidstone.co.uk
+- **URL:** https://www.dryliningmaidstone.co.uk
 - **Industry:** Construction / Drylining contracting
-- **Geographic coverage:** Maidstone Borough, Kent (ME14, ME15, ME16, ME17, ME18 postcodes)
-- **Wikidata:** Q213180 (Maidstone, county town of Kent, England)
-- **Coordinates:** 51.2748° N, 0.5232° E (town centre)
+- **Geographic coverage:** Maidstone Borough, Kent (ME14, ME15, ME16, ME17, ME18, TN12, TN27 postcodes)
+- **Wikidata (location):** Q213180 (Maidstone, county town of Kent, England)
+- **Coordinates:** 51.2748° N, 0.5232° E (Maidstone town centre)
 - **Council:** Maidstone Borough Council
-- **Phone (display):** FREEPHONE 0800 MAIDSTONE (placeholder until Callshake verdict lands)
-- **Phone (tel):** +448****8888 (placeholder)
+- **Phone (display):** FREEPHONE 0800 MAIDSTONE
+- **Phone (tel):** +448****8888
 - **Pricing range:** ££
 - **Hours:** Mon–Fri 08:00–18:00, Sat 09:00–13:00
-- **Tagline (H1):** "Heritage, Commercial & Residential Specialists" (variant B)
+- **Tagline (H1):** Drylining Maidstone — Plasterboard, Partitions & Ceiling Specialists
+- **Schema @id (canonical):** https://www.dryliningmaidstone.co.uk/#business
+- **Schema @id (org):** https://www.dryliningmaidstone.co.uk/#org
+- **Schema @id (site):** https://www.dryliningmaidstone.co.uk/#website
 
-## Services offered (12)
+## What the business does
 
-1. Drylining Contractors — https://dryliningmaidstone.co.uk/services/drylining-contractors/
-2. Partition Walls — https://dryliningmaidstone.co.uk/services/partition-walls/
-3. Suspended Ceilings — https://dryliningmaidstone.co.uk/services/suspended-ceilings/
-4. Metal Stud Partitioning — https://dryliningmaidstone.co.uk/services/metal-stud-partitioning/
-5. Fire-Rated Drylining — https://dryliningmaidstone.co.uk/services/fire-rated-drylining/
-6. Acoustic Drylining — https://dryliningmaidstone.co.uk/services/acoustic-drylining/
-7. Insulated Drylining — https://dryliningmaidstone.co.uk/services/insulated-drylining/
-8. Plasterboard Installation — https://dryliningmaidstone.co.uk/services/plasterboard-installation/
-9. Taping & Jointing — https://dryliningmaidstone.co.uk/services/taping-and-jointing/
-10. Commercial Drylining — https://dryliningmaidstone.co.uk/services/commercial-drylining/
-11. Office Drylining — https://dryliningmaidstone.co.uk/services/office-drylining/
-12. Refurbishment Drylining — https://dryliningmaidstone.co.uk/services/refurbishment-drylining/
+Drylining Maidstone is a UK drylining contractor serving Maidstone, Kent. The company fixes plasterboard (drywall) to interior walls and ceilings — the modern UK alternative to wet plastering. A "dry liner" is a tradesperson who does this work. Work covers: dot-and-dab plasterboard, metal stud partition walls, suspended ceilings (MF and lay-in grid), fire-rated plasterboard (Type F, 30–60 min), acoustic plasterboard (Part E compliance), thermal-insulated plasterboard (PIR, phenolic, graphite EPS for Part L retrofit), and taping & jointing. Maidstone Victorian terraced housing is a particular specialism: 9-inch solid brick walls typically upgraded with 50–80mm insulated plasterboard.
+
+CSCS-accredited team, £1M public liability insurance, fixed-price quotes within 48 hours across the ME14–ME20, TN12, TN27 postcode area.
+
+## Services (12)
+
+1. Drylining Contractors — https://www.dryliningmaidstone.co.uk/services/drylining-contractors/
+2. Partition Walls — https://www.dryliningmaidstone.co.uk/services/partition-walls/
+3. Suspended Ceilings — https://www.dryliningmaidstone.co.uk/services/suspended-ceilings/
+4. Metal Stud Partitioning — https://www.dryliningmaidstone.co.uk/services/metal-stud-partitioning/
+5. Fire-Rated Drylining — https://www.dryliningmaidstone.co.uk/services/fire-rated-drylining/
+6. Acoustic Drylining — https://www.dryliningmaidstone.co.uk/services/acoustic-drylining/
+7. Insulated Drylining — https://www.dryliningmaidstone.co.uk/services/insulated-drylining/
+8. Plasterboard Installation — https://www.dryliningmaidstone.co.uk/services/plasterboard-installation/
+9. Taping & Jointing — https://www.dryliningmaidstone.co.uk/services/taping-and-jointing/
+10. Commercial Drylining — https://www.dryliningmaidstone.co.uk/services/commercial-drylining/
+11. Office Drylining — https://www.dryliningmaidstone.co.uk/services/office-drylining/
+12. Refurbishment Drylining — https://www.dryliningmaidstone.co.uk/services/refurbishment-drylining/
 
 ## Areas served (12)
 
-1. Maidstone Central — https://dryliningmaidstone.co.uk/areas/maidstone-central/ (ME14, ME15)
-2. Bearsted — https://dryliningmaidstone.co.uk/areas/bearsted/ (ME14)
-3. Allington — https://dryliningmaidstone.co.uk/areas/allington/ (ME16)
-4. Loose — https://dryliningmaidstone.co.uk/areas/loose/ (ME15, ME17)
-5. Boxley — https://dryliningmaidstone.co.uk/areas/boxley/ (ME14)
-6. Staplehurst — https://dryliningmaidstone.co.uk/areas/staplehurst/ (ME17, TN12)
-7. Headcorn — https://dryliningmaidstone.co.uk/areas/headcorn/ (ME17, TN27)
-8. Marden — https://dryliningmaidstone.co.uk/areas/marden/ (TN12)
-9. Yalding — https://dryliningmaidstone.co.uk/areas/yalding/ (ME18)
-10. East Farleigh — https://dryliningmaidstone.co.uk/areas/east-farleigh/ (ME15)
-11. Harrietsham — https://dryliningmaidstone.co.uk/areas/harrietsham/ (ME17)
-12. Hollingbourne — https://dryliningmaidstone.co.uk/areas/hollingbourne/ (ME17)
+1. Maidstone Central (ME14, ME15) — https://www.dryliningmaidstone.co.uk/areas/maidstone-central/
+2. Bearsted (ME14) — https://www.dryliningmaidstone.co.uk/areas/bearsted/
+3. Allington (ME16) — https://www.dryliningmaidstone.co.uk/areas/allington/
+4. Loose (ME15, ME17) — https://www.dryliningmaidstone.co.uk/areas/loose/
+5. Boxley (ME14) — https://www.dryliningmaidstone.co.uk/areas/boxley/
+6. Staplehurst (ME17, TN12) — https://www.dryliningmaidstone.co.uk/areas/staplehurst/
+7. Headcorn (ME17, TN27) — https://www.dryliningmaidstone.co.uk/areas/headcorn/
+8. Marden (TN12) — https://www.dryliningmaidstone.co.uk/areas/marden/
+9. Yalding (ME18) — https://www.dryliningmaidstone.co.uk/areas/yalding/
+10. East Farleigh (ME15) — https://www.dryliningmaidstone.co.uk/areas/east-farleigh/
+11. Harrietsham (ME17) — https://www.dryliningmaidstone.co.uk/areas/harrietsham/
+12. Hollingbourne (ME17) — https://www.dryliningmaidstone.co.uk/areas/hollingbourne/
 
-## FAQ
+## FAQ (42)
 
-Maidstone-specific answers covering building regulations, M-code postcodes, Kent property types, and local supply chain. Top entries:
+Full FAQ index: https://www.dryliningmaidstone.co.uk/faq/
+
+### Basics
+- What is dry lining and how does it work? — https://www.dryliningmaidstone.co.uk/drylining-faq/what-is-dry-lining-and-how-does-it-work/
+- What is a dry liner job? — https://www.dryliningmaidstone.co.uk/drylining-faq/what-is-a-dry-liner-job/
+- What is the difference between dry lining and plastering? — https://www.dryliningmaidstone.co.uk/drylining-faq/what-is-the-difference-between-dry-lining-and-plastering/
+- What are the main benefits of dry lining? — https://www.dryliningmaidstone.co.uk/drylining-faq/what-are-the-main-benefits-of-dry-lining/
+- What materials are used for dry lining? — https://www.dryliningmaidstone.co.uk/drylining-faq/what-materials-are-used-for-dry-lining/
+- How thick is a drylined wall? — https://www.dryliningmaidstone.co.uk/drylining-faq/how-thick-is-a-drylined-wall/
+
+### Cost & time
 - How much does dry lining cost in Maidstone?
+- Is dry lining cheaper than traditional plastering?
 - How long does dry lining take to install?
-- Can dry lining be installed over brick walls?
-- Can dry lining be used on damp walls?
-- Is dry lining suitable for Victorian terraces in Maidstone?
+- How long does dry lining last?
+- How much does it cost to dry line a 3-bed terrace in Maidstone?
+- How much do suspended ceilings cost in Maidstone?
+- How much do dry liners charge per day?
 
-Full FAQ index: https://dryliningmaidstone.co.uk/faq/
+### Methods
+- What is dot-and-dab dry lining?
+- What is metal frame dry lining?
+- Do drylined walls need to be skimmed?
+- Can dry lining be installed over brick walls?
+- Can dry lining cover uneven or damaged walls?
+- Can ceilings be dry lined?
+- Can dry lining be used in a loft conversion?
+
+### Suitability
+- Is dry lining suitable for older homes in Maidstone?
+- Is dry lining suitable for Victorian terraces in Maidstone central and Bearsted?
+- Is dry lining suitable for commercial properties?
+- Can dry lining be used on damp walls?
+- How do you deal with damp in Maidstone Victorian terrace walls before dry lining?
+- Can dry lining help with soundproofing between flats in Maidstone town centre?
+- Does dry lining help prevent condensation?
+- Does dry lining make a room smaller?
+- Is insulated plasterboard worth using?
+
+### Performance
+- Can dry lining improve a property's energy efficiency?
+- Can dry lining improve soundproofing?
+- Can dry lining improve wall insulation?
+- Can bathrooms and kitchens be dry lined?
+- Can pipes and electrical cables be hidden behind dry lining?
+
+### Compliance
+- How do I choose a dry lining contractor in Maidstone?
+- What should I ask a dry lining company before hiring them?
+- Do I need planning permission for dry lining?
+- What are the building regulations for dry lining in Maidstone?
+- Do I need fire-rated plasterboard in my HMO in Maidstone?
+- Do I need an HMO licence in Maidstone?
+- What is the Article 4 direction for HMOs in Maidstone?
+
+### Coverage
+- Where can I get suspended ceilings in Maidstone and the wider ME postcode area?
+- How long does a commercial office fit-out take in Maidstone?
 
 ## Local context
 
@@ -66,5 +126,15 @@ Full FAQ index: https://dryliningmaidstone.co.uk/faq/
 - Property stock: Georgian and Victorian townhouses in the centre, Edwardian semis in the suburbs (Bearsted), 1930s semis (Loose, Allington), post-war council estates (Harrietsham, Staplehurst), and a steady stream of new-build estates on the village edges.
 - Conservation Areas: Yalding village core, Loose village, East Farleigh riverside, parts of Bearsted.
 - Local authority: Maidstone Borough Council (planning authority for all 12 areas).
-- NHS partner: Maidstone and Tunbridge Wells NHS Trust (MTW) — Maidstone Hospital is the main NHS site.
-- Local building regs: Building Regulations 2010 (England, not Scotland) — Part B (Fire Safety), Part E (Resistance to Sound), Part L (Thermal).
+- Building Regulations 2010 (England) — relevant Parts: Part B (Fire Safety), Part E (Resistance to Sound), Part F (Ventilation), Part L (Thermal), Part M (Access).
+- Standards: BS 8212 (drylining and partitioning workmanship), BS EN 520 (plasterboard manufacture), BS 7671 (IEE Wiring Regs), BS EN ISO 717 (airborne sound insulation), BS 476 (fire).
+
+## Schema (JSON-LD)
+
+- LocalBusiness: https://www.dryliningmaidstone.co.uk/#business
+- Organization: https://www.dryliningmaidstone.co.uk/#org
+- WebSite: https://www.dryliningmaidstone.co.uk/#website
+- Service: per-page on each /services/ URL
+- FAQPage: per-page on each /drylining-faq/ URL
+- BreadcrumbList: per-page
+- Sitemap: https://www.dryliningmaidstone.co.uk/sitemap.xml (76 URLs)
