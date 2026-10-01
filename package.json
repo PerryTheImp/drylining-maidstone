@@ -5,11 +5,12 @@
   "description": "Drylining Maidstone — Astro static site",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/postbuild.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^6.3.4"
   }
 }

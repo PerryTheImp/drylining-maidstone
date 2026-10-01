@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dryliningmaidstone.co.uk/sitemap.xml
+Sitemap: https://www.dryliningmaidstone.co.uk/sitemap.xml
