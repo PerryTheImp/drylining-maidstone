@@ -16,7 +16,6 @@ dist/
 
 # Vercel deploy artifacts
 api/
-scripts/
 public/BingSiteAuth.xml
 public/googled*.html
 public/videos/
