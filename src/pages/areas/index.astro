@@ -22,12 +22,12 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://dryliningmaidstone.co.uk/#business",
+      "@id": "https://www.dryliningmaidstone.co.uk/#business",
       "name": "Drylining Maidstone",
-      "url": "https://dryliningmaidstone.co.uk",
+      "url": "https://www.dryliningmaidstone.co.uk",
       "telephone": "+448****8888",
       "priceRange": "££",
-      "image": "https://dryliningmaidstone.co.uk/images/area-maidstone-central.jpg",
+      "image": "https://www.dryliningmaidstone.co.uk/images/area-maidstone-central.jpg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Maidstone Borough",
@@ -44,7 +44,7 @@ const schema = {
       "areaServed": areas.map(a => ({
         "@type": "Place",
         "name": a.name,
-        "url": `https://dryliningmaidstone.co.uk/areas/${a.slug}/`
+        "url": `https://www.dryliningmaidstone.co.uk/areas/${a.slug}/`
       })),
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
@@ -56,7 +56,7 @@ const schema = {
 ---
 <Layout title="Areas We Cover | Drylining Maidstone" description="Drylining contractors across Maidstone and the wider ME14-ME18 catchment — Bearsted, Allington, Loose, Boxley, Staplehurst, Headcorn, Marden, Yalding, East Farleigh, Harrietsham, Hollingbourne." canonical="/areas/" schema={schema}>
   <section style="position:relative;min-height:480px;display:flex;align-items:center;background:linear-gradient(135deg,#0a0e1a 0%,#1a1f3a 100%);overflow:hidden;">
-    <img src="/images/area-maidstone-central.jpg" alt="Maidstone town centre skyline" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.25;">
+    <img src="/images/area-maidstone-central.jpg" alt="Maidstone town centre skyline" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.25;" width="1200" height="800" loading="lazy" decoding="async">
     <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,14,26,0.85) 0%,rgba(26,31,58,0.85) 100%);"></div>
     <div class="container" style="position:relative;z-index:1;">
       <nav style="font-size:0.75rem;color:rgba(255,255,255,0.6);margin-bottom:1.5rem;">

@@ -40,7 +40,7 @@ const faqs = allFaqs.slice(0, 5);
 
 const serviceAreaSchema = {
   "@type": "DefinedRegion",
-  "@id": "https://dryliningmaidstone.co.uk/#serviceArea",
+  "@id": "https://www.dryliningmaidstone.co.uk/#serviceArea",
   "name": "Maidstone and surrounding areas",
   "addressCountry": "GB",
   "addressRegion": ["Maidstone", "Kent", "Maidstone (borough)", "Maidstone (borough)"]
@@ -51,16 +51,17 @@ const schema = {
   "@graph": [
     {
       "@type": "LocalBusiness",
-      "@id": "https://dryliningmaidstone.co.uk/#business",
+      "@id": "https://www.dryliningmaidstone.co.uk/#business",
       "name": "Drylining Maidstone",
-      "url": "https://dryliningmaidstone.co.uk",
+      "url": "https://www.dryliningmaidstone.co.uk",
       "telephone": "+448****8888",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Maidstone Borough",
         "addressLocality": "Maidstone",
-        "addressRegion": "England",
-        "addressCountry": "GB",
-        "sameAs": "https://www.wikidata.org/entity/Q213180"
+        "addressRegion": "Kent",
+        "postalCode": "ME14",
+        "addressCountry": "GB"
       },
       "geo": {
         "@type": "GeoCoordinates",
@@ -98,9 +99,9 @@ const schema = {
     },
     {
       "@type": "Organization",
-      "@id": "https://dryliningmaidstone.co.uk/#org",
+      "@id": "https://www.dryliningmaidstone.co.uk/#org",
       "name": "Drylining Maidstone",
-      "url": "https://dryliningmaidstone.co.uk",
+      "url": "https://www.dryliningmaidstone.co.uk",
       "sameAs": [
         "https://www.wikidata.org/entity/Q213180",
         "https://en.wikipedia.org/wiki/Maidstone",
@@ -115,17 +116,17 @@ const schema = {
         "https://en.wikipedia.org/wiki/Construction_worker",
         "https://en.wikipedia.org/wiki/General_contractor"
       ],
-      "areaServed": { "@id": "https://dryliningmaidstone.co.uk/#serviceArea" }
+      "areaServed": { "@id": "https://www.dryliningmaidstone.co.uk/#serviceArea" }
     },
     {
       "@type": "WebSite",
-      "@id": "https://dryliningmaidstone.co.uk/#website",
-      "url": "https://dryliningmaidstone.co.uk",
+      "@id": "https://www.dryliningmaidstone.co.uk/#website",
+      "url": "https://www.dryliningmaidstone.co.uk",
       "name": "Drylining Maidstone",
-      "publisher": { "@id": "https://dryliningmaidstone.co.uk/#org" },
+      "publisher": { "@id": "https://www.dryliningmaidstone.co.uk/#org" },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": { "@type": "EntryPoint", "urlTemplate": "https://dryliningmaidstone.co.uk/search?q={search_term_string}" },
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://www.dryliningmaidstone.co.uk/search?q={search_term_string}" },
         "query-input": "required name=search_term_string"
       }
     },
@@ -139,7 +140,7 @@ const schema = {
     },
     {
       "@type": "BreadcrumbList",
-      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dryliningmaidstone.co.uk/" }]
+      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.dryliningmaidstone.co.uk/" }]
     }
   ]
 };
@@ -153,7 +154,7 @@ const schema = {
 >
   <!-- Hero Section -->
   <section style="position: relative; min-height: 620px; display: flex; align-items: center; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); overflow: hidden;">
-    <img src="/images/maidstone-town.jpg" alt="Maidstone town centre skyline with the River Medway" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.25;" />
+    <img src="/images/maidstone-town.jpg" alt="Maidstone town centre skyline with the River Medway" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.25;"  width="1200" height="800" loading="lazy" decoding="async" />
     <div class="container hero-grid" style="position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
       <div>
         <div style="display: inline-block; background: rgba(30,64,175,0.2); color: var(--primary); padding: 0.375rem 1rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 600; margin-bottom: 1.5rem; border: 1px solid rgba(30,64,175,0.3);">CSCS Accredited • £1M Insured</div>
@@ -218,27 +219,27 @@ const schema = {
       </div>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem;">
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-newbuild-partition-1.jpg" alt="Before and after of a new-build partition wall in Maidstone — metal stud framing to skim-finished plasterboard" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-newbuild-partition-1.jpg" alt="Before and after of a new-build partition wall in Maidstone — metal stud framing to skim-finished plasterboard" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">New-build partition wall</strong> · Maidstone central · metal stud to finished plasterboard</figcaption>
         </figure>
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-office-ceiling-1.jpg" alt="Before and after of an office suspended ceiling installation in Maidstone riverside Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-office-ceiling-1.jpg" alt="Before and after of an office suspended ceiling installation in Maidstone riverside Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">Office suspended ceiling</strong> · Maidstone town centre · grid &amp; tile fit-out</figcaption>
         </figure>
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-victorian-living-1.jpg" alt="Before and after of a Victorian living room re-plaster in Bearsted Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-victorian-living-1.jpg" alt="Before and after of a Victorian living room re-plaster in Bearsted Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">Victorian living room</strong> · Bearsted · full re-plaster &amp; drylining</figcaption>
         </figure>
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-commercial-ceiling-1.jpg" alt="Before and after of a commercial building exposed ceiling upgrade in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-commercial-ceiling-1.jpg" alt="Before and after of a commercial building exposed ceiling upgrade in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">Commercial ceiling upgrade</strong> · Maidstone · services hidden, plaster skim finish</figcaption>
         </figure>
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-edwardian-living-1.jpg" alt="Before and after of an Edwardian house living room drylining in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-edwardian-living-1.jpg" alt="Before and after of an Edwardian house living room drylining in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">Edwardian living room</strong> · Loose · plaster skim over new plasterboard</figcaption>
         </figure>
         <figure style="margin:0;background:var(--accent);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">
-          <img src="/images/beforeafter-newbuild-ceiling-2.jpg" alt="Before and after of a new-build suspended ceiling installation in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;" />
+          <img src="/images/beforeafter-newbuild-ceiling-2.jpg" alt="Before and after of a new-build suspended ceiling installation in Maidstone" style="width:100%;height:280px;object-fit:cover;display:block;"  width="1200" height="800" loading="lazy" decoding="async" />
           <figcaption style="padding:1rem 1.25rem;font-size:0.9375rem;color:var(--text);"><strong style="color:var(--secondary);">New-build MF ceiling</strong> · Harrietsham · full MF plasterboard system</figcaption>
         </figure>
       </div>
@@ -281,7 +282,7 @@ const schema = {
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
         <div>
-          <img src="/images/about-team.jpg" alt="Drylining Maidstone contractor at work on a plasterboard wall" style="border-radius: var(--radius); width: 100%; max-width: 420px; display: block; margin: 0 auto; box-shadow: var(--shadow-lg);" />
+          <img src="/images/about-team.jpg" alt="Drylining Maidstone contractor at work on a plasterboard wall" style="border-radius: var(--radius); width: 100%; max-width: 420px; display: block; margin: 0 auto; box-shadow: var(--shadow-lg);"  width="1200" height="800" loading="lazy" decoding="async" />
         </div>
         <div>
           <h2 class="section-title">Why Choose Drylining Maidstone?</h2>
@@ -340,6 +341,29 @@ const schema = {
     </div>
   </section>
 
+  <!-- Plasterboard, Skimming & Dry Lining UK — keyword-rich content section -->
+  <section class="section" style="background: var(--white);">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        <div>
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--secondary); margin-bottom: 1rem;">Grey Plasterboard in Maidstone</h2>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7; margin-bottom: 1rem;">Grey plasterboard (often called <em>moisture-resistant plasterboard</em> or <em>MR board</em>) is the standard tile-backer in Maidstone bathrooms, kitchens, and utility rooms. Unlike standard ivory plasterboard, the grey face and green-tinted core resist moisture absorption — essential for tile adhesive bond and long-term durability in steamy rooms. We stock 12.5mm and 15mm grey plasterboard from British Gypsum, Knauf, and Siniat, and we dot-and-dab or mechanically fix it to masonry and stud walls across ME14–ME18.</p>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7;"><a href="/services/plasterboard-installation/" style="color: var(--primary); font-weight: 600;">View our full plasterboard service range →</a></p>
+        </div>
+        <div>
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--secondary); margin-bottom: 1rem;">Re Skimming Walls in Maidstone</h2>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7; margin-bottom: 1rem;">Re skimming walls — applying a fresh 2–3mm coat of finishing plaster over old plasterboard or previously painted plaster — is the cheapest way to get a perfect, paint-ready surface before redecoration. Typical Maidstone cost is £7–£11 per m², with a standard 3-bed terrace re-skim taking 2–3 days. We also tape-and-joint as a faster, drier alternative that lands at a similar finish quality for most domestic work.</p>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7;"><a href="/drylining-faq/is-dry-lining-cheaper-than-traditional-plastering/" style="color: var(--primary); font-weight: 600;">Skim vs tape-and-joint — full cost breakdown →</a></p>
+        </div>
+        <div>
+          <h2 style="font-size: 1.5rem; font-weight: 800; color: var(--secondary); margin-bottom: 1rem;">What Is Dry Lining UK?</h2>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7; margin-bottom: 1rem;">Dry lining in the UK is the standard modern alternative to wet plastering: instead of laying multiple wet coats of plaster on the wall, a dry liner fixes pre-made plasterboard sheets to the masonry (dot-and-dab) or to a metal stud frame, then tapes and joints the seams. It is faster, cleaner, and lower cost than traditional plastering, and it is the default finish on virtually every UK new-build and commercial fit-out — including the Maidstone riverside apartments, Lockmeadow retail, and every HMO conversion across the borough.</p>
+          <p style="color: var(--text-light); font-size: 1rem; line-height: 1.7;"><a href="/drylining-faq/what-is-dry-lining-and-how-does-it-work/" style="color: var(--primary); font-weight: 600;">Full explainer on what dry lining is →</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ Section -->
   <section class="section">
     <div class="container" style="max-width: 800px;">
@@ -355,92 +379,6 @@ const schema = {
   </section>
 
   <!-- Inline Form Handler Script -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Drylining Maidstone",
-      "url": "https://dryliningmaidstone.co.uk",
-      "telephone": "+448008174888",
-      "knowsAbout": [
-        "https://en.wikipedia.org/wiki/Drywall",
-        "https://en.wikipedia.org/wiki/Plaster",
-        "https://en.wikipedia.org/wiki/Partition_wall",
-        "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom",
-        "https://en.wikipedia.org/wiki/Construction_worker",
-        "https://en.wikipedia.org/wiki/General_contractor",
-        "https://en.wikipedia.org/wiki/Cold-formed_steel",
-        "https://en.wikipedia.org/wiki/Dropped_ceiling"
-      ],
-      "areaServed": {
-        "@type": "Place",
-        "name": "Maidstone",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Maidstone",
-          "https://www.wikidata.org/entity/Q213180"
-        ]
-      }
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Drylining Maidstone",
-      "@id": "https://dryliningmaidstone.co.uk/#business",
-      "url": "https://dryliningmaidstone.co.uk",
-      "telephone": "+448008174888",
-      "serviceType": "Drylining Services",
-      "additionalType": "https://www.wikidata.org/entity/Q213825",
-      "sameAs": "https://en.wikipedia.org/wiki/Drywall",
-      "provider": {
-        "@type": "Organization",
-        "name": "Drylining Maidstone",
-        "knowsAbout": [
-          "https://en.wikipedia.org/wiki/Drywall",
-          "https://en.wikipedia.org/wiki/Plaster",
-          "https://en.wikipedia.org/wiki/Partition_wall",
-          "https://en.wikipedia.org/wiki/Building_regulations_in_the_United_Kingdom",
-          "https://en.wikipedia.org/wiki/Construction_worker",
-          "https://en.wikipedia.org/wiki/General_contractor",
-          "https://en.wikipedia.org/wiki/Cold-formed_steel",
-          "https://en.wikipedia.org/wiki/Dropped_ceiling"
-        ]
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Maidstone",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Maidstone",
-          "https://www.wikidata.org/entity/Q213180"
-        ]
-      }
-    }
-  </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is drylining?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Drylining is the process of fixing plasterboard to interior walls and ceilings without using wet plaster. It is faster, cleaner, and provides a smooth finish ready for decorating or painting.",
-            "about": {
-              "@type": "Thing",
-              "name": "Drywall",
-              "sameAs": "https://en.wikipedia.org/wiki/Drywall"
-            }
-          }
-        }
-      ]
-    }
-  </script>
-
   <script>
     (function() {
       var form = document.getElementById("heroQuoteForm");

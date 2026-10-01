@@ -13,6 +13,18 @@ The clever bit is the cavity. In a dot-and-dab wall it is the 10–25mm gap betw
 You see dry lining in every Maidstone context from Fremlin Walk retail fit-outs and new apartments at the riverside Lockmeadow, through commercial offices on the A229 ring road, to whole-house re-lines in Bearsted, Loose, and the older streets off the High Street. The two governing standards are BS 8212 (drylining and partitioning workmanship) and BS EN 520 (plasterboard manufacture — the Type A/H/F/D/I letter code on every board tells you its classification). Every Maidstone job we sign off is logged with the board manufacturer reference and the fix method so the warranty trail is clean.`
   },
   {
+    question: "What is a dry liner job?",
+    answer: `A dry liner job is the role of a tradesperson who fixes plasterboard (drywall) to interior walls and ceilings — the modern UK alternative to a wet plasterer. The work covers: measuring and cutting boards, fixing them with adhesive dabs or by screwing to a metal stud frame, taping and jointing the seams, and finishing to a paint-ready surface. A dry liner job also includes reading drawings, working to building regulations (BS 8212 workmanship, Part E acoustics, Part F ventilation, Part L thermal), and coordinating with electricians and plumbers on first-fix services.
+
+In Maidstone, dry liner jobs span period terrace re-lines in Bearsted and Loose, new-build apartment fit-outs at Lockmeadow and the riverside, commercial offices on the A229 ring road, retail shells at Fremlin Walk, and HMO conversions across ME14–ME18. A typical domestic dry liner job takes 3–5 days for a 3-bed terrace; a commercial office fit-out runs 2–6 weeks.
+
+Daily rate: £180–£220 per dry liner in Maidstone (2026), or £90–£110 per m² for fully-supplied and installed plasterboard on a standard domestic re-line. Subcontract day rates sit 10–15% below for sole-traders without their own insurance.
+
+A dry liner job is a recognised trade in the UK construction sector. There is no statutory NVQ requirement to call yourself a dry liner, but most reputable Maidstone dry lining firms hold CSCS, NVQ Level 2 in Interior Systems (Dry Lining), CITB SMSTS or SSSTS, and £1M+ public liability insurance. Dry liner jobs are physically demanding (full-day standing, lifting 25–35 kg boards, overhead work) and pay 10–15% above general labouring in the South East.
+
+If you are hiring a dry liner, look for: CSCS cards on arrival, examples of recent Maidstone work, a fixed-price quote that names the board manufacturer and fix method, and a written warranty on completion.`
+  },
+  {
     question: "How much does dry lining cost in Maidstone?",
     answer: `Dry lining costs in Maidstone for September 2026 are typically:
 

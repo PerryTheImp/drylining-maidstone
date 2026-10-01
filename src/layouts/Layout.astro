@@ -9,7 +9,7 @@ export interface Props {
   schema?: Record<string, unknown>;
 }
 const { title, description, canonical, schema } = Astro.props;
-const siteUrl = "https://dryliningmaidstone.co.uk";
+const siteUrl = "https://www.dryliningmaidstone.co.uk";
 const canonicalUrl = canonical ? `${siteUrl}${canonical}` : siteUrl;
 
 // Unified LocalBusiness NAP — present on every page, schema-aware pages can extend
@@ -74,11 +74,11 @@ const finalSchema = schema
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://dryliningmaidstone.co.uk/images/maidstone-town.jpg" />
+  <meta property="og:image" content="https://www.dryliningmaidstone.co.uk/images/maidstone-town.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content="https://dryliningmaidstone.co.uk/images/maidstone-town.jpg" />
+  <meta name="twitter:image" content="https://www.dryliningmaidstone.co.uk/images/maidstone-town.jpg" />
   <!-- Local SEO / NAP geo-meta tags -->
   <meta name="geo.region" content="GB-ENG" />
   <meta name="geo.placename" content="Maidstone, Kent" />
@@ -92,9 +92,9 @@ const finalSchema = schema
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://dryliningmaidstone.co.uk/#org",
+    "@id": "https://www.dryliningmaidstone.co.uk/#org",
     name: "Drylining Maidstone",
-    url: "https://dryliningmaidstone.co.uk",
+    url: "https://www.dryliningmaidstone.co.uk",
     sameAs: [
       "https://www.wikidata.org/wiki/Q213180",
       "https://en.wikipedia.org/wiki/Maidstone",
