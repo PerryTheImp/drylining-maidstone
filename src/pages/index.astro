@@ -340,28 +340,18 @@ const schema = {
       }
 
       // Two-phase direct upload:
-      //   1. Ask /api/quote-upload-token for a one-time clientToken
-      //   2. Hand the clientToken to @vercel/blob/client's upload() which
-      //      streams the file directly to Vercel Blob.
-      // This bypasses the 4.5 MB serverless-function body limit so tender
-      // packs reach Vercel Blob without ever touching our function.
+      //   1. upload() POSTs to /api/quote-upload-token for a one-time
+      //      clientToken (passing the storage pathname so our prefix check
+      //      passes).
+      //   2. upload() streams the file directly to Vercel Blob using that
+      //      token, bypassing the 4.5 MB serverless-function body limit.
+      // We pass the full prefixed pathname as the first arg so the lib uses
+      // it in the token request — our endpoint rejects pathnames that don't
+      // start with leads/<site-id>/.
       function uploadToBlob(file, pathname) {
-        var tokenPromise = fetch('/api/quote-upload-token', {
-          method: 'POST',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ type: 'blob.generate-client-token', payload: { pathname } }),
-        }).then(function(tokenRes) {
-          if (!tokenRes.ok) throw new Error('Token request failed (HTTP ' + tokenRes.status + ')');
-          return tokenRes.json();
-        }).then(function(tokenJson) {
-          if (!tokenJson.clientToken) throw new Error('Token response missing clientToken');
-          return tokenJson.clientToken;
-        });
-
-        return upload(file.name, file, {
+        return upload(pathname, file, {
           access: 'public',
           handleUploadUrl: '/api/quote-upload-token',
-          clientToken: tokenPromise,
         }).then(function(blob) {
           return {
             filename: file.name,
