@@ -108,6 +108,9 @@ const schema = {
             <option>Office Drylining</option>
           </select>
           <textarea name="details" placeholder="Project details (optional)" rows="3" style="padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius); font-size: 0.9375rem; font-family: inherit; resize: vertical;"></textarea>
+          <label for="heroAttachments" style="font-size: 0.8125rem; font-weight: 600; color: var(--text); margin-top: 0.25rem;">Attachments (drawings, tender pack, photos — optional)</label>
+          <input type="file" id="heroAttachments" name="attachments" multiple accept=".pdf,.jpg,.jpeg,.png,.webp,.heic,.dwg,.doc,.docx,.xls,.xlsx,.zip,.msg,.txt,.csv" style="padding: 0.5rem; border: 1px dashed var(--border); border-radius: var(--radius); font-size: 0.8125rem; font-family: inherit; background: var(--bg-soft);" />
+          <div id="heroAttachmentStatus" style="font-size: 0.75rem; color: var(--text-soft);"></div>
           <button type="submit" class="btn btn-primary" id="heroSubmitBtn" style="width: 100%; margin-top: 0.25rem;">Request Free Quote</button>
           <div id="heroFormMessage" style="font-size: 0.875rem; margin-top: 0.5rem; display: none;"></div>
         </form>
@@ -307,29 +310,147 @@ const schema = {
       var form = document.getElementById("heroQuoteForm");
       var btn = document.getElementById("heroSubmitBtn");
       var msg = document.getElementById("heroFormMessage");
+      var fileInput = document.getElementById("heroAttachments");
+      var statusEl = document.getElementById("heroAttachmentStatus");
       if (!form) return;
+
+      var APP_ID = 'maidstone';
+      var MAX_FILES = 5;
+      var MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB
+      var MAX_TOTAL_BYTES = 30 * 1024 * 1024; // 30 MB
+
+      function showError(text) {
+        if (msg) { msg.style.display = "block"; msg.style.color = "#1E40AF"; msg.textContent = text; }
+      }
+      function showSuccess(text) {
+        if (msg) { msg.style.display = "block"; msg.style.color = "#15803d"; msg.textContent = text; }
+      }
+      function setStatus(text) {
+        if (statusEl) statusEl.textContent = text;
+      }
+
+      function sanitize(name) {
+        return String(name || 'file').replace(/[^\w.\-]+/g, '_').slice(0, 120) || 'file';
+      }
+      function safePath(name) {
+        var ts = Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+        return 'leads/' + APP_ID + '/' + ts + '-' + sanitize(name);
+      }
+
+      // Two-phase direct upload: token from our API → PUT to Vercel Blob →
+      // POST JSON with URLs to /api/submit-quote. Bypasses the 4.5 MB
+      // serverless-function body limit so tender packs reach Vercel Blob
+      // directly without ever touching our function.
+      function uploadToBlob(file, pathname) {
+        return fetch('/api/quote-upload-token', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ type: 'blob.generate-client-token', payload: { pathname } }),
+        }).then(function(tokenRes) {
+          if (!tokenRes.ok) throw new Error('Token request failed (HTTP ' + tokenRes.status + ')');
+          return tokenRes.json();
+        }).then(function(tokenJson) {
+          var uploadUrl = tokenJson.uploadUrl || (tokenJson.clientToken && tokenJson.clientToken.uploadUrl);
+          if (!uploadUrl) throw new Error('Token response missing uploadUrl');
+          return fetch(uploadUrl, {
+            method: 'PUT',
+            headers: { 'content-type': file.type || 'application/octet-stream' },
+            body: file,
+          });
+        }).then(function(putRes) {
+          if (!putRes.ok) throw new Error('Upload failed (HTTP ' + putRes.status + ')');
+          return putRes.json();
+        }).then(function(blobJson) {
+          return {
+            filename: file.name,
+            url: blobJson.url,
+            size: file.size,
+            mime: file.type || 'application/octet-stream',
+          };
+        });
+      }
+
+      function uploadAll(files) {
+        var uploaded = [];
+        var i = 0;
+        return new Promise(function(resolve, reject) {
+          function next() {
+            if (i >= files.length) { resolve(uploaded); return; }
+            var f = files[i++];
+            setStatus('Uploading ' + i + ' of ' + files.length + ' (' + f.name + ')…');
+            uploadToBlob(f, safePath(f.name)).then(function(r) {
+              uploaded.push(r);
+              next();
+            }).catch(reject);
+          }
+          next();
+        });
+      }
+
       form.addEventListener("submit", function(e) {
         e.preventDefault();
         if (btn) { btn.disabled = true; btn.textContent = "Sending..."; }
         if (msg) { msg.style.display = "none"; }
-        var data = new FormData(form);
-        var payload = {};
-        data.forEach(function(v, k) { payload[k] = v; });
-        fetch(form.action, {
-          method: "POST",
-          body: JSON.stringify(payload),
-          headers: { "Content-Type": "application/json" },
-          mode: "no-cors"
-        }).then(function(r) {
-          if (r.ok || r.status === 0) {
-            if (msg) { msg.style.display = "block"; msg.style.color = "#15803d"; msg.textContent = "Thank you! We will be in touch within 24 hours."; }
-            form.reset();
-          } else {
-            throw new Error("Status " + r.status);
+        setStatus('');
+
+        var files = fileInput && fileInput.files ? Array.from(fileInput.files) : [];
+        if (files.length > MAX_FILES) {
+          showError('Too many files (max ' + MAX_FILES + ').');
+          if (btn) { btn.disabled = false; btn.textContent = "Request Free Quote"; }
+          return;
+        }
+        var total = 0;
+        for (var j = 0; j < files.length; j++) {
+          if (files[j].size > MAX_FILE_BYTES) {
+            showError('"' + files[j].name + '" is over 10 MB. Please compress or split.');
+            if (btn) { btn.disabled = false; btn.textContent = "Request Free Quote"; }
+            return;
           }
+          total += files[j].size;
+        }
+        if (total > MAX_TOTAL_BYTES) {
+          showError('Total attachments over 30 MB. Please send fewer or smaller files.');
+          if (btn) { btn.disabled = false; btn.textContent = "Request Free Quote"; }
+          return;
+        }
+
+        var finish = function(fileUrls) {
+          var data = new FormData(form);
+          var payload = {};
+          data.forEach(function(v, k) { payload[k] = v; });
+          payload.file_urls = fileUrls;
+          payload.upload_id = String(Date.now());
+          // Forward to Apps Script (same as no-attachments path) so existing
+          // lead pipeline still works. When files are attached, ALSO post to
+          // /api/submit-quote so Vercel Blob URLs reach the owner via email.
+          fetch(form.action, {
+            method: "POST",
+            body: JSON.stringify(payload),
+            headers: { "Content-Type": "application/json" },
+            mode: "no-cors"
+          });
+          if (fileUrls.length > 0) {
+            payload.landing_path = location.pathname;
+            return fetch('/api/submit-quote', {
+              method: 'POST',
+              headers: { 'content-type': 'application/json' },
+              body: JSON.stringify(payload),
+            }).then(function() { return { ok: true }; }).catch(function() { return { ok: false }; });
+          }
+          return Promise.resolve({ ok: true });
+        };
+
+        var run = files.length
+          ? uploadAll(files).then(finish)
+          : finish([]);
+
+        run.then(function() {
+          showSuccess('Thank you! We will be in touch within 24 hours.');
+          form.reset();
+          setStatus('');
         }).catch(function(err) {
-          if (msg) { msg.style.display = "block"; msg.style.color = "#1E40AF"; msg.textContent = "Something went wrong. Please call us or try again."; }
-        }).finally(function() {
+          showError((err && err.message) || 'Something went wrong. Please call us or try again.');
+        }).then(function() {
           if (btn) { btn.disabled = false; btn.textContent = "Request Free Quote"; }
         });
       });
