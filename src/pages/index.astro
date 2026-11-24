@@ -306,6 +306,8 @@ const schema = {
 
   <!-- Inline Form Handler Script -->
   <script>
+    import { upload } from '@vercel/blob/client';
+
     (function() {
       var form = document.getElementById("heroQuoteForm");
       var btn = document.getElementById("heroSubmitBtn");
@@ -337,12 +339,14 @@ const schema = {
         return 'leads/' + APP_ID + '/' + ts + '-' + sanitize(name);
       }
 
-      // Two-phase direct upload: token from our API → PUT to Vercel Blob →
-      // POST JSON with URLs to /api/submit-quote. Bypasses the 4.5 MB
-      // serverless-function body limit so tender packs reach Vercel Blob
-      // directly without ever touching our function.
+      // Two-phase direct upload:
+      //   1. Ask /api/quote-upload-token for a one-time clientToken
+      //   2. Hand the clientToken to @vercel/blob/client's upload() which
+      //      streams the file directly to Vercel Blob.
+      // This bypasses the 4.5 MB serverless-function body limit so tender
+      // packs reach Vercel Blob without ever touching our function.
       function uploadToBlob(file, pathname) {
-        return fetch('/api/quote-upload-token', {
+        var tokenPromise = fetch('/api/quote-upload-token', {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify({ type: 'blob.generate-client-token', payload: { pathname } }),
@@ -350,22 +354,20 @@ const schema = {
           if (!tokenRes.ok) throw new Error('Token request failed (HTTP ' + tokenRes.status + ')');
           return tokenRes.json();
         }).then(function(tokenJson) {
-          var uploadUrl = tokenJson.uploadUrl || (tokenJson.clientToken && tokenJson.clientToken.uploadUrl);
-          if (!uploadUrl) throw new Error('Token response missing uploadUrl');
-          return fetch(uploadUrl, {
-            method: 'PUT',
-            headers: { 'content-type': file.type || 'application/octet-stream' },
-            body: file,
-          });
-        }).then(function(putRes) {
-          if (!putRes.ok) throw new Error('Upload failed (HTTP ' + putRes.status + ')');
-          return putRes.json();
-        }).then(function(blobJson) {
+          if (!tokenJson.clientToken) throw new Error('Token response missing clientToken');
+          return tokenJson.clientToken;
+        });
+
+        return upload(file.name, file, {
+          access: 'public',
+          handleUploadUrl: '/api/quote-upload-token',
+          clientToken: tokenPromise,
+        }).then(function(blob) {
           return {
             filename: file.name,
-            url: blobJson.url,
+            url: blob.url,
             size: file.size,
-            mime: file.type || 'application/octet-stream',
+            mime: file.type || blob.contentType || 'application/octet-stream',
           };
         });
       }
