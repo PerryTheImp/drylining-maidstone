@@ -1,20 +1,22 @@
 {
-  "name": "drylining-salford",
+  "name": "drylining-maidstone",
   "type": "module",
   "version": "1.0.0",
   "description": "Drylining Maidstone — Astro static site",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/postbuild.mjs",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "@astrojs/vercel": "^10.0.8",
-    "@sendgrid/mail": "^8.1.6",
-    "@vercel/blob": "^2.9.0",
-    "@vercel/node": "^5.10.2",
+    "@sendgrid/mail": "^8.1.4",
+    "@vercel/blob": "^1.0.0",
+    "@vercel/node": "^5.0.0",
     "astro": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0"
   }
 }
